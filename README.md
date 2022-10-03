@@ -5,7 +5,7 @@
 <a href="https://unity.com/kr"><img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=#FFFFFF"/></a>
 <a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=GitHub&logoColor=#FFFFFF"/></a>
 
-#
+---
 
 ### 2022년도 씨애랑 라온 소프트웨어 전시회 프로젝트 </br>
 #### - 팀명 : </br>

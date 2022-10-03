@@ -8,7 +8,7 @@
 ---
 
 ## 2022년도 씨애랑 라온 소프트웨어 전시회 프로젝트 </br>
-- 팀명 : </br>
+- 팀명 : 일루전 </br>
 - 제목 : EscapeFromFielld </br>
 - 내용 : RPG + FPS </br>
 - 개발 툴 : <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=#FFFFFF"/></a><img src="https://img.shields.io/badge/C Sharp-239120?style=flat-square&logo=C Sharp&logoColor=#FFFFFF"/></a></br>

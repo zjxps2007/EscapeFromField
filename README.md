@@ -17,3 +17,6 @@
 
 ## 유니티 버전
 <img src="https://img.shields.io/badge/2021.3.8f1-000000?style=flat-square&logo=Unity&logoColor=#FFFFFF"/></a>
+
+## Rider 버전
+<img src="https://img.shields.io/badge/2022.2.3-000000?style=flat-square&logo=Rider&logoColor=#FFFFFF"/></a>

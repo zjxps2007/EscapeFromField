@@ -354,6 +354,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
 "Assets/Resources/UsrLog.cs"
+"Assets/Script/PlayerCtrl.cs"
 -langversion:9.0
 
 /deterministic

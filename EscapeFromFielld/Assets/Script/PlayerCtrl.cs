@@ -24,7 +24,6 @@ public class PlayerCtrl : MonoBehaviour
     {
         Move();
         Walk();
-        
     }
 
     void Walk()

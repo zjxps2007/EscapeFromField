@@ -30,7 +30,7 @@ public class PlayerCtrl : MonoBehaviour
     void Walk()
     {
         movDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        if (movDir != Vector3.zero)
+        if (movDir != Vector3.zero) //Input.GetKey(KeyCode.W) 시간되면 뒤로가는 애니메이션 분리
         {
             anim.SetBool("IsWalk",true);
         }
@@ -41,10 +41,12 @@ public class PlayerCtrl : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift) && movDir != Vector3.zero)
         {
+            speed = 2.0f;
             anim.SetBool("IsRun", true);
         }
         else
         {
+            speed = 1f;
             anim.SetBool("IsRun", false);
         }
     }

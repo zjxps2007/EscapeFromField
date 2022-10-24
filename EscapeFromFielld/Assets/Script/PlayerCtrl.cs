@@ -7,6 +7,8 @@ public class PlayerCtrl : MonoBehaviour
     private Animator anim; // 플레이어 에니메이션
     private Vector3 movDir;
     private GameObject weaponObject; // 무기 교체
+    public bool[] haswapon;
+    public GameObject[] weaponlist;
 
     private void Awake()
     {
@@ -55,18 +57,21 @@ public class PlayerCtrl : MonoBehaviour
         transform.Translate(Vector3.forward * Input.GetAxis("Vertical") * speed * Time.deltaTime);
         transform.Translate(Vector3.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
     }
-
-    private void OnTriggerStay(Collider other)
+    
+    void OnTriggerStay(Collider other)
     {
-        if (CompareTag("Weapon"))
+        if (other.CompareTag("Weapon"))
         {
             weaponObject = other.gameObject;
-            Debug.Log(weaponObject.name);
         }
-    }
-
-    private void OnTriggerExit(Collider other)
+        Debug.Log(weaponObject.name);
+    } 
+    
+    void OnTriggerExit(Collider other)
     {
-        
+        if (other.CompareTag("Weapon"))
+        {
+            weaponObject = null;
+        }
     }
 }

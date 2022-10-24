@@ -74,4 +74,15 @@ public class PlayerCtrl : MonoBehaviour
             weaponObject = null;
         }
     }
+
+    void Interation()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            if (weaponObject.CompareTag("Weapon"))
+            {
+                
+            }
+        }
+    }
 }

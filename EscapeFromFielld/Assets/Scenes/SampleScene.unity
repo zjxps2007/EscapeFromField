@@ -234,7 +234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07ca7a0170fc1646b40ce924c4975e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump: 3
   haswapon: 
   weaponlist: []
 --- !u!54 &847701436
@@ -460,6 +459,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5585927152409703830, guid: bd1e6a2d83b9d3d4f964a8e6c75fb58d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5585927152663160516, guid: bd1e6a2d83b9d3d4f964a8e6c75fb58d, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -474,7 +477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5585927152794523654, guid: bd1e6a2d83b9d3d4f964a8e6c75fb58d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585927152826980720, guid: bd1e6a2d83b9d3d4f964a8e6c75fb58d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5585927152888972106, guid: bd1e6a2d83b9d3d4f964a8e6c75fb58d, type: 3}
       propertyPath: m_IsActive

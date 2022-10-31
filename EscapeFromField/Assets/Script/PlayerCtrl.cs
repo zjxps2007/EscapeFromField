@@ -6,6 +6,7 @@ public class PlayerCtrl : MonoBehaviour
     private float speed = 1f; // 플레이어 속도
     private float jump = 3f; // 점프 높이
     private bool isJump = false; // 점프 상태
+    private bool isWapon = false;
     
     private Animator anim; // 플레이어 에니메이션
     private Vector3 movDir;

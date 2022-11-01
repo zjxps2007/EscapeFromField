@@ -11,14 +11,14 @@ public class PlayerCtrl : MonoBehaviour
     private Animator anim; // 플레이어 에니메이션
     private Vector3 movDir;
     private GameObject weaponObject; // 무기 교체
-    private Rigidbody rigidbody;
+    private Rigidbody _rigidbody;
     public bool[] haswapon;
     public GameObject[] weaponlist;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
-        rigidbody = GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
     }
 
     // Start is called before the first frame update
@@ -69,7 +69,7 @@ public class PlayerCtrl : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && isJump != true)
         {
-            rigidbody.AddForce(Vector3.up * jump, ForceMode.Impulse);
+            _rigidbody.AddForce(Vector3.up * jump, ForceMode.Impulse);
             isJump = true;
         }
     }

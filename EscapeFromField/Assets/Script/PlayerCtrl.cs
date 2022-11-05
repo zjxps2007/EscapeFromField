@@ -6,7 +6,7 @@ public class PlayerCtrl : MonoBehaviour
     private float speed = 1f; // 플레이어 속도
     private float jump = 3f; // 점프 높이
     private bool isJump = false; // 점프 상태
-    private bool isWapon = false;
+    //private bool isWapon = false;
     
     private Animator anim; // 플레이어 에니메이션
     private Vector3 movDir;
@@ -14,9 +14,7 @@ public class PlayerCtrl : MonoBehaviour
     private Rigidbody _rigidbody;
     public bool[] haswapon;
     public GameObject[] weaponlist;
-
     
-
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -65,6 +63,17 @@ public class PlayerCtrl : MonoBehaviour
     {
         transform.Translate(Vector3.forward * Input.GetAxis("Vertical") * speed * Time.deltaTime);
         transform.Translate(Vector3.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
+        // Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        // bool isMove = moveInput.magnitude != 0;
+        // if (isMove)
+        // {
+        //     Vector3 lookFroward = new Vector3(transform.GetComponentInParent<CameraMovement>().GetcameraArm().forward.x, 0f, transform.GetComponentInParent<CameraMovement>().GetcameraArm().forward.z).normalized;
+        //     Vector3 lookRight = new Vector3(transform.GetComponentInParent<CameraMovement>().GetcameraArm().right.x, 0f, transform.GetComponentInParent<CameraMovement>().GetcameraArm().right.z).normalized;
+        //     Vector3 moveDir = lookFroward * moveInput.y + lookRight * moveInput.x;
+        //
+        // transform.GetComponentInParent<CameraMovement>().GetplayerBody().forward = lookFroward;
+        // transform.position += moveDir * Time.deltaTime * speed;
+        // }
     }
 
     private void Jump()

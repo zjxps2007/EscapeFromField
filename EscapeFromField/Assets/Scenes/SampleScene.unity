@@ -295,8 +295,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20faf81f401678c4f9a42f087b077d99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraArm: {fileID: 347500430}
   playerBody: {fileID: 5585927151661045427}
+  cameraArm: {fileID: 347500430}
 --- !u!1001 &911372370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0536a6ef241ef6a459788aed40652d18, type: 3}
   m_Name: 
@@ -581,6 +581,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 829998157}
     m_Modifications:
+    - target: {fileID: 961300146434764139, guid: 6adae356b1f3fcb45aeb6c195440a838, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1702349549421161767, guid: 6adae356b1f3fcb45aeb6c195440a838, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327001148884159100, guid: 6adae356b1f3fcb45aeb6c195440a838, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2327001148884159384, guid: 6adae356b1f3fcb45aeb6c195440a838, type: 3}
       propertyPath: m_Name
       value: TTS_Camo_ucp_Support
@@ -627,6 +639,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2327001148884326392, guid: 6adae356b1f3fcb45aeb6c195440a838, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912288058414507250, guid: 6adae356b1f3fcb45aeb6c195440a838, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -19,6 +19,7 @@ public class CameraMovement : MonoBehaviour
     void Update()
     {
         LookAround();
+        move();
     }
     
     void LookAround()
@@ -37,5 +38,30 @@ public class CameraMovement : MonoBehaviour
          }
         
         cameraArm.rotation = Quaternion.Euler(x, camAngle.y + mouseDelta.x, camAngle.z);
+    }
+
+    void move()
+    {
+        Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        bool isMove = moveInput.magnitude != 0;
+        if (isMove)
+        {
+            Vector3 lookFroward = new Vector3(cameraArm.forward.x, 0f, cameraArm.forward.z).normalized;
+            Vector3 lookRight = new Vector3(cameraArm.right.x, 0f, cameraArm.right.z).normalized;
+            Vector3 moveDir = lookFroward * moveInput.y + lookRight * moveInput.x;
+            
+            playerBody.forward = lookFroward;
+            transform.position += moveDir * Time.deltaTime * 2f;
+        }
+    }
+
+    public Transform GetcameraArm()
+    {
+        return cameraArm;
+    }
+
+    public Transform GetplayerBody()
+    {
+        return playerBody;
     }
 }

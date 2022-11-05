@@ -1,30 +1,23 @@
-Unity Editor version:    2021.3.8f1 (b30333d56e81)
-Branch:                  2021.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.6.1 (Build 21G217)
-Darwin version:          21.6.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        32768 MB
 Using pre-set license
-Pro License: YES
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Education' Language: 'ko' Physical Memory: 32701 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField
+F:/Unity_Project/EscapeFromFielld/EscapeFromField
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53673
-Successfully changed project path to: /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField
-/Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField
+56248
+Successfully changed project path to: F:/Unity_Project/EscapeFromFielld/EscapeFromField
+F:/Unity_Project/EscapeFromFielld/EscapeFromField
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,238 +47,446 @@ Successfully changed project path to: /Users/joinho/Code/UnityProject/EscapeFrom
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 65.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 173.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity_Project/EscapeFromFielld/EscapeFromField/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 Max (high power)
-Metal devices available: 1
-0: Apple M1 Max (high power)
-Using device Apple M1 Max (high power)
-Initializing Metal device caps: Apple M1 Max
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   31.0.15.1748
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56427
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.8f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000440 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028247 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 69.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 143.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.351 seconds
+- Completed reload, in  1.148 seconds
 Domain Reload Profiling:
-	ReloadAssembly (352ms)
-		BeginReloadAssembly (25ms)
+	ReloadAssembly (1149ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (268ms)
-			LoadAssemblies (24ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (146ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (59ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (166ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (474ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (26ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (144ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001175 seconds.
+Registered in 0.010696 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity_Project\EscapeFromFielld\EscapeFromField\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity_Project\EscapeFromFielld\EscapeFromField\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.554 seconds
+- Completed reload, in  1.949 seconds
 Domain Reload Profiling:
-	ReloadAssembly (556ms)
-		BeginReloadAssembly (49ms)
+	ReloadAssembly (1951ms)
+		BeginReloadAssembly (250ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (11ms)
-		EndReloadAssembly (444ms)
-			LoadAssemblies (28ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1453ms)
+			LoadAssemblies (178ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (203ms)
+			SetupTypeCache (423ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (705ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (130ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (396ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (33ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (94.0 KB). Loaded Objects now: 3843.
-Memory consumption went from 236.0 MB to 235.9 MB.
-Total: 2.124542 ms (FindLiveObjects: 0.097875 ms CreateObjectMapping: 0.039709 ms MarkObjects: 1.857083 ms  DeleteObjects: 0.129416 ms)
+Unloading 27 unused Assets / (111.2 KB). Loaded Objects now: 3843.
+Memory consumption went from 119.8 MB to 119.7 MB.
+Total: 28.965600 ms (FindLiveObjects: 0.848300 ms CreateObjectMapping: 1.227300 ms MarkObjects: 26.500600 ms  DeleteObjects: 0.386700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 21801.551658 seconds.
-  path: Assets/Script/Medical_Kit.asset
-  artifactKey: Guid(f079c634437f240228d2d8a0dfd098b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Medical_Kit.asset using Guid(f079c634437f240228d2d8a0dfd098b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669d8f7ccac41f08e055177613836240') in 0.448579 seconds 
+  Time since last request: 3294.468939 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Small_Canned_Food_C_03.fbx
+  artifactKey: Guid(c1474394c9ecac843a0f4c44e895f353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Small_Canned_Food_C_03.fbx using Guid(c1474394c9ecac843a0f4c44e895f353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d55934d1250ad2deab56035184f4ed') in 0.417633 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001132 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x28537b000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.573 seconds
-Domain Reload Profiling:
-	ReloadAssembly (574ms)
-		BeginReloadAssembly (68ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (449ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (191ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (71.0 KB). Loaded Objects now: 3847.
-Memory consumption went from 240.4 MB to 240.3 MB.
-Total: 2.025708 ms (FindLiveObjects: 0.092708 ms CreateObjectMapping: 0.036625 ms MarkObjects: 1.839750 ms  DeleteObjects: 0.055833 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Muzzle_Brake_Compensator_01.fbx
+  artifactKey: Guid(3dc1c43c6efc435428abe80349244466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Muzzle_Brake_Compensator_01.fbx using Guid(3dc1c43c6efc435428abe80349244466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f5b28ed1e6d0a620176811445f98ff') in 0.023692 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001151 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17c347000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.578 seconds
-Domain Reload Profiling:
-	ReloadAssembly (579ms)
-		BeginReloadAssembly (67ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (456ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (200ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (71.0 KB). Loaded Objects now: 3850.
-Memory consumption went from 240.6 MB to 240.6 MB.
-Total: 2.260791 ms (FindLiveObjects: 0.103166 ms CreateObjectMapping: 0.038708 ms MarkObjects: 2.054667 ms  DeleteObjects: 0.063625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_FIREWOOD_LAYING.fbx
+  artifactKey: Guid(68101e52a9abd4c4ca4428f1d43fab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_FIREWOOD_LAYING.fbx using Guid(68101e52a9abd4c4ca4428f1d43fab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd670fbb8d612855e0d2d6bca82370a3') in 0.041710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Canister_01.fbx
+  artifactKey: Guid(a0dd0354caf5c0049b89be3049d07eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Canister_01.fbx using Guid(a0dd0354caf5c0049b89be3049d07eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183a1a86f4f06e6b5c177d1eeab1af91') in 0.032104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_03.fbx
+  artifactKey: Guid(804c9c6df5d056e4da0e9b1081a86e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_03.fbx using Guid(804c9c6df5d056e4da0e9b1081a86e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecb942004cfebf5b61f80098806e3a4') in 0.025745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Fishing_Rod.fbx
+  artifactKey: Guid(a299e3c11d167104da0e6fa164084e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Fishing_Rod.fbx using Guid(a299e3c11d167104da0e6fa164084e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502a891020b32a4e8721e7271ffd7fd8') in 0.046358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Tactical_Block.fbx
+  artifactKey: Guid(f9a7df9a690a1bc4e90e9786a384bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Tactical_Block.fbx using Guid(f9a7df9a690a1bc4e90e9786a384bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142f8c91031de2b71948df3d81d4b92b') in 0.024896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Chuck_Pistol_Box_9_CLOSED.fbx
+  artifactKey: Guid(960c695c11b51b34a8f473b608aa3196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Chuck_Pistol_Box_9_CLOSED.fbx using Guid(960c695c11b51b34a8f473b608aa3196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af574f350a3fe3d02e6fad98fccc2566') in 0.022604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Special_Submachine_Gun.fbx
+  artifactKey: Guid(44a85a5c9c57e7c4c9bf6f7d4f71de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Special_Submachine_Gun.fbx using Guid(44a85a5c9c57e7c4c9bf6f7d4f71de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff327c9faa067d98f35785d71cdae3eb') in 0.023399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Chuck_Pistol_Box_9.19.fbx
+  artifactKey: Guid(b71555625692ea44e903fd664219c770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Chuck_Pistol_Box_9.19.fbx using Guid(b71555625692ea44e903fd664219c770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15373b66798479f75a4f79213ae1fb04') in 0.048136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_HOOK_FOR_Fishing_Rod_02.fbx
+  artifactKey: Guid(ff5607038b4f5e5448b74feeef946c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_HOOK_FOR_Fishing_Rod_02.fbx using Guid(ff5607038b4f5e5448b74feeef946c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2fdebde2643bff0064e7d3181e2fe2') in 0.049294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol.fbx
+  artifactKey: Guid(faf35e45031de1744b38f392782c3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol.fbx using Guid(faf35e45031de1744b38f392782c3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27c9421fbfd93889a2c015db4841f38') in 0.019773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Chainsaw.fbx
+  artifactKey: Guid(b5f61d261ce1bad449dd30fb4ee37591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Chainsaw.fbx using Guid(b5f61d261ce1bad449dd30fb4ee37591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b182dfe8c8a53be3abdaee727e5ac01a') in 0.020303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Workbench.fbx
+  artifactKey: Guid(a98078f2fd9a09b47adbff5711682518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Workbench.fbx using Guid(a98078f2fd9a09b47adbff5711682518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad3dfe58a7bf4d18d25bb6ce2198935') in 0.023233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Camping_Knife.fbx
+  artifactKey: Guid(04bada0946472ac4f9a2b0e9d6da6dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Camping_Knife.fbx using Guid(04bada0946472ac4f9a2b0e9d6da6dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2da9d6c36991da84d88d32fe03cdfbe') in 0.020599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Cartridges_9.19.fbx
+  artifactKey: Guid(f39cf7bb174f03f49b34f4af4d06cebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Cartridges_9.19.fbx using Guid(f39cf7bb174f03f49b34f4af4d06cebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d9a246e5bc6331662e68bd49fa5c9b') in 0.039064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Chuck_Pistol_Box_9_EMPTY.fbx
+  artifactKey: Guid(9942aaf2e61908a4fa3b6a8939ff52f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Chuck_Pistol_Box_9_EMPTY.fbx using Guid(9942aaf2e61908a4fa3b6a8939ff52f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cf2c9113890d4cc3387d52604ff197') in 0.028582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Vertical_Handle_01.fbx
+  artifactKey: Guid(51b42342764a8ba418185d66d603b6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Vertical_Handle_01.fbx using Guid(51b42342764a8ba418185d66d603b6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684ba8e62763d7c1920627a61e872287') in 0.027003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Collimator_Sight_B_01.fbx
+  artifactKey: Guid(e781d9745bdf3114998561b8c9601e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Collimator_Sight_B_01.fbx using Guid(e781d9745bdf3114998561b8c9601e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f110787d38ea8973789870c93c2a857') in 0.023122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_GAS_CYLINDER_02.fbx
+  artifactKey: Guid(5270a6afc871e2349a22b548c09c19b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_GAS_CYLINDER_02.fbx using Guid(5270a6afc871e2349a22b548c09c19b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7e1aa8182bd95acf55de5272c2de0c') in 0.023902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Barrel_Closed_01_A.fbx
+  artifactKey: Guid(5268200bc6db80845af09eb0823e211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Barrel_Closed_01_A.fbx using Guid(5268200bc6db80845af09eb0823e211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c764a0f319fd720c227e267e5d578ca') in 0.025474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Camping_Axe.fbx
+  artifactKey: Guid(829b122512a90914986a375d72271b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Camping_Axe.fbx using Guid(829b122512a90914986a375d72271b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e20ea9801d94f6ce3650b16ac841cf') in 0.025025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol_Empty.fbx
+  artifactKey: Guid(1f9f83a8c0bf9e9498756f4454978095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol_Empty.fbx using Guid(1f9f83a8c0bf9e9498756f4454978095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7185e684a66a27488387cca93fb1104f') in 0.046808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Special_Submachine_Gun_Empty.fbx
+  artifactKey: Guid(d3135b9e66d44344da8e767529d81e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Special_Submachine_Gun_Empty.fbx using Guid(d3135b9e66d44344da8e767529d81e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3a380cd4c8d29e7b6d82eb1ede1fe6') in 0.032991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Sledgehammer.fbx
+  artifactKey: Guid(e66d5815e4e8f524898a9293b5469855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Sledgehammer.fbx using Guid(e66d5815e4e8f524898a9293b5469855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91263cbdc0d686ce90d2bafe61a125d6') in 0.025291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_01.fbx
+  artifactKey: Guid(0e80d84d1c2989c49ba3263d9a827506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_01.fbx using Guid(0e80d84d1c2989c49ba3263d9a827506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936b93c367adca298dabaaaa511d8ba8') in 0.019811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_SKIN_FLATCHES.fbx
+  artifactKey: Guid(8650681a82df6c94a91847d1b01ef643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_SKIN_FLATCHES.fbx using Guid(8650681a82df6c94a91847d1b01ef643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3fbc88c4d8d4008af3155107688b1d') in 0.021354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_THREADS.fbx
+  artifactKey: Guid(413a0409464fe4e49ade5c528420b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_THREADS.fbx using Guid(413a0409464fe4e49ade5c528420b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50044bd0279f2550e1717395b2aacbcf') in 0.022252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Army_Pistol.fbx
+  artifactKey: Guid(1cc03cbb51606e04faa898feb8fab8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Army_Pistol.fbx using Guid(1cc03cbb51606e04faa898feb8fab8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c581a4da026e047108575293c95cf1e8') in 0.050483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Barrel_Open_01.fbx
+  artifactKey: Guid(8cc7fba1aa2e29b4cad954fe3783ea89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Barrel_Open_01.fbx using Guid(8cc7fba1aa2e29b4cad954fe3783ea89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8797dfcf9c2a22967006ab5f724de524') in 0.048142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_CEMENT_01.fbx
+  artifactKey: Guid(93f15df65e3899543be6630b3c527a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_CEMENT_01.fbx using Guid(93f15df65e3899543be6630b3c527a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c2e5909b49bcbe02c37d6aaaabdbf1') in 0.027161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_ARAMID_FABRIC.fbx
+  artifactKey: Guid(6704ca6c29fd08b4898f36bf2c90058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_ARAMID_FABRIC.fbx using Guid(6704ca6c29fd08b4898f36bf2c90058c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a8643d2f8e15149e219a9ea410c952') in 0.021033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_02.fbx
+  artifactKey: Guid(d4cec953f6eb0254584387bd0e9dd253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_02.fbx using Guid(d4cec953f6eb0254584387bd0e9dd253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126db800124f491ff944278861bcd434') in 0.023802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Tent_A_01.fbx
+  artifactKey: Guid(6724caf277831854fa8c7e4bcd500aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Tent_A_01.fbx using Guid(6724caf277831854fa8c7e4bcd500aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774658ed2c0ff6e1ebeaafb7abd4e869') in 0.022801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Collimator_Sight_A_01.fbx
+  artifactKey: Guid(26460841deee7094682bcaf0c141ea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Collimator_Sight_A_01.fbx using Guid(26460841deee7094682bcaf0c141ea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424a11391d6920673f75d3087c710240') in 0.022096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Pallet_03.fbx
+  artifactKey: Guid(a4e716dc033017f4b8f3fe9be3dd65cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Pallet_03.fbx using Guid(a4e716dc033017f4b8f3fe9be3dd65cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8aceb5268d3aa43b3759f9b37500d5') in 0.023513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_GAS_CYLINDER_01.fbx
+  artifactKey: Guid(087349fd802939e4c985a1f8c3ee6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_GAS_CYLINDER_01.fbx using Guid(087349fd802939e4c985a1f8c3ee6426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84846926f08a8fdd9d2c789df75394b4') in 0.045052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Special_Submachine_Gun_Clean.fbx
+  artifactKey: Guid(77fd3f23017f637479f20255333ee7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Special_Submachine_Gun_Clean.fbx using Guid(77fd3f23017f637479f20255333ee7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58977412df0399014447b662ea13eebc') in 0.083657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_THE_CLOTH.fbx
+  artifactKey: Guid(a36adfa80e417e0419dd2259bdbf0b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_THE_CLOTH.fbx using Guid(a36adfa80e417e0419dd2259bdbf0b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc396515903f14f07d6cb46b3c10337') in 0.022674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Hammer.fbx
+  artifactKey: Guid(b97a682b9deea6f4a9c2c726884c89f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Hammer.fbx using Guid(b97a682b9deea6f4a9c2c726884c89f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57bdc92df29d28ca4fccc1dd994ba37') in 0.020304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Large_Magazine_For_Army_Pistol.fbx
+  artifactKey: Guid(ae0baeda56766ad408a1ebf8e3f8639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Large_Magazine_For_Army_Pistol.fbx using Guid(ae0baeda56766ad408a1ebf8e3f8639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22876ea799a865c807b222bfbcbaa7e') in 0.018610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_02.fbx
+  artifactKey: Guid(94c2c318f2897384892a9b3a7bcd25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_02.fbx using Guid(94c2c318f2897384892a9b3a7bcd25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a59b4338f4d6778409778070bbac415') in 0.033108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean.fbx
+  artifactKey: Guid(92dc1f4fb14f0994d9dfb2a4ed551c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean.fbx using Guid(92dc1f4fb14f0994d9dfb2a4ed551c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517cc9f491177af98d15277b1612d1b2') in 0.035391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_FIREWOOD.fbx
+  artifactKey: Guid(5df2cd158efe7e046802b7942e599378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_FIREWOOD.fbx using Guid(5df2cd158efe7e046802b7942e599378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fae84ce7bf518d200c75813ffb9643b') in 0.029464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Log.fbx
+  artifactKey: Guid(6bd982b9b51aeae4a9cb4b566b4da93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Log.fbx using Guid(6bd982b9b51aeae4a9cb4b566b4da93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef06e381d6d31b1569e757451b611e19') in 0.021231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Muffler_04.fbx
+  artifactKey: Guid(ff1ba4cc01c75b84bbe33098192de74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Muffler_04.fbx using Guid(ff1ba4cc01c75b84bbe33098192de74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5b68a1f473a123889b9f386a48b627') in 0.022049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Pallet_01.fbx
+  artifactKey: Guid(23812c7450364f348b94df111a8a6213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Pallet_01.fbx using Guid(23812c7450364f348b94df111a8a6213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a5f38e2616eb87ea39ca0a4f179474') in 0.020045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Small_Canned_Food_D_03.fbx
+  artifactKey: Guid(ef8f38555e95d65438aeafc8a3b342cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Small_Canned_Food_D_03.fbx using Guid(ef8f38555e95d65438aeafc8a3b342cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f15350cafdedadbd8b84c4498a46dc') in 0.019405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_FLATCHE.fbx
+  artifactKey: Guid(34aa33e6e98a0ab46aacad99f49ade21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_FLATCHE.fbx using Guid(34aa33e6e98a0ab46aacad99f49ade21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dc5552dda7d5097f6bc9e54648655e') in 0.021697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Large_Magazine_For_Army_Pistol_Empty.fbx
+  artifactKey: Guid(e0c6bd01faa27d641885eceefda2b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Large_Magazine_For_Army_Pistol_Empty.fbx using Guid(e0c6bd01faa27d641885eceefda2b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d31cd871270e90c499fa9531cd8341') in 0.036206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Woods_03.fbx
+  artifactKey: Guid(24caef715a3de7e468da370d55781816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Woods_03.fbx using Guid(24caef715a3de7e468da370d55781816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd97d534c9c28dd4ec186194280c7a76') in 0.028950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_01.fbx
+  artifactKey: Guid(675f9e2a8ff33444cbc498895b039dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_01.fbx using Guid(675f9e2a8ff33444cbc498895b039dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9619ae10c0b4f3aced6c4aa3a000e30f') in 0.026070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Log_laying.fbx
+  artifactKey: Guid(74eba7947f3105d4492bd23c4a539f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Log_laying.fbx using Guid(74eba7947f3105d4492bd23c4a539f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9491c43f09e42b9b7d9da7ca5a556817') in 0.025665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Cartridges_9_ONE.fbx
+  artifactKey: Guid(818109fdd292c124388bdf672613e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Cartridges_9_ONE.fbx using Guid(818109fdd292c124388bdf672613e4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41b54867d7db8b58ab0c2a45ecd1dd1') in 0.023384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Woods_02.fbx
+  artifactKey: Guid(2c781903cc9332149b59e0c0cbc0ef70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Woods_02.fbx using Guid(2c781903cc9332149b59e0c0cbc0ef70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930275e9f98c5a82c6313b79522cda94') in 0.022032 seconds 

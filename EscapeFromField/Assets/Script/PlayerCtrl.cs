@@ -15,12 +15,14 @@ public class PlayerCtrl : MonoBehaviour
     public bool[] haswapon;
     public GameObject[] weaponlist;
 
+    
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
     }
-
+    
     // Start is called before the first frame update
     void Start()
     {

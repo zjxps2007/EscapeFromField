@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,10 +10,25 @@ public class CameraMovement : MonoBehaviour
     
     [SerializeField]
     private Transform cameraArm;
+
+    private Animator _animator;
+
+    private Rigidbody _rigidbody;
+
+    private bool isJump;
+
+    private float jump = 3f;
+
+    private void Awake()
+    {
+        _animator = playerBody.GetComponent<Animator>();
+        _rigidbody = playerBody.GetComponent<Rigidbody>();
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -44,6 +60,8 @@ public class CameraMovement : MonoBehaviour
     {
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         bool isMove = moveInput.magnitude != 0;
+        
+        _animator.SetBool("IsWalk", isMove);
         if (isMove)
         {
             Vector3 lookFroward = new Vector3(cameraArm.forward.x, 0f, cameraArm.forward.z).normalized;
@@ -53,15 +71,17 @@ public class CameraMovement : MonoBehaviour
             playerBody.forward = lookFroward;
             transform.position += moveDir * Time.deltaTime * 2f;
         }
+        
+        Jump();
     }
 
-    public Transform GetcameraArm()
+    void Jump()
     {
-        return cameraArm;
+        if (Input.GetKeyDown(KeyCode.Space) && isJump)
+        {
+            _rigidbody.AddForce(Vector3.up * jump, ForceMode.Impulse);
+            isJump = true;
+        }
     }
-
-    public Transform GetplayerBody()
-    {
-        return playerBody;
-    }
+    
 }

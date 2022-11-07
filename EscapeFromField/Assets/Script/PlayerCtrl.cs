@@ -12,9 +12,9 @@ public class PlayerCtrl : MonoBehaviour
     private Vector3 movDir;
     private GameObject weaponObject; // 무기 교체
     private Rigidbody _rigidbody;
-    public bool[] haswapon;
-    public GameObject[] weaponlist;
-    
+    // public bool[] haswapon;
+    // public GameObject[] weaponlist;
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -54,15 +54,15 @@ public class PlayerCtrl : MonoBehaviour
         }
         else
         {
-            speed = 1f;
+            speed = 1.0f;
             anim.SetBool("IsRun", false);
         }
     }
 
     private void Move() //플레이어 이동
     {
-        transform.Translate(Vector3.forward * Input.GetAxis("Vertical") * speed * Time.deltaTime);
-        transform.Translate(Vector3.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
+        // transform.Translate(Vector3.forward * Input.GetAxis("Vertical") * speed * Time.deltaTime);
+        // transform.Translate(Vector3.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
         // Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         // bool isMove = moveInput.magnitude != 0;
         // if (isMove)
@@ -74,6 +74,20 @@ public class PlayerCtrl : MonoBehaviour
         // transform.GetComponentInParent<CameraMovement>().GetplayerBody().forward = lookFroward;
         // transform.position += moveDir * Time.deltaTime * speed;
         // }
+
+        Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+
+        bool isMove = moveInput.magnitude != 0;
+
+        if (isMove)
+        {
+            
+        }
+    }
+
+    void LoockAround()
+    {
+        
     }
 
     private void Jump()

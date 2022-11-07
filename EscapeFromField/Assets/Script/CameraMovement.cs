@@ -77,7 +77,7 @@ public class CameraMovement : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isJump)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             _rigidbody.AddForce(Vector3.up * jump, ForceMode.Impulse);
             isJump = true;

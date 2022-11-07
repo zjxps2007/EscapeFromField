@@ -15,24 +15,34 @@ public class PlayerCtrl : MonoBehaviour
     // public bool[] haswapon;
     // public GameObject[] weaponlist;
 
+    private float _targetRotation;
+
+    private Vector2 move;
+    
+    [SerializeField]
+    private Transform _camera;
+
+    private float _rotationVelocity;
+
     private void Awake()
     {
-        anim = GetComponent<Animator>();
-        _rigidbody = GetComponent<Rigidbody>();
+       
     }
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
+        _rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Move();
+        //Move();
         SetAnimator();
         Jump();
+        LoockAround();
     }
 
     private void SetAnimator() // 플레이어 에니메이션
@@ -75,19 +85,17 @@ public class PlayerCtrl : MonoBehaviour
         // transform.position += moveDir * Time.deltaTime * speed;
         // }
 
-        Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        // Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        bool isMove = moveInput.magnitude != 0;
-
-        if (isMove)
-        {
-            
-        }
     }
 
     void LoockAround()
     {
+        Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+        Vector3 camangle = _camera.rotation.eulerAngles;
+        float x = camangle.x - mouseDelta.y;
         
+        _camera.rotation = Quaternion.Euler(x, camangle.y + mouseDelta.x, camangle.z);
     }
 
     private void Jump()

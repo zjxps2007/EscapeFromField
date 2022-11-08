@@ -6,43 +6,33 @@ public class PlayerCtrl : MonoBehaviour
     private float speed = 1f; // 플레이어 속도
     private float jump = 3f; // 점프 높이
     private bool isJump = false; // 점프 상태
-    //private bool isWapon = false;
-    
+
     private Animator anim; // 플레이어 에니메이션
     private Vector3 movDir;
     private GameObject weaponObject; // 무기 교체
     private Rigidbody _rigidbody;
-    // public bool[] haswapon;
-    // public GameObject[] weaponlist;
 
-    private float _targetRotation;
-
-    private Vector2 move;
-    
-    [SerializeField]
-    private Transform _camera;
-
-    private float _rotationVelocity;
+    private CharacterController _characterController;
 
     private void Awake()
     {
-       
+        anim = GetComponent<Animator>();
+        _rigidbody = GetComponent<Rigidbody>();
+        _characterController = GetComponent<CharacterController>();
     }
     
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
-        _rigidbody = GetComponent<Rigidbody>();
+        movDir = Vector3.zero;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Move();
+        Move();
         SetAnimator();
         Jump();
-        LoockAround();
     }
 
     private void SetAnimator() // 플레이어 에니메이션
@@ -73,29 +63,18 @@ public class PlayerCtrl : MonoBehaviour
     {
         // transform.Translate(Vector3.forward * Input.GetAxis("Vertical") * speed * Time.deltaTime);
         // transform.Translate(Vector3.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
-        // Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        // bool isMove = moveInput.magnitude != 0;
-        // if (isMove)
-        // {
-        //     Vector3 lookFroward = new Vector3(transform.GetComponentInParent<CameraMovement>().GetcameraArm().forward.x, 0f, transform.GetComponentInParent<CameraMovement>().GetcameraArm().forward.z).normalized;
-        //     Vector3 lookRight = new Vector3(transform.GetComponentInParent<CameraMovement>().GetcameraArm().right.x, 0f, transform.GetComponentInParent<CameraMovement>().GetcameraArm().right.z).normalized;
-        //     Vector3 moveDir = lookFroward * moveInput.y + lookRight * moveInput.x;
-        //
-        // transform.GetComponentInParent<CameraMovement>().GetplayerBody().forward = lookFroward;
-        // transform.position += moveDir * Time.deltaTime * speed;
-        // }
 
-        // Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        movDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
-    }
+        if (Camera.main != null)
+        {
+            var offset = Camera.main.transform.forward;
+            offset.y = 0;
+            transform.LookAt(transform.position + offset);
+        }
 
-    void LoockAround()
-    {
-        Vector2 mouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-        Vector3 camangle = _camera.rotation.eulerAngles;
-        float x = camangle.x - mouseDelta.y;
-        
-        _camera.rotation = Quaternion.Euler(x, camangle.y + mouseDelta.x, camangle.z);
+        movDir = transform.TransformDirection(movDir).normalized;
+        _characterController.Move(movDir * speed * Time.deltaTime);
     }
 
     private void Jump()

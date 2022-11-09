@@ -5,7 +5,7 @@ public class PlayerCtrl : MonoBehaviour
 {
     private float speed = 1f; // 플레이어 속도
     private float jump = 3f; // 점프 높이
-    private bool isJump = false; // 점프 상태
+    //private bool isJump = false; // 점프 상태
 
     private Animator anim; // 플레이어 에니메이션
     private Vector3 movDir;
@@ -38,8 +38,7 @@ public class PlayerCtrl : MonoBehaviour
     private void SetAnimator() // 플레이어 에니메이션
     {
         movDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        if (movDir != Vector3.zero) //Input.GetKey(KeyCode.W) 시간되면 뒤로가는 애니메이션 분리
-        {
+        if (movDir != Vector3.zero) {
             anim.SetBool("IsWalk",true);
         }
         else
@@ -61,9 +60,6 @@ public class PlayerCtrl : MonoBehaviour
 
     private void Move() //플레이어 이동
     {
-        // transform.Translate(Vector3.forward * Input.GetAxis("Vertical") * speed * Time.deltaTime);
-        // transform.Translate(Vector3.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime);
-
         movDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
         if (Camera.main != null)
@@ -79,10 +75,9 @@ public class PlayerCtrl : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isJump != true)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            _rigidbody.AddForce(Vector3.up * jump, ForceMode.Impulse);
-            isJump = true;
+            movDir.y = jump;
         }
     }
     
@@ -90,7 +85,7 @@ public class PlayerCtrl : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Floor"))
         {
-            isJump = false;
+            //isJump = false;
         }
     }
     

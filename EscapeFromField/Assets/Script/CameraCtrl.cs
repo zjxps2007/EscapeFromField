@@ -23,7 +23,7 @@ public class CameraCtrl : MonoBehaviour
     void Update()
     {
         xMove += Input.GetAxis("Mouse X");
-        yMove += Input.GetAxis("Mouse Y");
+        yMove -= Input.GetAxis("Mouse Y");
         transform.rotation = Quaternion.Euler(yMove, xMove, 0);
         Vector3 reverseDistance = new Vector3(0.0f, 0.0f, distance);
         transform.position = player.transform.position - transform.rotation * reverseDistance;

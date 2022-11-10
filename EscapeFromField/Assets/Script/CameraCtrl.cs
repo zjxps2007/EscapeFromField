@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraCtrl : MonoBehaviour
@@ -7,9 +5,9 @@ public class CameraCtrl : MonoBehaviour
     [SerializeField]
     private GameObject player;
     
-    private float xMove = 0;
+    private float _xMove = 0;
     
-    private float yMove = 0;
+    private float _yMove = 0;
     
     private float distance = 1;
     
@@ -22,9 +20,9 @@ public class CameraCtrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        xMove += Input.GetAxis("Mouse X");
-        yMove -= Input.GetAxis("Mouse Y");
-        transform.rotation = Quaternion.Euler(yMove, xMove, 0);
+        _xMove += Input.GetAxis("Mouse X");
+        _yMove -= Input.GetAxis("Mouse Y");
+        transform.rotation = Quaternion.Euler(_yMove, _xMove, 0);
         Vector3 reverseDistance = new Vector3(0.0f, 0.0f, distance);
         transform.position = player.transform.position - transform.rotation * reverseDistance;
     }

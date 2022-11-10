@@ -8,7 +8,7 @@ public class PlayerCtrl : MonoBehaviour
     //private bool isJump = false; // 점프 상태
 
     private Animator anim; // 플레이어 에니메이션
-    private Vector3 _movDir;
+    private Vector3 _movDir; //플레이어 이동
     private GameObject _weaponObject; // 무기 교체
 
     private CharacterController _characterController;

@@ -1,20 +1,20 @@
+using System;
 using UnityEngine;
 
 public class CameraCtrl : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject player;
-    
+    [SerializeField] private GameObject player;
+
     private float _xMove = 0;
-    
+
     private float _yMove = 0;
-    
+
     private float distance = 1;
-    
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

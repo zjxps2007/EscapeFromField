@@ -8,7 +8,7 @@ public class Items : ScriptableObject
 {
     public string itemName; //아이템 이름
     
-    public Sprite itemImage; //아이템 이미지
+    //public Sprite itemImage; //아이템 이미지
 
     public GameObject itemPrefab; //아이템 프리팹
 

@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58263
+58435
 Successfully changed project path to: /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField
 /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/joinho/Code/UnityProject/EscapeFrom
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 72.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,80 +69,80 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56441
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.8f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000528 seconds.
+Registered in 0.000626 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 79.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.411 seconds
+- Completed reload, in  0.395 seconds
 Domain Reload Profiling:
-	ReloadAssembly (412ms)
-		BeginReloadAssembly (26ms)
+	ReloadAssembly (395ms)
+		BeginReloadAssembly (28ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (319ms)
-			LoadAssemblies (26ms)
+		EndReloadAssembly (302ms)
+			LoadAssemblies (28ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (71ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (198ms)
+			SetupLoadedEditorAssemblies (188ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001448 seconds.
+Registered in 0.001185 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x125e5b800 doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file data-0x14cc99400 doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.564 seconds
+- Completed reload, in  0.606 seconds
 Domain Reload Profiling:
-	ReloadAssembly (564ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (607ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (445ms)
+		EndReloadAssembly (485ms)
 			LoadAssemblies (29ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (166ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (201ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,13 +151,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (93.9 KB). Loaded Objects now: 3845.
 Memory consumption went from 236.0 MB to 235.9 MB.
-Total: 2.207584 ms (FindLiveObjects: 0.096750 ms CreateObjectMapping: 0.035667 ms MarkObjects: 2.008417 ms  DeleteObjects: 0.066375 ms)
+Total: 2.828750 ms (FindLiveObjects: 0.087875 ms CreateObjectMapping: 0.036334 ms MarkObjects: 2.617875 ms  DeleteObjects: 0.086125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,31 +171,2379 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 175482.659523 seconds.
+  Time since last request: 175978.394594 seconds.
   path: Assets/Script/TTS_Camo_ucp_Support.prefab
   artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14037024f7d7362bc166a8fc7c11a60b') in 0.115953 seconds 
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44031347fc7fbcca78fb8b1adcdad5e6') in 0.127273 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.671373 seconds.
-  path: Assets/Script/TTS_Camo_ucp_Support.prefab
-  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b3e00d6e9bfacd4544247cfc4daaf9') in 0.048653 seconds 
+  Time since last request: 1.615149 seconds.
+  path: Assets/Script/PlayerCtrl.cs
+  artifactKey: Guid(c07ca7a0170fc1646b40ce924c4975e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerCtrl.cs using Guid(c07ca7a0170fc1646b40ce924c4975e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d20a1ca0da61ebe8df1b45c9662d4d7') in 0.031763 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.700217 seconds.
+  Time since last request: 25.621478 seconds.
   path: Assets/Script/TTS_Camo_ucp_Support.prefab
   artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02208d8b7f70c398c4f521c30f8e0b69') in 0.046701 seconds 
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e206c0554609f0f3a32e1e560c4e3bee') in 0.048480 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.157952 seconds.
+  Time since last request: 11.380909 seconds.
   path: Assets/Script/TTS_Camo_ucp_Support.prefab
   artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77070d91696a95f888ec8bb147dc314') in 0.046459 seconds 
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c806b1d4d644b18d8c1b769bbf53bbd') in 0.047445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.365762 seconds.
+  Time since last request: 12.103181 seconds.
   path: Assets/Script/TTS_Camo_ucp_Support.prefab
   artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c88db0648692358b4f49fbb5495a2a') in 0.052890 seconds 
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29303d14a0eb974840e395511027b96a') in 0.053811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.517339 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e43b7ae213134b640656ea6059989c') in 0.050868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.968407 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793b1bd489bffa0ef39f8b22bddfd94a') in 0.046062 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001342 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x28cb1f000 may have been prematurely finalized
+Symbol file data-0x28bfab800 doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (586ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (461ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.1 KB). Loaded Objects now: 3856.
+Memory consumption went from 264.1 MB to 264.1 MB.
+Total: 2.391791 ms (FindLiveObjects: 0.127958 ms CreateObjectMapping: 0.044333 ms MarkObjects: 2.139041 ms  DeleteObjects: 0.079000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001170 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x28cb1f000 may have been prematurely finalized
+Symbol file data-0x14abc6200 doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.560 seconds
+Domain Reload Profiling:
+	ReloadAssembly (561ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (436ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (187ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.0 KB). Loaded Objects now: 3859.
+Memory consumption went from 264.3 MB to 264.2 MB.
+Total: 2.367292 ms (FindLiveObjects: 0.109833 ms CreateObjectMapping: 0.041333 ms MarkObjects: 2.143875 ms  DeleteObjects: 0.071125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 155.375439 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5044430caf1ae93b37102bc12d2c024') in 0.082800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.879715 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fca28bc7359323c236d37004a47ca54') in 0.054493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.203718 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79822bcbe6c565567068d00b39745f7') in 0.050118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.566552 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdac1af427ca10d6bb06e01db385110') in 0.049560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.635712 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad7916f762fa88f2eb69d22936ab2d7') in 0.048282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 436.349982 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6467af1cfdaf512e7b5039ea29cd20') in 0.055050 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001192 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x28cb1f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.569 seconds
+Domain Reload Profiling:
+	ReloadAssembly (569ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (444ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (179ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.0 KB). Loaded Objects now: 3862.
+Memory consumption went from 265.7 MB to 265.6 MB.
+Total: 2.294250 ms (FindLiveObjects: 0.138792 ms CreateObjectMapping: 0.044291 ms MarkObjects: 2.033917 ms  DeleteObjects: 0.075958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.738666 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247e2048923345322bd5fe60329becb2') in 0.087027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.640018 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f9c43915c5ef2751ff71cf0c6883d5') in 0.055484 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001260 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x28cb1f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.583 seconds
+Domain Reload Profiling:
+	ReloadAssembly (583ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (31ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.1 KB). Loaded Objects now: 3865.
+Memory consumption went from 265.9 MB to 265.8 MB.
+Total: 2.224292 ms (FindLiveObjects: 0.103417 ms CreateObjectMapping: 0.039458 ms MarkObjects: 2.002458 ms  DeleteObjects: 0.078042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.942895 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83137a90c975b187422fe62bc94eb62c') in 0.091923 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001382 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x28ffa7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.621 seconds
+Domain Reload Profiling:
+	ReloadAssembly (622ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.1 KB). Loaded Objects now: 3868.
+Memory consumption went from 266.2 MB to 266.1 MB.
+Total: 2.095667 ms (FindLiveObjects: 0.104875 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.892958 ms  DeleteObjects: 0.060000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.552575 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f44feb56cd647e08d53b9f9d217bec4') in 0.087514 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001343 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.595 seconds
+Domain Reload Profiling:
+	ReloadAssembly (595ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (31ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.2 KB). Loaded Objects now: 3871.
+Memory consumption went from 266.4 MB to 266.3 MB.
+Total: 2.215125 ms (FindLiveObjects: 0.122167 ms CreateObjectMapping: 0.042541 ms MarkObjects: 1.989750 ms  DeleteObjects: 0.059833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 252.785695 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16703d9fc203a21097a026902496ee8f') in 0.097784 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001172 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (586ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.0 KB). Loaded Objects now: 3874.
+Memory consumption went from 266.6 MB to 266.6 MB.
+Total: 2.065000 ms (FindLiveObjects: 0.098666 ms CreateObjectMapping: 0.037750 ms MarkObjects: 1.872459 ms  DeleteObjects: 0.055417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001322 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.584 seconds
+Domain Reload Profiling:
+	ReloadAssembly (584ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (457ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.2 KB). Loaded Objects now: 3877.
+Memory consumption went from 266.8 MB to 266.7 MB.
+Total: 2.360500 ms (FindLiveObjects: 0.115916 ms CreateObjectMapping: 0.040209 ms MarkObjects: 2.136416 ms  DeleteObjects: 0.067250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001204 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.596 seconds
+Domain Reload Profiling:
+	ReloadAssembly (596ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (467ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.0 KB). Loaded Objects now: 3880.
+Memory consumption went from 266.9 MB to 266.8 MB.
+Total: 2.490584 ms (FindLiveObjects: 0.123792 ms CreateObjectMapping: 0.045750 ms MarkObjects: 2.246250 ms  DeleteObjects: 0.073334 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 68.580500 seconds.
+  path: Assets/Script/cameraCtrl.cs
+  artifactKey: Guid(99d788fc5b5d543e0b03698a85739258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/cameraCtrl.cs using Guid(99d788fc5b5d543e0b03698a85739258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7784627aa7a5c8424ba1848a33384df3') in 0.004860 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001172 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.564 seconds
+Domain Reload Profiling:
+	ReloadAssembly (565ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (184ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.0 KB). Loaded Objects now: 3884.
+Memory consumption went from 267.1 MB to 267.0 MB.
+Total: 2.068667 ms (FindLiveObjects: 0.093625 ms CreateObjectMapping: 0.037417 ms MarkObjects: 1.876208 ms  DeleteObjects: 0.060709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.427865 seconds.
+  path: Assets/Script/CameraCtrl.cs
+  artifactKey: Guid(99d788fc5b5d543e0b03698a85739258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CameraCtrl.cs using Guid(99d788fc5b5d543e0b03698a85739258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c73d627803784ecf5b7b533556e23bc') in 0.004536 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001182 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Domain Reload Profiling:
+	ReloadAssembly (633ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (31ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3887.
+Memory consumption went from 267.3 MB to 267.2 MB.
+Total: 2.567209 ms (FindLiveObjects: 0.135667 ms CreateObjectMapping: 0.067958 ms MarkObjects: 2.274541 ms  DeleteObjects: 0.087459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.947761 seconds.
+  path: Assets/Script/CameraCtrl.cs
+  artifactKey: Guid(99d788fc5b5d543e0b03698a85739258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CameraCtrl.cs using Guid(99d788fc5b5d543e0b03698a85739258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a686d4ac86340ad7783f9fe628aac84d') in 0.005141 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001163 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.609 seconds
+Domain Reload Profiling:
+	ReloadAssembly (610ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (31ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3890.
+Memory consumption went from 267.5 MB to 267.4 MB.
+Total: 2.307875 ms (FindLiveObjects: 0.153083 ms CreateObjectMapping: 0.043458 ms MarkObjects: 2.031250 ms  DeleteObjects: 0.078834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 213.122407 seconds.
+  path: Assets/Script/CameraCtrl.cs
+  artifactKey: Guid(99d788fc5b5d543e0b03698a85739258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CameraCtrl.cs using Guid(99d788fc5b5d543e0b03698a85739258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce96a0428cbedd4d364668910c17aa4a') in 0.005151 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001233 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.581 seconds
+Domain Reload Profiling:
+	ReloadAssembly (582ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (456ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (197ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.2 KB). Loaded Objects now: 3893.
+Memory consumption went from 267.7 MB to 267.7 MB.
+Total: 2.062708 ms (FindLiveObjects: 0.099291 ms CreateObjectMapping: 0.036834 ms MarkObjects: 1.863708 ms  DeleteObjects: 0.062042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001152 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.545 seconds
+Domain Reload Profiling:
+	ReloadAssembly (546ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (27ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.1 KB). Loaded Objects now: 3896.
+Memory consumption went from 267.9 MB to 267.9 MB.
+Total: 2.367916 ms (FindLiveObjects: 0.162916 ms CreateObjectMapping: 0.040167 ms MarkObjects: 2.097958 ms  DeleteObjects: 0.065875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001271 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.596 seconds
+Domain Reload Profiling:
+	ReloadAssembly (596ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (467ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3899.
+Memory consumption went from 268.1 MB to 268.1 MB.
+Total: 2.352500 ms (FindLiveObjects: 0.118875 ms CreateObjectMapping: 0.039208 ms MarkObjects: 2.116500 ms  DeleteObjects: 0.077417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001158 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.580 seconds
+Domain Reload Profiling:
+	ReloadAssembly (580ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.2 KB). Loaded Objects now: 3902.
+Memory consumption went from 268.6 MB to 268.6 MB.
+Total: 2.211667 ms (FindLiveObjects: 0.108375 ms CreateObjectMapping: 0.043625 ms MarkObjects: 1.997667 ms  DeleteObjects: 0.061209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 200.163396 seconds.
+  path: Assets/Script/TTS_Camo_ucp_Support.prefab
+  artifactKey: Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/TTS_Camo_ucp_Support.prefab using Guid(6adae356b1f3fcb45aeb6c195440a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34f240063305896bfe1b7f746828b9f') in 0.087759 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001200 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.612 seconds
+Domain Reload Profiling:
+	ReloadAssembly (613ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (483ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (203ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3905.
+Memory consumption went from 269.0 MB to 268.9 MB.
+Total: 2.444167 ms (FindLiveObjects: 0.108833 ms CreateObjectMapping: 0.040209 ms MarkObjects: 2.214833 ms  DeleteObjects: 0.079250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001248 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.570 seconds
+Domain Reload Profiling:
+	ReloadAssembly (571ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (438ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (183ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3908.
+Memory consumption went from 269.0 MB to 269.0 MB.
+Total: 2.025875 ms (FindLiveObjects: 0.109583 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.812208 ms  DeleteObjects: 0.065709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001269 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.569 seconds
+Domain Reload Profiling:
+	ReloadAssembly (570ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (444ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3911.
+Memory consumption went from 269.2 MB to 269.1 MB.
+Total: 2.589958 ms (FindLiveObjects: 0.150333 ms CreateObjectMapping: 0.042625 ms MarkObjects: 2.309833 ms  DeleteObjects: 0.085625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001164 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.578 seconds
+Domain Reload Profiling:
+	ReloadAssembly (578ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3914.
+Memory consumption went from 269.4 MB to 269.4 MB.
+Total: 2.388334 ms (FindLiveObjects: 0.119666 ms CreateObjectMapping: 0.038625 ms MarkObjects: 2.163209 ms  DeleteObjects: 0.065875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 216.270931 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Assembled_Tent_A.fbx
+  artifactKey: Guid(f94c2828f003a00409630826d3f03b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Assembled_Tent_A.fbx using Guid(f94c2828f003a00409630826d3f03b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd529fe0dfda1101280164a2a7e44be7') in 0.081764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_interact_A.FBX
+  artifactKey: Guid(e00fedce4ddd64f4c855bfae1988ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_interact_A.FBX using Guid(e00fedce4ddd64f4c855bfae1988ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba9fe2fe8f958d7eefcca1e57fcc4eb') in 0.026017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_run_rm.FBX
+  artifactKey: Guid(44c8844340306094491abed104fe15bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_run_rm.FBX using Guid(44c8844340306094491abed104fe15bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88947f4a2ddb8c171060f9f92e7219b') in 0.004080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_idle_B.FBX
+  artifactKey: Guid(1370040ce8f4c47418ec32ba95caa041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_idle_B.FBX using Guid(1370040ce8f4c47418ec32ba95caa041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bf69b350708153164068b8c7f32c5c') in 0.004170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_death_D.FBX
+  artifactKey: Guid(80beebfcaece3994ebbeb30a33d12caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_death_D.FBX using Guid(80beebfcaece3994ebbeb30a33d12caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04973bc091f8f6aad3fc81a8166727c') in 0.004034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LowPolyWater_Pack/LowPoly Island/Materials/defaultMat.mat
+  artifactKey: Guid(8256e2449fc2f4905bfe0fb1ab4a6cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/LowPoly Island/Materials/defaultMat.mat using Guid(8256e2449fc2f4905bfe0fb1ab4a6cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26021de1658c91cb8c3e240ba1389bde') in 0.039280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_damage.FBX
+  artifactKey: Guid(39b88e0ee33bf604193c70eda7f66881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_damage.FBX using Guid(39b88e0ee33bf604193c70eda7f66881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e48580051b735ba3939fa0969f7d45d') in 0.004395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_attack_B.FBX
+  artifactKey: Guid(bbcc52b14822b9f4d951022bd7f32a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_attack_B.FBX using Guid(bbcc52b14822b9f4d951022bd7f32a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e078fcac3a2ecd8c77ce297c249011a1') in 0.004603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_draw.FBX
+  artifactKey: Guid(4a74eec71e6fdc745a1b03919202756d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_draw.FBX using Guid(4a74eec71e6fdc745a1b03919202756d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40e99181ece413ae5e5ca8ebdc64314') in 0.003815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_death_C.FBX
+  artifactKey: Guid(04e4816441d0f094dbcc775919e5b583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_death_C.FBX using Guid(04e4816441d0f094dbcc775919e5b583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb496c4dc419d051ad38950efc0ae61') in 0.004147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_idle_A.FBX
+  artifactKey: Guid(4a5a3c740bc5aa54c9b73d307b033752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_idle_A.FBX using Guid(4a5a3c740bc5aa54c9b73d307b033752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bece49507cb33eb2aaaa87da5b79cdb') in 0.003901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Assembled_Tent_A.prefab
+  artifactKey: Guid(101ee0da20ef7b248ab197efd648e171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Assembled_Tent_A.prefab using Guid(101ee0da20ef7b248ab197efd648e171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64aea55ba2fc8d2010756ae2bc5dbc5') in 0.006998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Homemade_Medical_Splint.prefab
+  artifactKey: Guid(37476453262801641b9ba6c5a30a8098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Homemade_Medical_Splint.prefab using Guid(37476453262801641b9ba6c5a30a8098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914942d5185778d38e6dd9af701f0b3f') in 0.006480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_jump_A_start.FBX
+  artifactKey: Guid(41216b4a39a435f47b7ef360781e7f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_jump_A_start.FBX using Guid(41216b4a39a435f47b7ef360781e7f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c91c5d848e15ea6d26e2f5f32c870a2') in 0.003845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_interact_B.FBX
+  artifactKey: Guid(e77a3c216d07bf449881969e3c43e2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_interact_B.FBX using Guid(e77a3c216d07bf449881969e3c43e2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c442fda1480895ac360f997d6c101be6') in 0.003874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_interact_B.FBX
+  artifactKey: Guid(01b50571ab38c3746b4ca13a678ef16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_interact_B.FBX using Guid(01b50571ab38c3746b4ca13a678ef16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a6a10cade23bebcdda3e6434a00870') in 0.003803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_walk_rm.FBX
+  artifactKey: Guid(d5f6f8e7d31660f40985ff5551101ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_walk_rm.FBX using Guid(d5f6f8e7d31660f40985ff5551101ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f746b7ce5f256378b0ebcf3ccae57817') in 0.003695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_idle.FBX
+  artifactKey: Guid(8ccffff9b361282439ce383902b31ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_idle.FBX using Guid(8ccffff9b361282439ce383902b31ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cc3da0f924c81bae0b6c19904273a3') in 0.004406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Homemade_Medical_Splint.fbx
+  artifactKey: Guid(27f2230ae424a774da3151968540aac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Homemade_Medical_Splint.fbx using Guid(27f2230ae424a774da3151968540aac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c408310e6937d04a7ca866ca2dfe895a') in 0.011138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_damage.FBX
+  artifactKey: Guid(2657ac428ed878346a3af96f154df259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_damage.FBX using Guid(2657ac428ed878346a3af96f154df259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650c5f1bda466ca83aacc7829e6c57db') in 0.003880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_walk.FBX
+  artifactKey: Guid(456b9ff8b3ef7ba4fad0d5f8b91d90cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_walk.FBX using Guid(456b9ff8b3ef7ba4fad0d5f8b91d90cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8636d80dcbf7499c88aa5c864e21f5') in 0.003845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_jump_C_land.FBX
+  artifactKey: Guid(0b6d533d30d80a84895778bc029a4423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_jump_C_land.FBX using Guid(0b6d533d30d80a84895778bc029a4423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5af05d40efc4e46b58eb4157e184ed') in 0.003694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/weapon/m_weapon_damage.FBX
+  artifactKey: Guid(820890efdaf5fb446bbe788f898a5772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/weapon/m_weapon_damage.FBX using Guid(820890efdaf5fb446bbe788f898a5772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc39a08f85e7c5951fc796e52a0555db') in 0.004513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Small_Canned_Food_C_03.fbx
+  artifactKey: Guid(c1474394c9ecac843a0f4c44e895f353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Small_Canned_Food_C_03.fbx using Guid(c1474394c9ecac843a0f4c44e895f353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f438dd67d467df2518a559eea9acbda5') in 0.008673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Special_Submachine_Gun.fbx
+  artifactKey: Guid(44a85a5c9c57e7c4c9bf6f7d4f71de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Special_Submachine_Gun.fbx using Guid(44a85a5c9c57e7c4c9bf6f7d4f71de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4abb4d63e8ea6d7d4d0c8227ac98b28') in 0.008569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/model/weapons/submachineguns/w_mac10.FBX
+  artifactKey: Guid(cc0225ab30bf25640b829638107222e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/model/weapons/submachineguns/w_mac10.FBX using Guid(cc0225ab30bf25640b829638107222e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8106871a894c238b403eb57fe8be89fd') in 0.012192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Large_Magazine_For_Army_Pistol.prefab
+  artifactKey: Guid(e68efa9d411601746957290d91332127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Large_Magazine_For_Army_Pistol.prefab using Guid(e68efa9d411601746957290d91332127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4853d2825e085105a40a15df1d015bf') in 0.006139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Army_Pistol_Empty.prefab
+  artifactKey: Guid(75684f6054a9a8143b92a740cc80a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Army_Pistol_Empty.prefab using Guid(75684f6054a9a8143b92a740cc80a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967fba7b817816736f43e3c4f44addb6') in 0.005735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol.fbx
+  artifactKey: Guid(faf35e45031de1744b38f392782c3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol.fbx using Guid(faf35e45031de1744b38f392782c3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd846e561ebbebbd22797ea9f7e10d98') in 0.008780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Handguard_For_Submachine_Gun_02.prefab
+  artifactKey: Guid(cdf94fedf7b2c124ab933abe0e1c5b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Handguard_For_Submachine_Gun_02.prefab using Guid(cdf94fedf7b2c124ab933abe0e1c5b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6fd350f1b797a8c4cc550450c9ccf3') in 0.006442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Collimator_Sight_A_01.prefab
+  artifactKey: Guid(129eda89f2b005c45a74bd52224c6076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Collimator_Sight_A_01.prefab using Guid(129eda89f2b005c45a74bd52224c6076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfba7227b209e023cd1eedb66f8892a') in 0.008342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Special_Submachine_Gun.prefab
+  artifactKey: Guid(eebf9633a5556074fa8426026d1c460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Special_Submachine_Gun.prefab using Guid(eebf9633a5556074fa8426026d1c460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b22342ca20c2f7a306c68827dfe9db4') in 0.005271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Army_Pistol.prefab
+  artifactKey: Guid(5d6c8044d7125364a83e2ab1c71c4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Army_Pistol.prefab using Guid(5d6c8044d7125364a83e2ab1c71c4ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6e73022b1563be3a27ef581186bcb0') in 0.005245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Collimator_Sight_B_01.fbx
+  artifactKey: Guid(e781d9745bdf3114998561b8c9601e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Collimator_Sight_B_01.fbx using Guid(e781d9745bdf3114998561b8c9601e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661f6a51de41914fb104daabf247a3e2') in 0.009543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/model/materials/TT_Soldiers_material_B.mat
+  artifactKey: Guid(afd9751c6a304da448f9745fe59d7dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/model/materials/TT_Soldiers_material_B.mat using Guid(afd9751c6a304da448f9745fe59d7dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f2b5978fcb1c5207175433d7e7dccb') in 0.006708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol_Empty.fbx
+  artifactKey: Guid(1f9f83a8c0bf9e9498756f4454978095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Army_Pistol_Empty.fbx using Guid(1f9f83a8c0bf9e9498756f4454978095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca146a6f3924b4fdbbc60cf6ca6b553f') in 0.010379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_interact_A.FBX
+  artifactKey: Guid(e4630d0a8a2c1c84ea7f13752f2dbb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_interact_A.FBX using Guid(e4630d0a8a2c1c84ea7f13752f2dbb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb5e89553c926136217dbf7cc9951c8') in 0.004147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LowPolyWater_Pack/Textures/Foam.tga
+  artifactKey: Guid(5fbcffe9c2077f04186883cb39275fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Textures/Foam.tga using Guid(5fbcffe9c2077f04186883cb39275fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c946f5a9e3340d5b484359eadad96dfe') in 0.401991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Special_Submachine_Gun_Empty.fbx
+  artifactKey: Guid(d3135b9e66d44344da8e767529d81e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Magazine_For_Special_Submachine_Gun_Empty.fbx using Guid(d3135b9e66d44344da8e767529d81e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa903a87af2f234daba7f2fc2ab258df') in 0.010838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_jump_B_loop.FBX
+  artifactKey: Guid(0f40e7d2ad412d640b62fde154eea204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_jump_B_loop.FBX using Guid(0f40e7d2ad412d640b62fde154eea204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5e229c156500edc787d405914e38b2') in 0.004134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_death_B.FBX
+  artifactKey: Guid(faf6125b759034b428970d11c551e0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_death_B.FBX using Guid(faf6125b759034b428970d11c551e0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233d40a0a4fdfe728d899a0debb70059') in 0.003923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Small_Canned_Food_D_03.prefab
+  artifactKey: Guid(a0be92f82bc08274b8f14f7998fe6eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Small_Canned_Food_D_03.prefab using Guid(a0be92f82bc08274b8f14f7998fe6eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae524820a80a5596c197805a5d278ae8') in 0.006387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_01.fbx
+  artifactKey: Guid(0e80d84d1c2989c49ba3263d9a827506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_01.fbx using Guid(0e80d84d1c2989c49ba3263d9a827506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bd9ad7d48b3b5ef50b9322704d78a7') in 0.010198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/LowPolyWater_Pack/Materials/LowPolyWaterMaterial.mat
+  artifactKey: Guid(8538bd626cb3e80478f62e319f75e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/Materials/LowPolyWaterMaterial.mat using Guid(8538bd626cb3e80478f62e319f75e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f00f25ca06f42fee91988a8527d984') in 0.007212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/model/weapons/big_weapons/w_smaw.FBX
+  artifactKey: Guid(3d22f55540ca33041b16deee883bae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/model/weapons/big_weapons/w_smaw.FBX using Guid(3d22f55540ca33041b16deee883bae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08beb3d15c984d4ac258c82ad7296749') in 0.011019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Small_Canned_Food_C_03.prefab
+  artifactKey: Guid(9406672675d366049a5cf427d4fe7332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Small_Canned_Food_C_03.prefab using Guid(9406672675d366049a5cf427d4fe7332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee392f54b8357e198d7a2f142bcc1159') in 0.006053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LowPolyWater_Pack/LowPoly Island/Materials/IslandMat.mat
+  artifactKey: Guid(45d08f8aef3838d45806cd4442223977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWater_Pack/LowPoly Island/Materials/IslandMat.mat using Guid(45d08f8aef3838d45806cd4442223977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f082645074d025af64ce69191cc19d') in 0.009140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_jump_A_start.FBX
+  artifactKey: Guid(307239aee485f20428927adc2bb86aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_jump_A_start.FBX using Guid(307239aee485f20428927adc2bb86aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de28242bb907b75235fa224b3af3c1d') in 0.003851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/model/TT_Soldiers.FBX
+  artifactKey: Guid(355dee00690527447a793c7124eca10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/model/TT_Soldiers.FBX using Guid(355dee00690527447a793c7124eca10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5589a60eb87ac3c2b0e81a4f93538871') in 1.831301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Scrap_Metal_01.prefab
+  artifactKey: Guid(77ff5fc6b3b6f5a4cb0fe574d6726a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Scrap_Metal_01.prefab using Guid(77ff5fc6b3b6f5a4cb0fe574d6726a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5feed85e9355a452e49164a311571a') in 0.015416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_03.fbx
+  artifactKey: Guid(804c9c6df5d056e4da0e9b1081a86e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_03.fbx using Guid(804c9c6df5d056e4da0e9b1081a86e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26df6f6c34d54a90d11e0442bd03f3f7') in 0.010037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Hammer.prefab
+  artifactKey: Guid(122489d113ea97d4bbf387d2dc2d5e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Hammer.prefab using Guid(122489d113ea97d4bbf387d2dc2d5e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cbc36d3a8a40beeb4b0c2e216d88a0') in 0.007844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_draw.FBX
+  artifactKey: Guid(31d2b7b07a4748f4481043150dba4b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_draw.FBX using Guid(31d2b7b07a4748f4481043150dba4b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47c59d039cd26e828fdf8ba73473dd3') in 0.004352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_interact_A.FBX
+  artifactKey: Guid(793f8b85aa34a48478d6ad3dff8231ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_interact_A.FBX using Guid(793f8b85aa34a48478d6ad3dff8231ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080880a3be993ffd368044147dba623f') in 0.003646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_idle.FBX
+  artifactKey: Guid(2b44f94771f6fa14ea26f7511f26714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_idle.FBX using Guid(2b44f94771f6fa14ea26f7511f26714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc3d942bc68ffed5ebb85f8c71afcab') in 0.003542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_run_rm.FBX
+  artifactKey: Guid(64888d93d933aa7449231c212c54b7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_run_rm.FBX using Guid(64888d93d933aa7449231c212c54b7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c028a247819e46e28ac547656b97f74') in 0.003506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_jump_B_loop.FBX
+  artifactKey: Guid(ae90a9b5940822846ad142ea7f1477e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_jump_B_loop.FBX using Guid(ae90a9b5940822846ad142ea7f1477e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28020c00cfcfc5efd44a42039919a2f') in 0.004033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Meat_02.fbx
+  artifactKey: Guid(b0d616cdeed04b140a3fbb3063f5beea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Meat_02.fbx using Guid(b0d616cdeed04b140a3fbb3063f5beea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128bcd3f0de753ad2935a6ef50ba25eb') in 0.010973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Meat_03.fbx
+  artifactKey: Guid(2e60549f5f9a890408480516a8fda91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Meat_03.fbx using Guid(2e60549f5f9a890408480516a8fda91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b70b174fec7870ba499cddcc5ff3c0') in 0.009127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Sledgehammer.fbx
+  artifactKey: Guid(e66d5815e4e8f524898a9293b5469855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Sledgehammer.fbx using Guid(e66d5815e4e8f524898a9293b5469855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f43e84bf6b6e4543afb6ba78cbefb1e') in 0.010187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Scrap_Metal_03.prefab
+  artifactKey: Guid(cc312fcfb332c8a45bd9691cbf391d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Scrap_Metal_03.prefab using Guid(cc312fcfb332c8a45bd9691cbf391d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c382f7f99cd5ad4a791aef83fc4a3280') in 0.005150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Scrap_Metal_02.prefab
+  artifactKey: Guid(498ab23c9cbee7845b2c689473697044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Scrap_Metal_02.prefab using Guid(498ab23c9cbee7845b2c689473697044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47689f210dabc71d7e997e7bc7f6f8b0') in 0.005869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_run.FBX
+  artifactKey: Guid(c3e0af12739908244ababd9ce88d018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_run.FBX using Guid(c3e0af12739908244ababd9ce88d018a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea20ba8ab3c5c12ba2b7ae90dc992b8d') in 0.004089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_walk.FBX
+  artifactKey: Guid(defbab3bb95fd0d4483f718badc94b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_walk.FBX using Guid(defbab3bb95fd0d4483f718badc94b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4a2e22904ae966cca42bc233634e80') in 0.004337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Special_Submachine_Gun_Clean.prefab
+  artifactKey: Guid(187759c9ac7a580459dc7f1e1756692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Special_Submachine_Gun_Clean.prefab using Guid(187759c9ac7a580459dc7f1e1756692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e46a58d97345d46521e0e4459e6d3f') in 0.011499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Meat_01.prefab
+  artifactKey: Guid(c6606374ad6058448b3ce4a22865ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Meat_01.prefab using Guid(c6606374ad6058448b3ce4a22865ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07164a3734df8419606e619e886927f') in 0.006817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_death_C.FBX
+  artifactKey: Guid(ba90675a123c947498adda6e4e7f9b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_death_C.FBX using Guid(ba90675a123c947498adda6e4e7f9b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e7afa1fbf5cb711f4f72cd4ade9c8a') in 0.003869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_02.fbx
+  artifactKey: Guid(d4cec953f6eb0254584387bd0e9dd253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Handguard_For_Submachine_Gun_02.fbx using Guid(d4cec953f6eb0254584387bd0e9dd253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270509d6e476c73df424c4382ce9b5b7') in 0.011025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_jump_A_start.FBX
+  artifactKey: Guid(6fcb00302864d5c49ad252d30d3489bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_jump_A_start.FBX using Guid(6fcb00302864d5c49ad252d30d3489bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8072e30a10fed2c611456d79a40b44') in 0.003895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_run.FBX
+  artifactKey: Guid(b3b55c3b07bee4a479e58d8fe517f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_run.FBX using Guid(b3b55c3b07bee4a479e58d8fe517f14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900efae0ac5311e335369b72a6824c67') in 0.004489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_idle.FBX
+  artifactKey: Guid(d3bd9600b6807054399b5ea36c36f1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_idle.FBX using Guid(d3bd9600b6807054399b5ea36c36f1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3d3c77ca5ba939d8216780fd4ce5f9') in 0.004219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Collimator_Sight_A_01.fbx
+  artifactKey: Guid(26460841deee7094682bcaf0c141ea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Collimator_Sight_A_01.fbx using Guid(26460841deee7094682bcaf0c141ea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7a7c24f00446e276f7c330de8fe3d3') in 0.008949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/model/materials/TT_Soldiers_material_A.mat
+  artifactKey: Guid(412345b3be418544f889bea75bc21df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/model/materials/TT_Soldiers_material_A.mat using Guid(412345b3be418544f889bea75bc21df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838f0f23cbf74ff5d73d99a6d53c9030') in 0.005859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_jump_B_loop.FBX
+  artifactKey: Guid(522c22061e5b1e14998b862cadb3a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_jump_B_loop.FBX using Guid(522c22061e5b1e14998b862cadb3a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1e146dfc325bbd804ca20b32544c99') in 0.003884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_death_A.FBX
+  artifactKey: Guid(73d364391a0079142a333ccf9e707cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_death_A.FBX using Guid(73d364391a0079142a333ccf9e707cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab60e6be3989cdc33a7a80b2bceefb21') in 0.003764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_jump_B_loop.FBX
+  artifactKey: Guid(4d75e4c2bc8dbaa4c8e8983303d92c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_jump_B_loop.FBX using Guid(4d75e4c2bc8dbaa4c8e8983303d92c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a843c17e2e6f7a95650985153e7d9c') in 0.004480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Special_Submachine_Gun_Clean.fbx
+  artifactKey: Guid(77fd3f23017f637479f20255333ee7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Special_Submachine_Gun_Clean.fbx using Guid(77fd3f23017f637479f20255333ee7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a230476818292d97632896e8f6ce4d03') in 0.033326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Hammer.fbx
+  artifactKey: Guid(b97a682b9deea6f4a9c2c726884c89f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Hammer.fbx using Guid(b97a682b9deea6f4a9c2c726884c89f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f354dfad47ab7886bb27a4adb62aad') in 0.008814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Special_Submachine_Gun_Empty.prefab
+  artifactKey: Guid(6cc25e1b147c93248987a6b4e5deee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Magazine_For_Special_Submachine_Gun_Empty.prefab using Guid(6cc25e1b147c93248987a6b4e5deee90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9d3c359b57bddbaa8b81d7ca522c5c') in 0.008312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_02.fbx
+  artifactKey: Guid(94c2c318f2897384892a9b3a7bcd25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_02.fbx using Guid(94c2c318f2897384892a9b3a7bcd25b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1bdf5e86dc46f7712f6f7dca560b5') in 0.008561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_throw.FBX
+  artifactKey: Guid(2df40445ebbc6b14a9041f007b0d714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_throw.FBX using Guid(2df40445ebbc6b14a9041f007b0d714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8533d7606d6b3525883fcf24fd9014') in 0.003979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_idle_A.FBX
+  artifactKey: Guid(1acec07680584d242b1ffb66996f150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_idle_A.FBX using Guid(1acec07680584d242b1ffb66996f150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7391461571aacc4c6c41633e377f0688') in 0.003757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean.fbx
+  artifactKey: Guid(92dc1f4fb14f0994d9dfb2a4ed551c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean.fbx using Guid(92dc1f4fb14f0994d9dfb2a4ed551c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3719fb4cc4bd0e0bab2fe1433c5bce9') in 0.008557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_attack_A.FBX
+  artifactKey: Guid(0c8f9f88806697b4ea7fc00204f178c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_attack_A.FBX using Guid(0c8f9f88806697b4ea7fc00204f178c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec886d8a3f7ec5721160fccb49e14f0') in 0.004465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean.prefab
+  artifactKey: Guid(f1934d0715948b54d83e420685e0d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean.prefab using Guid(f1934d0715948b54d83e420685e0d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568408eabdef632535dbd8d4e6815280') in 0.006116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Large_Magazine_For_Army_Pistol_Empty.prefab
+  artifactKey: Guid(3ae47a629d31e6545976a65007848e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Large_Magazine_For_Army_Pistol_Empty.prefab using Guid(3ae47a629d31e6545976a65007848e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0892362de7e172891e79e05cd8a23d') in 0.005975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_death_A.FBX
+  artifactKey: Guid(6978f294760964748aaae86cc2c624f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_death_A.FBX using Guid(6978f294760964748aaae86cc2c624f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8ea6c11d24a1c0f413188ba18fa812') in 0.003957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Large_Magazine_For_Army_Pistol_Empty.fbx
+  artifactKey: Guid(e0c6bd01faa27d641885eceefda2b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Large_Magazine_For_Army_Pistol_Empty.fbx using Guid(e0c6bd01faa27d641885eceefda2b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11081ffe6a11e50a165a29cd2c674279') in 0.011495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/model/weapons/melee/w_machete.FBX
+  artifactKey: Guid(2676194032723d5459fe9f25485759ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/model/weapons/melee/w_machete.FBX using Guid(2676194032723d5459fe9f25485759ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae5f9178939936558c1e4978db23668') in 0.010883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_01.fbx
+  artifactKey: Guid(675f9e2a8ff33444cbc498895b039dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Scrap_Metal_01.fbx using Guid(675f9e2a8ff33444cbc498895b039dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c0c74203124d11a345606c888e19db') in 0.010068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Medical_Kit.fbx
+  artifactKey: Guid(c6468f1b90f616a449318c252b93051f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Medical_Kit.fbx using Guid(c6468f1b90f616a449318c252b93051f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08b53b259edafb632fbefa07a9e7996') in 0.012776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_damage.FBX
+  artifactKey: Guid(02c9da6a8f6ff8e48a6ca585ab493039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_damage.FBX using Guid(02c9da6a8f6ff8e48a6ca585ab493039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28e4656c65f8d24cb3109e576544ff4') in 0.004291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/model/weapons/assault_rifles/w_ak47_drum_mag.FBX
+  artifactKey: Guid(44bbe5d75b1d01c4789181c255edc654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/model/weapons/assault_rifles/w_ak47_drum_mag.FBX using Guid(44bbe5d75b1d01c4789181c255edc654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9aaf95502d3503e4bb2dc25da7c22e6') in 0.011078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_walk.FBX
+  artifactKey: Guid(2a678776f2666fb4f8a6eeca73a00031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_walk.FBX using Guid(2a678776f2666fb4f8a6eeca73a00031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73ee83fba8c244d4a088f396dd0662b') in 0.003877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Meat_03.prefab
+  artifactKey: Guid(f3834b0b997a98f4abd2393ccf97366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Meat_03.prefab using Guid(f3834b0b997a98f4abd2393ccf97366b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27870035bbe9379bb782aa4f051a34a3') in 0.005196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_walk_rm.FBX
+  artifactKey: Guid(8ce010be5c198f942ae64e922c600c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_walk_rm.FBX using Guid(8ce010be5c198f942ae64e922c600c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a280abc7920541637fa3a0c2dc0d5f0') in 0.003756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_draw.FBX
+  artifactKey: Guid(36bca2be6f6801240b521ba79d891f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_draw.FBX using Guid(36bca2be6f6801240b521ba79d891f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900ce689dfc830fdebf23c99f8e1130d') in 0.003675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Medical_Kit.prefab
+  artifactKey: Guid(c6776ea35b3d59b46907ebd401b343ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Medical_Kit.prefab using Guid(c6776ea35b3d59b46907ebd401b343ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedf9dfd87f3540ad77227ff80f365f0') in 0.007157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Sledgehammer.prefab
+  artifactKey: Guid(c1261337aad64ef4db60b9b168b33feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Sledgehammer.prefab using Guid(c1261337aad64ef4db60b9b168b33feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34270e5a5bb140e32a4e171fb675323') in 0.006645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_run_rm.FBX
+  artifactKey: Guid(a3cd8655b96bd7f4a94e85a0b7031777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_run_rm.FBX using Guid(a3cd8655b96bd7f4a94e85a0b7031777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6f4466ce8199ae020965f7e61bf5cf') in 0.004108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_walk_rm.FBX
+  artifactKey: Guid(ea91e158d75bcad4c9f3b390c62952b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_walk_rm.FBX using Guid(ea91e158d75bcad4c9f3b390c62952b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78512902c49c41d977077c9ec5929297') in 0.004343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_death_B.FBX
+  artifactKey: Guid(7cc386b17cadd644fa9f1d55e2e91107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_death_B.FBX using Guid(7cc386b17cadd644fa9f1d55e2e91107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8818b0485da856c512c0d4391dc9fcb') in 0.003658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_jump_B_loop.FBX
+  artifactKey: Guid(e22b5a07c35a6e340b54bfc9ac38031a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_jump_B_loop.FBX using Guid(e22b5a07c35a6e340b54bfc9ac38031a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7d16750a7e1a75f5f41306bd020937') in 0.003910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_death_D.FBX
+  artifactKey: Guid(63a2b3d63392631428c2c52f7c1e57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_death_D.FBX using Guid(63a2b3d63392631428c2c52f7c1e57b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33722fe347ee8b162d18d98bc6f55ceb') in 0.004049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/model/weapons/assault_rifles/w_famas.FBX
+  artifactKey: Guid(7775f143a44bf4d4aa18c9960fca183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/model/weapons/assault_rifles/w_famas.FBX using Guid(7775f143a44bf4d4aa18c9960fca183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b046686a3e16c98f61092f3cde088de4') in 0.010661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_run.FBX
+  artifactKey: Guid(7c86b05b2a210f64b898b95613f2104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_run.FBX using Guid(7c86b05b2a210f64b898b95613f2104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728a2a401577512039a8d7497ac27b2e') in 0.004472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_jump_A_start.FBX
+  artifactKey: Guid(f5d72271f2f3066408c1104e99bd0196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_jump_A_start.FBX using Guid(f5d72271f2f3066408c1104e99bd0196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ef9b4ad719d3467d168b9c4a86b607') in 0.003632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Meat_01.fbx
+  artifactKey: Guid(b89b6237d7d126647884ce2160c115f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Meat_01.fbx using Guid(b89b6237d7d126647884ce2160c115f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2863bb4104512ec064d16fa7260e4b12') in 0.008905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_CEMENT_01.fbx
+  artifactKey: Guid(93f15df65e3899543be6630b3c527a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_CEMENT_01.fbx using Guid(93f15df65e3899543be6630b3c527a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1029e736d7249080adb2406c76c8654b') in 0.009021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_jump_A_start.FBX
+  artifactKey: Guid(b36c9f8a1a06f714cabc6e4175576acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_jump_A_start.FBX using Guid(b36c9f8a1a06f714cabc6e4175576acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4070f4a24a283e6004e865875d2b9fe2') in 0.004116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Meat_02.prefab
+  artifactKey: Guid(e70c788d9b889f44b8057c1ca261dbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Meat_02.prefab using Guid(e70c788d9b889f44b8057c1ca261dbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70541a9664bce51f712265d191e833ff') in 0.006066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Materials/MainMaterialFree.mat
+  artifactKey: Guid(e47e8f0bb92aaff4c93eedb0398a1c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Materials/MainMaterialFree.mat using Guid(e47e8f0bb92aaff4c93eedb0398a1c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cf7442e1c2442a72152438d881d53c') in 0.005736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_throw.FBX
+  artifactKey: Guid(c4e8cfe11ae06fc419a1f4dec92942a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_throw.FBX using Guid(c4e8cfe11ae06fc419a1f4dec92942a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff547dafaf370947196a0d779e6c089') in 0.003897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_attack_A.FBX
+  artifactKey: Guid(a316389320620564782e933b004cc72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_attack_A.FBX using Guid(a316389320620564782e933b004cc72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a70148bc50d7d07d23afd862db2ebd') in 0.004179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_CEMENT_01.prefab
+  artifactKey: Guid(e63c0883678c5ca4a80d34ae2165faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_CEMENT_01.prefab using Guid(e63c0883678c5ca4a80d34ae2165faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609f9ac647a77f6b7d505f8b70872faa') in 0.005069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Handguard_For_Submachine_Gun_01.prefab
+  artifactKey: Guid(26b8206028c8ad242bf7bcfe0703439b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Handguard_For_Submachine_Gun_01.prefab using Guid(26b8206028c8ad242bf7bcfe0703439b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cdf259d0d44b3ed88f7b10bb044800') in 0.005533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/m_jump_C_land.FBX
+  artifactKey: Guid(76e911d2e01f4584cbe6f75093e3e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/m_jump_C_land.FBX using Guid(76e911d2e01f4584cbe6f75093e3e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97bb78d6028e72faa12bddddb66f5f5') in 0.003749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/SM_Large_Magazine_For_Army_Pistol.fbx
+  artifactKey: Guid(ae0baeda56766ad408a1ebf8e3f8639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/SM_Large_Magazine_For_Army_Pistol.fbx using Guid(ae0baeda56766ad408a1ebf8e3f8639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edd3811f83b4b9e5ef0283df70923bb') in 0.008908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_jump_C_land.FBX
+  artifactKey: Guid(91b4aef0d53213a4b9a99aaecbc218ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_jump_C_land.FBX using Guid(91b4aef0d53213a4b9a99aaecbc218ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390b8745d49b7e4363efd92c0dde068e') in 0.003899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_jump_C_land.FBX
+  artifactKey: Guid(5daa6fb3db27b2d4aa78075441ba8e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_jump_C_land.FBX using Guid(5daa6fb3db27b2d4aa78075441ba8e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640365a18c8c5e0d003fc5f246ad45f1') in 0.003662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Models/Small_Canned_Food_D_03.fbx
+  artifactKey: Guid(ef8f38555e95d65438aeafc8a3b342cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Models/Small_Canned_Food_D_03.fbx using Guid(ef8f38555e95d65438aeafc8a3b342cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88220447fc7d1cdcbeda432822d011d8') in 0.011748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_attack_C.FBX
+  artifactKey: Guid(260ac9381730d8f42b6cb2c988cdfaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_attack_C.FBX using Guid(260ac9381730d8f42b6cb2c988cdfaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b66b9333df9fbcd1a83d0d32d8b7737') in 0.004461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_attack_B.FBX
+  artifactKey: Guid(e6999dc59595cc74681f8cc0dec24aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_combat_attack_B.FBX using Guid(e6999dc59595cc74681f8cc0dec24aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974b10196af3c42926e23eb74adfdab1') in 0.003913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_jump_C_land.FBX
+  artifactKey: Guid(742b04fcf4b273b41aacf469516d7d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/fight/m_fight_jump_C_land.FBX using Guid(742b04fcf4b273b41aacf469516d7d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e75c98f885be85edea00b982ac5d69') in 0.003955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/SM_Collimator_Sight_B_01.prefab
+  artifactKey: Guid(59325158d2140a4428c7bc6d792cb605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/SM_Collimator_Sight_B_01.prefab using Guid(59325158d2140a4428c7bc6d792cb605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17551ad2d17779cae4c780ccb316d26') in 0.008492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_interact_B.FBX
+  artifactKey: Guid(24746d67bd5514744acd60d245425d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/melee/m_melee_interact_B.FBX using Guid(24746d67bd5514744acd60d245425d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d4d97e19cc879a31b9facbe87171e0') in 0.004043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_damage.FBX
+  artifactKey: Guid(fbd4a5a8d841d124d9d3cf773f6ac58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_Soldiers/animation/rocketlauncher/m_launcher_damage.FBX using Guid(fbd4a5a8d841d124d9d3cf773f6ac58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75284e396bfb32c27822447102a11f8') in 0.004144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.419070 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Medical_Kit.prefab
+  artifactKey: Guid(c6776ea35b3d59b46907ebd401b343ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Medical_Kit.prefab using Guid(c6776ea35b3d59b46907ebd401b343ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a22e54e35e6135a447a800658d0d7b') in 0.006896 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001186 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.610 seconds
+Domain Reload Profiling:
+	ReloadAssembly (611ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.7 KB). Loaded Objects now: 3957.
+Memory consumption went from 286.4 MB to 286.4 MB.
+Total: 2.453792 ms (FindLiveObjects: 0.137000 ms CreateObjectMapping: 0.041417 ms MarkObjects: 2.200375 ms  DeleteObjects: 0.074042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001154 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.562 seconds
+Domain Reload Profiling:
+	ReloadAssembly (563ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3960.
+Memory consumption went from 286.5 MB to 286.4 MB.
+Total: 2.039041 ms (FindLiveObjects: 0.099917 ms CreateObjectMapping: 0.040042 ms MarkObjects: 1.838500 ms  DeleteObjects: 0.059750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 225.818537 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f29dd64c4c443c8f17d3a649e2114b') in 0.034096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.663709 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Medical_Kit.prefab
+  artifactKey: Guid(c6776ea35b3d59b46907ebd401b343ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Medical_Kit.prefab using Guid(c6776ea35b3d59b46907ebd401b343ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8802d83fe433e3eeb9993f4b1f2c654f') in 0.038182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.416655 seconds.
+  path: Assets/Polygon-Lite Survival Collection/Prefabs/Medical_Kit.prefab
+  artifactKey: Guid(c6776ea35b3d59b46907ebd401b343ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-Lite Survival Collection/Prefabs/Medical_Kit.prefab using Guid(c6776ea35b3d59b46907ebd401b343ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b83b5d2b71d1f1b999117fc1a8532a') in 0.009459 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001192 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.605 seconds
+Domain Reload Profiling:
+	ReloadAssembly (606ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (71.4 KB). Loaded Objects now: 3963.
+Memory consumption went from 290.8 MB to 290.7 MB.
+Total: 2.117875 ms (FindLiveObjects: 0.114583 ms CreateObjectMapping: 0.038458 ms MarkObjects: 1.902625 ms  DeleteObjects: 0.061583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001173 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.554 seconds
+Domain Reload Profiling:
+	ReloadAssembly (555ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (432ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (196ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.2 KB). Loaded Objects now: 3966.
+Memory consumption went from 291.0 MB to 291.0 MB.
+Total: 2.404875 ms (FindLiveObjects: 0.116625 ms CreateObjectMapping: 0.039791 ms MarkObjects: 2.180750 ms  DeleteObjects: 0.067209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001188 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16faa3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joinho/Code/UnityProject/EscapeFromFielld/EscapeFromField/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (593ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (464ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3969.
+Memory consumption went from 291.2 MB to 291.2 MB.
+Total: 2.363917 ms (FindLiveObjects: 0.135375 ms CreateObjectMapping: 0.044333 ms MarkObjects: 2.110625 ms  DeleteObjects: 0.072333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

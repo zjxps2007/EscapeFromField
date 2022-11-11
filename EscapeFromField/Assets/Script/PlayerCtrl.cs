@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class PlayerCtrl : MonoBehaviour
 {
-    private float _speed = 1f; // 플레이어 속도
-    private readonly float _jump = 3f; // 점프 높이
+    private float _speed; // 플레이어 속도
+    private readonly float _jump = 3.0f; // 점프 높이
     //private bool isJump = false; // 점프 상태
 
     private Animator anim; // 플레이어 에니메이션
@@ -42,12 +42,12 @@ public class PlayerCtrl : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift) && _movDir != Vector3.zero) // 달리기
         {
-            _speed = 2.0f;
+            _speed = 3.0f;
             anim.SetBool(IsRun, true);
         }
         else
         {
-            _speed = 1.0f;
+            _speed = 2.0f;
             anim.SetBool(IsRun, false);
         }
     }

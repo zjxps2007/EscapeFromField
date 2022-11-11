@@ -355,7 +355,6 @@
 "Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
 "Assets/Resources/UsrLog.cs"
 "Assets/Script/CameraCtrl.cs"
-"Assets/Script/CameraMovement.cs"
 "Assets/Script/ItemPickUp.cs"
 "Assets/Script/Items.cs"
 "Assets/Script/PlayerCtrl.cs"

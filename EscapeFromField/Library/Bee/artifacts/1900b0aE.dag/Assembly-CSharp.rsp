@@ -359,7 +359,6 @@
 "Assets/Script/ItemPickUp.cs"
 "Assets/Script/Items.cs"
 "Assets/Script/PlayerCtrl.cs"
-"Assets/Script/Test.cs"
 -langversion:9.0
 
 /deterministic

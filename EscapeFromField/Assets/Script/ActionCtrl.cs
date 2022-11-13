@@ -1,31 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.PackageManager;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class ActionCtrl : MonoBehaviour
-{ 
-    private float range = 3;
+{
+    [SerializeField]
+    private Transform objPly;
+    
+    private float range = 20f;
+        //2.5f
 
     private bool pickUp = false;
 
     private RaycastHit hit;
 
-    [SerializeField] private LayerMask _layerMask;
+    [SerializeField] 
+    private LayerMask _layerMask;
 
-    [SerializeField] private Text actionText;
+    [SerializeField] 
+    private Text actionText;
 
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
-    // Update is called once per frame
+    // Update is called once per frameTransformDirection
     void Update()
     {
+        Debug.DrawRay(objPly.position, transform.TransformDirection(Vector3.forward * range),Color.magenta);
         if (Input.GetKeyDown(KeyCode.F))
         {
             CheckItem();
@@ -35,11 +37,12 @@ public class ActionCtrl : MonoBehaviour
 
     void CheckItem()
     {
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, range, _layerMask))
+        
+        if (Physics.Raycast(objPly.position, transform.TransformDirection(Vector3.forward), out hit, range, _layerMask))
         {
             if (hit.transform.tag == "Item")
             {
-             ItemInfo();   
+             ItemInfo();
             }
         }
         else

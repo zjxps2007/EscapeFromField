@@ -2,31 +2,70 @@ using UnityEngine;
 
 public class CameraCtrl : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
+    [SerializeField]
+    private Transform objectTofollow;
+    
+    [SerializeField]
+    private Transform mainCamera;
 
-    private float _xMove;
+    private float followSpeed = 10f;
+    private float sensitivity = 100f;
+    private float clampAngle = 45f;
 
-    private float _yMove;
+    private float xMove;
+    private float yMove;
 
-    private float distance = 1;
+    
+    private Vector3 dirNormalized;
+    private Vector3 finalDir;
+    private float finalDistance;
+    
+    private float minDistance = 1.0f;
+    private float maxDistance = 2.7f;
+    private float smoothness = 500f;
 
     // Start is called before the first frame update
     void Start()
     {
+        xMove = transform.localRotation.eulerAngles.x;
+        yMove = transform.localRotation.eulerAngles.y;
 
+        dirNormalized = mainCamera.localPosition.normalized;
+        finalDistance = mainCamera.localPosition.magnitude;
+        
+        //플레이 할때 커서를 사라지게 해줌
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
-    
+
     // Update is called once per frame
     void Update()
     {
-        _xMove += Input.GetAxis("Mouse X");
-        _yMove -= Input.GetAxis("Mouse Y");
+        xMove -= Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
+        yMove += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+        
+        //카메라 y좌표 움직임 제한
+        xMove = Mathf.Clamp(xMove, -clampAngle, clampAngle);
+        
+        Quaternion rot = Quaternion.Euler(xMove, yMove, 0);
+        transform.rotation = rot;
+        
+    }
 
-        //_yMove = Mathf.Clamp(Input.GetAxis("Mouse Y"), 40, -10);
-  
+    private void LateUpdate()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, objectTofollow.position, followSpeed * Time.deltaTime);
+        finalDir = transform.TransformPoint(dirNormalized * maxDistance);
 
-        transform.rotation = Quaternion.Euler(_yMove, _xMove, 0);
-        Vector3 reverseDistance = new Vector3(0.0f, 0.0f, distance);
-        transform.position = player.transform.position - transform.rotation * reverseDistance;
+        if (Physics.Linecast(transform.position, finalDir, out var hit))
+        {
+            finalDistance = Mathf.Clamp(hit.distance, minDistance, maxDistance);
+        }
+        else
+        {
+            finalDistance = maxDistance;
+        }
+
+        mainCamera.localPosition = Vector3.Lerp(mainCamera.localPosition, dirNormalized * finalDistance, Time.deltaTime * smoothness);
     }
 }

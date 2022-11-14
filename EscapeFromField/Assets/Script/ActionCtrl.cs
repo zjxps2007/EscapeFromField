@@ -6,34 +6,48 @@ public class ActionCtrl : MonoBehaviour
     [SerializeField]
     private Transform objPly;
     
-    private float range = 20f;
-        //2.5f
-
-    private bool pickUp = false;
-
-    private RaycastHit hit;
-
     [SerializeField] 
-    private LayerMask _layerMask;
+    private LayerMask layerMask;
 
     [SerializeField] 
     private Text actionText;
+    
+    private readonly float _range = 4.3f;
+    
+    private bool _pickUp;
+    
+    private RaycastHit _hit;
 
     private Camera _camera;
+
+    private void Awake()
+    {
+        _camera = GetComponentInChildren<Camera>();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        //_camera = GetComponent<Camera>();
-        _camera = GetComponentInChildren<Camera>();
     }
 
     // Update is called once per frameTransformDirection
     void Update()
     {
-        Ray ray = _camera.ScreenPointToRay(new Vector3(0, 0, 0));
-        Debug.DrawRay(ray.origin, ray.direction * 20f, Color.magenta, 5f);
-        //Debug.DrawRay(objPly.position, transform.TransformDirection(Vector3.forward * range),Color.magenta);
+        Action();
+        CheckItem();
+        DebugRay();
+        
+    }
+
+    //레이 디버그용 함수
+    void DebugRay()
+    {
+        Ray ray = _camera.ScreenPointToRay(new Vector3(_camera.pixelWidth / 2, _camera.pixelHeight / 2, 0));
+        Debug.DrawRay(ray.origin, ray.direction * 4.3f, Color.green);
+    }
+
+    void Action()
+    {
         if (Input.GetKeyDown(KeyCode.F))
         {
             CheckItem();
@@ -43,11 +57,13 @@ public class ActionCtrl : MonoBehaviour
 
     void CheckItem()
     {
-        if (Physics.Raycast(objPly.position, transform.TransformDirection(Vector3.forward), out hit, range, _layerMask))
+        Ray ray = _camera.ScreenPointToRay(new Vector3(_camera.pixelWidth / 2, _camera.pixelHeight / 2, 0));
+        if (Physics.Raycast(ray.origin, ray.direction, out _hit, _range, layerMask))
         {
-            if (hit.transform.tag == "Item")
+            Debug.DrawRay(ray.origin, ray.direction * 4.3f, Color.yellow, 5.0f);
+            if (_hit.transform.tag == "Item")
             {
-             ItemInfo();
+                ItemInfo();
             }
         }
         else
@@ -55,28 +71,30 @@ public class ActionCtrl : MonoBehaviour
             InfoDisappear();
         }
     }
-
+    
+    //아이템의 정보를 가져옴 (지금은 이름만)
     void ItemInfo()
     {
-        pickUp = true;
+        _pickUp = true;
         actionText.gameObject.SetActive(true);
-        actionText.text = hit.transform.GetComponent<ItemPickUp>().item.itemName + "흭득 " + "<color=rad>" + "(F)" + "</color>";
+        actionText.text = _hit.transform.GetComponent<ItemPickUp>().item.itemName + " 획득 " + "<color=aqua>(F)</color>";
     }
 
     void InfoDisappear()
     {
-        pickUp = false;
+        _pickUp = false;
         actionText.gameObject.SetActive(false);
     }
 
+    //아이템 획득
     void Pick()
     {
-        if (pickUp)
+        if (_pickUp)
         {
-            if (hit.transform != null)
+            if (_hit.transform != null)
             {
-                Debug.Log(hit.transform.GetComponent<ItemPickUp>().item.itemName + "흭득했습니다.");
-                Destroy(hit.transform.gameObject);
+                Debug.Log(_hit.transform.GetComponent<ItemPickUp>().item.itemName + "흭득했습니다.");
+                Destroy(_hit.transform.gameObject);
                 InfoDisappear();
             }
         }

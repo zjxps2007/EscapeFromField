@@ -14,7 +14,7 @@ public class PlayerCtrl : MonoBehaviour
     private CharacterController _characterController;
     private static readonly int IsRun = Animator.StringToHash("IsRun");
     private static readonly int IsWalk = Animator.StringToHash("IsWalk");
-
+    
     private void Awake()
     {
         anim = GetComponent<Animator>();

@@ -3,9 +3,6 @@ using UnityEngine.UI;
 
 public class ActionCtrl : MonoBehaviour
 {
-    [SerializeField]
-    private Transform objPly;
-    
     [SerializeField] 
     private LayerMask layerMask;
 
@@ -15,7 +12,7 @@ public class ActionCtrl : MonoBehaviour
     private readonly float _range = 4.3f;
     
     private bool _pickUp;
-    
+
     private RaycastHit _hit;
 
     private Camera _camera;

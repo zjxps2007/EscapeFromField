@@ -352,13 +352,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
 "Assets/Resources/UsrLog.cs"
 "Assets/Script/ActionCtrl.cs"
 "Assets/Script/CameraCtrl.cs"
 "Assets/Script/ItemPickUp.cs"
 "Assets/Script/Items.cs"
 "Assets/Script/PlayerCtrl.cs"
+"Assets/UI pack/Scripts/FillValueNumber.cs"
 -langversion:9.0
 
 /deterministic

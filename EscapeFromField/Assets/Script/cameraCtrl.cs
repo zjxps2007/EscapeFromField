@@ -8,9 +8,9 @@ public class CameraCtrl : MonoBehaviour
     [SerializeField]
     private Transform mainCamera;
 
-    private float followSpeed = 10f;
-    private float sensitivity = 100f;
-    private float clampAngle = 45f;
+    private readonly float followSpeed = 10f;
+    private readonly float sensitivity = 100f;
+    private readonly float clampAngle = 45f;
 
     private float xMove;
     private float yMove;
@@ -41,15 +41,7 @@ public class CameraCtrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        xMove -= Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
-        yMove += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-        
-        //카메라 y좌표 움직임 제한
-        xMove = Mathf.Clamp(xMove, -clampAngle, clampAngle);
-        
-        Quaternion rot = Quaternion.Euler(xMove, yMove, 0);
-        transform.rotation = rot;
-        
+        CameraMoving();
     }
 
     private void LateUpdate()
@@ -67,5 +59,17 @@ public class CameraCtrl : MonoBehaviour
         }
 
         mainCamera.localPosition = Vector3.Lerp(mainCamera.localPosition, dirNormalized * finalDistance, Time.deltaTime * smoothness);
+    }
+
+    void CameraMoving()
+    {
+        xMove -= Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
+        yMove += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+        
+        //카메라 y좌표 움직임 제한
+        xMove = Mathf.Clamp(xMove, -clampAngle, clampAngle);
+        
+        Quaternion rot = Quaternion.Euler(xMove, yMove, 0);
+        transform.rotation = rot;
     }
 }

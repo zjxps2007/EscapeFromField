@@ -19,15 +19,21 @@ public class ActionCtrl : MonoBehaviour
     [SerializeField] 
     private Text actionText;
 
+    private Camera _camera;
+
     // Start is called before the first frame update
     void Start()
     {
+        //_camera = GetComponent<Camera>();
+        _camera = GetComponentInChildren<Camera>();
     }
 
     // Update is called once per frameTransformDirection
     void Update()
     {
-        Debug.DrawRay(objPly.position, transform.TransformDirection(Vector3.forward * range),Color.magenta);
+        Ray ray = _camera.ScreenPointToRay(new Vector3(0, 0, 0));
+        Debug.DrawRay(ray.origin, ray.direction * 20f, Color.magenta, 5f);
+        //Debug.DrawRay(objPly.position, transform.TransformDirection(Vector3.forward * range),Color.magenta);
         if (Input.GetKeyDown(KeyCode.F))
         {
             CheckItem();
@@ -37,7 +43,6 @@ public class ActionCtrl : MonoBehaviour
 
     void CheckItem()
     {
-        
         if (Physics.Raycast(objPly.position, transform.TransformDirection(Vector3.forward), out hit, range, _layerMask))
         {
             if (hit.transform.tag == "Item")

@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerCtrl : MonoBehaviour
 {
     private float _speed; // 플레이어 속도
-    private readonly float _jump = 3.0f; // 점프 높이
-    //private bool isJump = false; // 점프 상태
+    private readonly float _jump = 5.0f; // 점프 높이
+    private bool isJump = false; // 점프 상태
 
     private Animator anim; // 플레이어 에니메이션
     private Vector3 _movDir; //플레이어 이동
@@ -13,6 +13,8 @@ public class PlayerCtrl : MonoBehaviour
     private CharacterController _characterController;
     private static readonly int IsRun = Animator.StringToHash("IsRun");
     private static readonly int IsWalk = Animator.StringToHash("IsWalk");
+
+    private float yVel;
 
     private void Awake()
     {
@@ -64,26 +66,23 @@ public class PlayerCtrl : MonoBehaviour
         }
 
         _movDir = transform.TransformDirection(_movDir).normalized * _speed;
+        Jump();
         _characterController.Move(_movDir * Time.deltaTime);
     }
 
     private void Jump()
     {
+        if (Input.GetKeyDown(KeyCode.Space) && !isJump)
+        {
+            isJump = true;
+            yVel = _jump;
+        }
         if (_characterController.isGrounded)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                
-            }
+            isJump = false;
+            yVel = 0;
         }
-    }
-    
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Floor"))
-        {
-            //isJump = false;
-        }
+        _movDir.y = yVel;
     }
     
     private void OnTriggerStay(Collider other)

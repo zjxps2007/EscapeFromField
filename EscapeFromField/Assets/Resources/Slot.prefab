@@ -94,7 +94,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2119568846299602178
 RectTransform:
   m_ObjectHideFlags: 0
@@ -251,4 +251,3 @@ MonoBehaviour:
   itemCount: 0
   itemImage: {fileID: 2119568845228960537}
   _textCount: {fileID: 2119568846299602179}
-  go_CountImage: {fileID: 0}

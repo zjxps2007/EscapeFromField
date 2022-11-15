@@ -95,5 +95,5 @@ public class ActionCtrl : MonoBehaviour
                 InfoDisappear();
             }
         }
-    }
+        }
 }

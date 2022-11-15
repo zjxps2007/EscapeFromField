@@ -8,6 +8,9 @@ public class ActionCtrl : MonoBehaviour
 
     [SerializeField] 
     private Text actionText;
+
+    [SerializeField]
+    private OnInventory theInventory;
     
     private readonly float _range = 4.3f;
     
@@ -91,9 +94,10 @@ public class ActionCtrl : MonoBehaviour
             if (_hit.transform != null)
             {
                 Debug.Log(_hit.transform.GetComponent<ItemPickUp>().item.itemName + "흭득했습니다.");
+                theInventory.AcquireItem(_hit.transform.GetComponent<ItemPickUp>().item);
                 Destroy(_hit.transform.gameObject);
                 InfoDisappear();
             }
         }
-        }
+    }
 }

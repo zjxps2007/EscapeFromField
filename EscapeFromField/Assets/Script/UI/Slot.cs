@@ -1,7 +1,8 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Slot : MonoBehaviour
+public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler
 {
     public Items item;
 
@@ -11,7 +12,14 @@ public class Slot : MonoBehaviour
 
     [SerializeField]
     private Text _textCount;
-    
+
+    private Vector3 originPos;
+
+    private void Start()
+    {
+        originPos = transform.position;
+    }
+
     void SetColor(float _alpha)
     {
         Color color = itemImage.color;
@@ -57,5 +65,75 @@ public class Slot : MonoBehaviour
         SetColor(0);
         
         _textCount.text = "0";
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (eventData.button == PointerEventData.InputButton.Right)
+        {
+            if (item != null)
+            {
+                if (item.itemType == Items.ItemType.Equipment)
+                {
+                    //창착
+                    //무기를 구현 안해서 일단은 아이템 사용만
+                }
+                else
+                {
+                    //소모
+                    Debug.Log(item.itemName + "을 사용했습니다.");
+                    SetSlotCount(-1);
+                }
+            }
+        }
+    }
+
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        if (item != null)
+        {
+            DragSlot.instance.dragSlot = this;
+            DragSlot.instance.DragSetImage(itemImage);
+            DragSlot.instance.transform.position = eventData.position;
+        }
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (item != null)
+        {
+            DragSlot.instance.transform.position = eventData.position;
+        }
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        DragSlot.instance.SetColor(0);
+        DragSlot.instance.dragSlot = null;
+    }
+
+    public void OnDrop(PointerEventData eventData)
+    {
+        if (DragSlot.instance.dragSlot != null)
+        {
+            ChangeSlot();
+        }
+    }
+
+    private void ChangeSlot()
+    {
+        Items tempItems = item;
+        int tempItempCount = itemCount;
+        
+        AddItem(DragSlot.instance.dragSlot.item, DragSlot.instance.dragSlot.itemCount);
+        
+        if (tempItems != null)
+        {
+            DragSlot.instance.dragSlot.AddItem(tempItems, tempItempCount);
+        }
+        else
+        {
+            DragSlot.instance.dragSlot.ClearSlot();
+        }
     }
 }

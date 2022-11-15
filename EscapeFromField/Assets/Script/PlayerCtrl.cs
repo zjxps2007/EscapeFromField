@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class PlayerCtrl : MonoBehaviour
@@ -14,7 +13,7 @@ public class PlayerCtrl : MonoBehaviour
     private CharacterController _characterController;
     private static readonly int IsRun = Animator.StringToHash("IsRun");
     private static readonly int IsWalk = Animator.StringToHash("IsWalk");
-    
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -30,9 +29,11 @@ public class PlayerCtrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
-        SetAnimator();
-        Jump();
+        if (!OnInventory.inventoryActivated)
+        {
+            Move();
+            SetAnimator();
+        }
     }
 
     private void SetAnimator() // 플레이어 에니메이션
@@ -55,7 +56,6 @@ public class PlayerCtrl : MonoBehaviour
     private void Move() //플레이어 이동
     {
         _movDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-
         if (Camera.main != null)
         {
             var offset = Camera.main.transform.forward;
@@ -63,8 +63,8 @@ public class PlayerCtrl : MonoBehaviour
             transform.LookAt(transform.position + offset);
         }
 
-        _movDir = transform.TransformDirection(_movDir).normalized;
-        _characterController.Move(_movDir * _speed * Time.deltaTime);
+        _movDir = transform.TransformDirection(_movDir).normalized * _speed;
+        _characterController.Move(_movDir * Time.deltaTime);
     }
 
     private void Jump()
@@ -73,7 +73,7 @@ public class PlayerCtrl : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                _movDir.y = _jump;
+                
             }
         }
     }

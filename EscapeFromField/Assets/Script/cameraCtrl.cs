@@ -34,14 +34,17 @@ public class CameraCtrl : MonoBehaviour
         finalDistance = mainCamera.localPosition.magnitude;
         
         //플레이 할때 커서를 사라지게 해줌
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        // Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.visible = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        CameraMoving();
+        if (!OnInventory.inventoryActivated)
+        {
+            CameraMoving();
+        }
     }
 
     private void LateUpdate()

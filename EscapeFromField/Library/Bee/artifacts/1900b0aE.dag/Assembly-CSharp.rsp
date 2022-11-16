@@ -395,6 +395,7 @@
 "Assets/Script/Item/ItemPickUp.cs"
 "Assets/Script/Item/Items.cs"
 "Assets/Script/PlayerCtrl.cs"
+"Assets/Script/UI/CrossInventory.cs"
 "Assets/Script/UI/DragSlot.cs"
 "Assets/Script/UI/OnInventory.cs"
 "Assets/Script/UI/Slot.cs"

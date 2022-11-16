@@ -49,11 +49,17 @@ public class OnInventory : MonoBehaviour
 
     void OpenInventory()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        
         inventoryBase.SetActive(true);
     }
 
     void CloseInventory()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        
         inventoryBase.SetActive(false);
     }
 

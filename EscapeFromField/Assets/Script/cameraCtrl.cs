@@ -22,7 +22,7 @@ public class CameraCtrl : MonoBehaviour
     
     private float minDistance = 1.0f;
     private float maxDistance = 2.7f;
-    private float smoothness = 1000f;
+    private float smoothness = 2000f;
 
     // Start is called before the first frame update
     void Start()
@@ -34,8 +34,8 @@ public class CameraCtrl : MonoBehaviour
         finalDistance = mainCamera.localPosition.magnitude;
         
         //플레이 할때 커서를 사라지게 해줌
-        // Cursor.lockState = CursorLockMode.Locked;
-        // Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame

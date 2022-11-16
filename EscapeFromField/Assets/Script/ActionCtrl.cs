@@ -45,7 +45,8 @@ public class ActionCtrl : MonoBehaviour
         Ray ray = _camera.ScreenPointToRay(new Vector3(_camera.pixelWidth / 2, _camera.pixelHeight / 2, 0));
         Debug.DrawRay(ray.origin, ray.direction * 4.3f, Color.green);
     }
-
+    
+    //F키로 상호 작용
     void Action()
     {
         if (Input.GetKeyDown(KeyCode.F))
@@ -54,7 +55,8 @@ public class ActionCtrl : MonoBehaviour
             Pick();
         }
     }
-
+    
+    //레이케스트로 아이템을 확인
     void CheckItem()
     {
         Ray ray = _camera.ScreenPointToRay(new Vector3(_camera.pixelWidth / 2, _camera.pixelHeight / 2, 0));
@@ -72,12 +74,12 @@ public class ActionCtrl : MonoBehaviour
         }
     }
     
-    //아이템의 정보를 가져옴 (지금은 이름만)
+    //아이템의 정보를 가져옴
     void ItemInfo()
     {
         _pickUp = true;
         actionText.gameObject.SetActive(true);
-        actionText.text = _hit.transform.GetComponent<ItemPickUp>().item.itemName + " 획득 " + "<color=aqua>(F)</color>";
+        actionText.text = _hit.transform.GetComponent<ItemPickUp>().item.itemName + " 획득 " + "<color=#FF00FF>(F)</color>";
     }
 
     void InfoDisappear()

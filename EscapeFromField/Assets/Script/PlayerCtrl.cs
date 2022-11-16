@@ -3,18 +3,19 @@ using UnityEngine;
 public class PlayerCtrl : MonoBehaviour
 {
     private float _speed; // 플레이어 속도
-    private readonly float _jump = 5.0f; // 점프 높이
-    private bool isJump = false; // 점프 상태
+    private readonly float _jump = 3.0f; // 점프 높이
+    private bool _isJump = false; // 점프 상태
+    private float _yVelocity;
 
     private Animator anim; // 플레이어 에니메이션
     private Vector3 _movDir; //플레이어 이동
     private GameObject _weaponObject; // 무기 교체
 
-    private CharacterController _characterController;
+    private CharacterController _characterController; //캐릭터 컨트롤러
+    
+    //에니메이션
     private static readonly int IsRun = Animator.StringToHash("IsRun");
     private static readonly int IsWalk = Animator.StringToHash("IsWalk");
-
-    private float yVel;
 
     private void Awake()
     {
@@ -72,45 +73,45 @@ public class PlayerCtrl : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !isJump)
+        if (Input.GetKeyDown(KeyCode.Space) && !_isJump)
         {
-            isJump = true;
-            yVel = _jump;
+            _isJump = true;
+            _yVelocity = _jump;
         }
         if (_characterController.isGrounded)
         {
-            isJump = false;
-            yVel = 0;
+            _isJump = false;
+            _yVelocity = 0;
         }
-        _movDir.y = yVel;
+        _movDir.y = _yVelocity;
     }
     
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.CompareTag("Weapon"))
-        {
-            _weaponObject = other.gameObject;
-        }
-        Debug.Log(_weaponObject.name);
-    } 
-    
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Weapon"))
-        {
-            _weaponObject = null;
-        }
-    }
-    
-
-    private void Interation()
-    {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            if (_weaponObject.CompareTag("Weapon"))
-            {
-                
-            }
-        }
-    }
+    // private void OnTriggerStay(Collider other)
+    // {
+    //     if (other.CompareTag("Weapon"))
+    //     {
+    //         _weaponObject = other.gameObject;
+    //     }
+    //     Debug.Log(_weaponObject.name);
+    // } 
+    //
+    // private void OnTriggerExit(Collider other)
+    // {
+    //     if (other.CompareTag("Weapon"))
+    //     {
+    //         _weaponObject = null;
+    //     }
+    // }
+    //
+    //
+    // private void Interation()
+    // {
+    //     if (Input.GetKeyDown(KeyCode.F))
+    //     {
+    //         if (_weaponObject.CompareTag("Weapon"))
+    //         {
+    //             
+    //         }
+    //     }
+    // }
 }

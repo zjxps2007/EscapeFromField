@@ -399,6 +399,7 @@
 "Assets/Script/UI/DragSlot.cs"
 "Assets/Script/UI/OnInventory.cs"
 "Assets/Script/UI/Slot.cs"
+"Assets/Script/UI/SlotToolTip.cs"
 "Assets/UI pack/Scripts/FillValueNumber.cs"
 -langversion:9.0
 

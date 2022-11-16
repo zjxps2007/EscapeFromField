@@ -399,6 +399,9 @@
 "Assets/Script/UI/OnInventory.cs"
 "Assets/Script/UI/Slot.cs"
 "Assets/UI pack/Scripts/FillValueNumber.cs"
+"Assets/ZombiSoft/TinyHealthSystem/Demo/Demo.cs"
+"Assets/ZombiSoft/TinyHealthSystem/Demo/PopupText.cs"
+"Assets/ZombiSoft/TinyHealthSystem/HealthSystem.cs"
 -langversion:9.0
 
 /deterministic

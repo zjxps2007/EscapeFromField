@@ -13,11 +13,11 @@ public class Slot : MonoBehaviour, IPointerClickHandler, IBeginDragHandler, IDra
     [SerializeField]
     private Text _textCount;
 
-    private Vector3 originPos;
+    private Vector3 _originPos;
 
     private void Start()
     {
-        originPos = transform.position;
+        _originPos = transform.position;
     }
 
     void SetColor(float _alpha)

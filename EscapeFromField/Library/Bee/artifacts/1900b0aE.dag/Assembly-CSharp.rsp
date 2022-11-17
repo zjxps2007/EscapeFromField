@@ -392,14 +392,22 @@
 "Assets/Resources/UsrLog.cs"
 "Assets/Script/ActionCtrl.cs"
 "Assets/Script/CameraCtrl.cs"
+"Assets/Script/Health.cs"
+"Assets/Script/Item/ItemEffectDatabase.cs"
 "Assets/Script/Item/ItemPickUp.cs"
 "Assets/Script/Item/Items.cs"
 "Assets/Script/PlayerCtrl.cs"
+"Assets/Script/Test.cs"
 "Assets/Script/UI/CrossInventory.cs"
 "Assets/Script/UI/DragSlot.cs"
 "Assets/Script/UI/OnInventory.cs"
 "Assets/Script/UI/Slot.cs"
+"Assets/Script/UI/SlotToolTip.cs"
+"Assets/Script/WorldspaceHealthBar.cs"
 "Assets/UI pack/Scripts/FillValueNumber.cs"
+"Assets/ZombiSoft/TinyHealthSystem/Demo/Demo.cs"
+"Assets/ZombiSoft/TinyHealthSystem/Demo/PopupText.cs"
+"Assets/ZombiSoft/TinyHealthSystem/HealthSystem.cs"
 -langversion:9.0
 
 /deterministic

@@ -20,9 +20,9 @@ public class CameraCtrl : MonoBehaviour
     private Vector3 finalDir;
     private float finalDistance;
     
-    private float minDistance = 1.0f;
-    private float maxDistance = 2.7f;
-    private float smoothness = 2000f;
+    private readonly float minDistance = 1.0f;
+    private readonly float maxDistance = 2.7f;
+    private readonly float smoothness = 2000f; //마우스 감도
 
     // Start is called before the first frame update
     void Start()

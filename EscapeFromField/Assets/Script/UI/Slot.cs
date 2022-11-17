@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -15,6 +17,13 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
 
     private Vector3 _originPos;
     private SlotToolTip theSlot;
+
+    private ItemEffectDatabase _itemEffectDatabase;
+
+    private void Awake()
+    {
+        _itemEffectDatabase = FindObjectOfType<ItemEffectDatabase>();
+    }
 
     private void Start()
     {
@@ -82,8 +91,12 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
                 else
                 {
                     //소모
+                    _itemEffectDatabase.UseItem(item);
                     Debug.Log(item.itemName + "을 사용했습니다.");
-                    SetSlotCount(-1);
+                    if (item.itemType == Items.ItemType.Used)
+                    {
+                        SetSlotCount(-1);
+                    }
                 }
             }
         }
@@ -146,5 +159,12 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     public void OnPointerExit(PointerEventData eventData)
     {
         
+    }
+
+    //아이템 사용 지연시간
+    IEnumerator Drink()
+    {
+        yield return new WaitForSeconds(1.0f);
+        // 불형 변수로 지정해서 변경
     }
 }

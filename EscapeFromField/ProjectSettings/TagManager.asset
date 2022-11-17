@@ -7,6 +7,8 @@ TagManager:
   - Weapon
   - Floor
   - Item
+  - ManaSprite
+  - HealthSprite
   layers:
   - Default
   - TransparentFX

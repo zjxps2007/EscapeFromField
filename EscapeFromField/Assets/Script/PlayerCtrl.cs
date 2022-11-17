@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,7 +20,10 @@ public class PlayerCtrl : MonoBehaviour
     private readonly float _jump = 4.5f; // 점프 높이
     private bool _isJump; // 점프 상태
     private float _yVelocity; //점프
+    
+    //체력 또는 마나 관리 타이머
     private float _mpTimer = 2f;
+    private float _hpTimer = 2f;
     
     //플레이어의 체력 관리
     private float hpPoint = 50;
@@ -57,6 +61,7 @@ public class PlayerCtrl : MonoBehaviour
         Move();
         SetAnimator();
         UpdateGraphics();
+        _hpTimer += Time.deltaTime;
     }
 
     private void SetAnimator() // 플레이어 에니메이션
@@ -67,7 +72,7 @@ public class PlayerCtrl : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift) && _movDir != Vector3.zero && _mpPoint > 0) // 달리기
         {
-            if (_mpTimer >= 0.1f)
+            if (_mpTimer >= 0.2f)
             {
                 _mpPoint -= 1f;
                 _mpTimer = 0;
@@ -77,7 +82,7 @@ public class PlayerCtrl : MonoBehaviour
         }
         else
         {
-            if (_movDir == Vector3.zero)
+            if (_movDir == Vector3.zero && !_isJump)
             {
                 if (_mpPoint < _maxMpPoint)
                 {
@@ -110,10 +115,15 @@ public class PlayerCtrl : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !_isJump)
+        if (Input.GetKeyDown(KeyCode.Space) && !_isJump && _mpPoint > 0)
         {
             _isJump = true;
             _yVelocity = _jump;
+            _mpPoint -= 10f;
+            if (_mpPoint - 10 <= 0)
+            {
+                _mpPoint = 0;
+            }
         }
         if (_characterController.isGrounded)
         {
@@ -143,4 +153,42 @@ public class PlayerCtrl : MonoBehaviour
         PlayManaUI();
 
     }
+    
+    //테스트 함수
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.gameObject.tag);
+    }
+
+    //아이템에 명시된 만큼 회복
+    public void IncreaseHP(int _heal)
+    {
+        hpPoint += _heal;
+        if (hpPoint > maxHpPoint)
+        {
+            hpPoint = maxHpPoint;
+        }
+    }
+
+    //지연회복 구현
+    public void IncreaseSlowHP(int _heal)
+    {
+        
+    }
+
+    //마나 회복 구현
+    public void IncreaseMP(int _heal)
+    {
+        _mpPoint += _heal;
+        if (_mpPoint > _maxMpPoint)
+        {
+            _mpPoint = _maxMpPoint;
+        }
+    }
 }
+
+/*
+ 캐릭터 컨트롤러 충돌검사 방법
+ OnTriggerEnter - 가만히 있는 물체를 충돌검사 할때
+ OnControllerColliderHit - 이동중에 충돌검사 할때
+*/

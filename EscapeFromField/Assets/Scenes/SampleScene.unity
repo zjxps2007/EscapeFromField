@@ -379,6 +379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TTS_Camo_ucp_Support
       objectReference: {fileID: 0}
+    - target: {fileID: 2327001148884159384, guid: 6adae356b1f3fcb45aeb6c195440a838, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2327001148884326392, guid: 6adae356b1f3fcb45aeb6c195440a838, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -857,6 +861,7 @@ GameObject:
   - component: {fileID: 300110318}
   - component: {fileID: 300110317}
   - component: {fileID: 300110316}
+  - component: {fileID: 300110320}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -950,6 +955,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &300110320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300110315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f6bc2ec03f4454594c8e9fdc4330a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemEffects:
+  - itemName: Medical Kit
+    part:
+    - HP
+    num: 19000000
+  _playerCtrl: {fileID: 2058281577}
 --- !u!1 &313226240
 GameObject:
   m_ObjectHideFlags: 0
@@ -2146,6 +2169,7 @@ GameObject:
   - component: {fileID: 766088817}
   - component: {fileID: 766088816}
   - component: {fileID: 766088815}
+  - component: {fileID: 766088819}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -2161,7 +2185,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766088814}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -2231,6 +2255,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &766088819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766088814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0886ff2ba8d91448b50105505ac1661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &780075950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4002,7 +4038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -330, y: 0}
+  m_AnchoredPosition: {x: -270, y: 25}
   m_SizeDelta: {x: 305, y: 370}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1608770002
@@ -4836,6 +4872,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc727501756aee741997efa9a175c317, type: 3}
+--- !u!114 &2058281577 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -2552908127593862988, guid: 6adae356b1f3fcb45aeb6c195440a838, type: 3}
+  m_PrefabInstance: {fileID: 196055165}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c07ca7a0170fc1646b40ce924c4975e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2119568845689901446
 PrefabInstance:
   m_ObjectHideFlags: 0

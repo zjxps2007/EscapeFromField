@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: MedicalKit
   m_EditorClassIdentifier: 
   itemName: Medical Kit
-  itemImage: {fileID: 21300000, guid: 3010a40ac3a71ba419b4d98ff9d2a2cb, type: 3}
+  itemDesc: "\uAD6C\uAE09\uD0B7\uD2B8\uC785\uB2C8\uB2E4.\n\uC0AC\uC6A9\uD558\uBA74
+    \uC989\uC2DC \uD68D\uBCF5\uB429\uB2C8\uB2E4."
+  itemImage: {fileID: 21300000, guid: ae1f9d5701334cd488fdd24cfdd6cbe9, type: 3}
   itemPrefab: {fileID: 1812453638202030619, guid: c6776ea35b3d59b46907ebd401b343ff, type: 3}
   weaponType: 0
   itemType: 1

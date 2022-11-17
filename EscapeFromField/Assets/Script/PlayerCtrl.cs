@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerCtrl : MonoBehaviour
 {
     private float _speed; // 플레이어 속도
-    private readonly float _jump = 3.0f; // 점프 높이
+    private readonly float _jump = 4.5f; // 점프 높이
     private bool _isJump = false; // 점프 상태
     private float _yVelocity;
 
@@ -32,11 +32,8 @@ public class PlayerCtrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!OnInventory.inventoryActivated)
-        {
-            Move();
-            SetAnimator();
-        }
+        Move();
+        SetAnimator();
     }
 
     private void SetAnimator() // 플레이어 에니메이션
@@ -85,33 +82,4 @@ public class PlayerCtrl : MonoBehaviour
         }
         _movDir.y = _yVelocity;
     }
-    
-    // private void OnTriggerStay(Collider other)
-    // {
-    //     if (other.CompareTag("Weapon"))
-    //     {
-    //         _weaponObject = other.gameObject;
-    //     }
-    //     Debug.Log(_weaponObject.name);
-    // } 
-    //
-    // private void OnTriggerExit(Collider other)
-    // {
-    //     if (other.CompareTag("Weapon"))
-    //     {
-    //         _weaponObject = null;
-    //     }
-    // }
-    //
-    //
-    // private void Interation()
-    // {
-    //     if (Input.GetKeyDown(KeyCode.F))
-    //     {
-    //         if (_weaponObject.CompareTag("Weapon"))
-    //         {
-    //             
-    //         }
-    //     }
-    // }
 }

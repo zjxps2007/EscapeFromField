@@ -1,13 +1,35 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerCtrl : MonoBehaviour
 {
+    //플레이어 체력 및 마나 텍스트
+    [SerializeField] 
+    private Text hpText;
+    [SerializeField] 
+    private Text mpText;
+    
+    //플레이어 체력 및 마나 이미지
+    [SerializeField] 
+    private Image hpImage;
+    [SerializeField] 
+    private Image mpImage;
+    
     private float _speed; // 플레이어 속도
     private readonly float _jump = 4.5f; // 점프 높이
-    private bool _isJump = false; // 점프 상태
-    private float _yVelocity;
+    private bool _isJump; // 점프 상태
+    private float _yVelocity; //점프
+    private float _mpTimer = 2f;
+    
+    //플레이어의 체력 관리
+    private float hpPoint = 50;
+    private float maxHpPoint = 100;
+    //플레이어 마나 관리
+    private float _mpPoint = 10;
+    private float _maxMpPoint = 100;
+    
 
-    private Animator anim; // 플레이어 에니메이션
+    private Animator _anim; // 플레이어 에니메이션
     private Vector3 _movDir; //플레이어 이동
     private GameObject _weaponObject; // 무기 교체
 
@@ -19,7 +41,7 @@ public class PlayerCtrl : MonoBehaviour
 
     private void Awake()
     {
-        anim = GetComponent<Animator>();
+        _anim = GetComponent<Animator>();
         _characterController = GetComponent<CharacterController>();
     }
     
@@ -34,22 +56,40 @@ public class PlayerCtrl : MonoBehaviour
     {
         Move();
         SetAnimator();
+        UpdateGraphics();
     }
 
     private void SetAnimator() // 플레이어 에니메이션
     {
+        _mpTimer += Time.deltaTime;
         _movDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        anim.SetBool(IsWalk, _movDir != Vector3.zero);
+        _anim.SetBool(IsWalk, _movDir != Vector3.zero);
 
-        if (Input.GetKey(KeyCode.LeftShift) && _movDir != Vector3.zero) // 달리기
+        if (Input.GetKey(KeyCode.LeftShift) && _movDir != Vector3.zero && _mpPoint > 0) // 달리기
         {
+            if (_mpTimer >= 0.1f)
+            {
+                _mpPoint -= 1f;
+                _mpTimer = 0;
+            }
             _speed = 3.0f;
-            anim.SetBool(IsRun, true);
+            _anim.SetBool(IsRun, true);
         }
         else
         {
+            if (_movDir == Vector3.zero)
+            {
+                if (_mpPoint < _maxMpPoint)
+                {
+                    if (_mpTimer >= 0.1f)
+                    {
+                        _mpPoint += 1;
+                        _mpTimer = 0;
+                    }
+                }
+            }
             _speed = 2.0f;
-            anim.SetBool(IsRun, false);
+            _anim.SetBool(IsRun, false);
         }
     }
 
@@ -81,5 +121,26 @@ public class PlayerCtrl : MonoBehaviour
             _yVelocity = 0;
         }
         _movDir.y = _yVelocity;
+    }
+    
+    void PlayHealthUI()
+    {
+        float ratio = hpPoint / maxHpPoint;
+        hpImage.rectTransform.localPosition = new Vector3(hpImage.rectTransform.rect.width * ratio - hpImage.rectTransform.rect.width, 0, 0);
+        hpText.text = hpPoint.ToString("0") + "/" + maxHpPoint.ToString("0");
+    }
+    
+    void PlayManaUI()
+    {
+        float ratio = _mpPoint / _maxMpPoint;
+        mpImage.rectTransform.localPosition = new Vector3(mpImage.rectTransform.rect.width * ratio - mpImage.rectTransform.rect.width, 0, 0);
+        mpText.text = _mpPoint.ToString("0") + "/" + _maxMpPoint.ToString("0");
+    }
+
+    void UpdateGraphics()
+    {
+        PlayHealthUI();
+        PlayManaUI();
+
     }
 }

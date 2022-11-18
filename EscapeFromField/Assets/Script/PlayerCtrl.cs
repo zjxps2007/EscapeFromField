@@ -72,7 +72,7 @@ public class PlayerCtrl : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift) && _movDir != Vector3.zero && _mpPoint > 0) // 달리기
         {
-            if (_mpTimer >= 0.2f)
+            if (_mpTimer >= 0.3f)
             {
                 _mpPoint -= 1f;
                 _mpTimer = 0;
@@ -86,7 +86,7 @@ public class PlayerCtrl : MonoBehaviour
             {
                 if (_mpPoint < _maxMpPoint)
                 {
-                    if (_mpTimer >= 0.1f)
+                    if (_mpTimer >= 0.2f)
                     {
                         _mpPoint += 1;
                         _mpTimer = 0;

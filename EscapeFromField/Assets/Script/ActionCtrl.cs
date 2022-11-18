@@ -24,12 +24,7 @@ public class ActionCtrl : MonoBehaviour
     {
         _camera = GetComponentInChildren<Camera>();
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
+    
     // Update is called once per frameTransformDirection
     void Update()
     {

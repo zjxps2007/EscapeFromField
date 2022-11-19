@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -61,7 +60,6 @@ public class PlayerCtrl : MonoBehaviour
         Move();
         SetAnimator();
         UpdateGraphics();
-        _hpTimer += Time.deltaTime;
     }
 
     private void SetAnimator() // 플레이어 에니메이션

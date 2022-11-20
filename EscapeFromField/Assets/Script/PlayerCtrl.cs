@@ -17,18 +17,17 @@ public class PlayerCtrl : MonoBehaviour
     
     private float _speed; // 플레이어 속도
     private readonly float _jump = 4.5f; // 점프 높이
-    private bool _isJump; // 점프 상태
-    private float _yVelocity; //점프
+    private bool _isJump = false; // 점프 상태
+    private float _yVelocity; //점프속도?
     
     //체력 또는 마나 관리 타이머
     private float _mpTimer = 2f;
-    private float _hpTimer = 2f;
-    
+
     //플레이어의 체력 관리
     private float hpPoint = 50;
     private float maxHpPoint = 100;
     //플레이어 마나 관리
-    private float _mpPoint = 10;
+    private float _mpPoint = 100;
     private float _maxMpPoint = 100;
     
 

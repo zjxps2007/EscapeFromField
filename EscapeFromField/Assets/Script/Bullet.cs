@@ -7,13 +7,13 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Destroy(gameObject, 10);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.forward * 30f * Time.deltaTime);
+        transform.Translate(Vector3.forward * 50f * Time.deltaTime);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -24,6 +24,11 @@ public class Bullet : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Wall")
         {
+            Destroy(gameObject);
+        }
+        else if (collision.gameObject.tag == "Enemy")
+        {
+            Debug.Log(collision.gameObject.tag);
             Destroy(gameObject);
         }
     }

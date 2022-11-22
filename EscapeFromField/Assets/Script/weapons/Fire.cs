@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Fire : MonoBehaviour
@@ -21,9 +19,12 @@ public class Fire : MonoBehaviour
         aimVec = (Camera.main.transform.position - firePos.transform.position) + (Camera.main.transform.forward * 50f);
         firePos.transform.rotation = Quaternion.LookRotation(aimVec);
 
-        if (Input.GetMouseButtonDown(0))
+        if (!OnInventory.inventoryActivated)
         {
-            Instantiate(bulletPrefab, firePos.transform.position, firePos.transform.rotation);
+            if (Input.GetMouseButtonDown(0))
+            {
+                Instantiate(bulletPrefab, firePos.transform.position, firePos.transform.rotation);
+            }
         }
     }
 }

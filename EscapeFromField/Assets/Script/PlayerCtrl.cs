@@ -3,6 +3,8 @@ using UnityEngine.UI;
 
 public class PlayerCtrl : MonoBehaviour
 {
+    public static int score = 0;
+    
     //플레이어 체력 및 마나 텍스트
     [SerializeField] 
     private Text hpText;
@@ -14,6 +16,9 @@ public class PlayerCtrl : MonoBehaviour
     private Image hpImage;
     [SerializeField] 
     private Image mpImage;
+
+    [SerializeField]
+    private Text Kill;
 
     private float _speed; // 플레이어 속도
     private readonly float _jump = 4.5f; // 점프 높이
@@ -29,7 +34,6 @@ public class PlayerCtrl : MonoBehaviour
     //플레이어 마나 관리
     private float _mpPoint = 100;
     private float _maxMpPoint = 100;
-    
 
     private Animator _anim; // 플레이어 에니메이션
     private Vector3 _movDir; //플레이어 이동
@@ -148,15 +152,14 @@ public class PlayerCtrl : MonoBehaviour
     {
         PlayHealthUI();
         PlayManaUI();
+        ShowView();
+    }
 
+    void ShowView()
+    {
+        Kill.text = score.ToString();
     }
     
-    //테스트 함수
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log(other.gameObject.tag);
-    }
-
     //아이템에 명시된 만큼 회복
     public void IncreaseHP(int _heal)
     {

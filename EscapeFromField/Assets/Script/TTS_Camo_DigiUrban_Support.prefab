@@ -36320,7 +36320,7 @@ Animator:
   m_GameObject: {fileID: 6241771925919948927}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 355dee00690527447a793c7124eca10c, type: 3}
-  m_Controller: {fileID: 9100000, guid: 4d4844ef2b5c62949a82271dba2d05d8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9bd3c09d357243944aa6961f07748445, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -36378,12 +36378,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9eaf7a09f0e51440b1671306b90515f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTfWayPoint: []
-  m_angle: 0
-  m_distance: 0
-  m_layerMask:
-    serializedVersion: 2
-    m_Bits: 0
+  Prefab: {fileID: 6544479893476083650, guid: a82432d1109cc4c49b891160c9db1aa7, type: 3}
+  mTfWayPoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &6241771925919949185
 GameObject:
   m_ObjectHideFlags: 0

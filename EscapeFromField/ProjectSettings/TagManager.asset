@@ -9,6 +9,9 @@ TagManager:
   - Item
   - ManaSprite
   - HealthSprite
+  - Enemy
+  - Wall
+  - Bullet
   layers:
   - Default
   - TransparentFX

@@ -1,21 +1,21 @@
-using System;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    private NavMeshAgent m_enemy = null;
+    private NavMeshAgent _mEnemy;
 
-    private Animator _animator;
-
-    [SerializeField] 
-    private Transform[] m_tfWayPoint = null;
-
-    private int m_count = 0;
+    private Animator _animator; //적 애니메이션
+    
+    private int _mCount; //순찰한 갯수
+    
+    private Transform[] mTfWayPoint = null; //적이 순찰할 위치
+    
+    private static readonly int IsWalk = Animator.StringToHash("IsWalk");
 
     private void Awake()
     {
-        m_enemy = GetComponent<NavMeshAgent>();
+        _mEnemy = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
     }
 
@@ -28,18 +28,18 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _animator.SetBool("IsWalk", m_enemy.velocity != Vector3.zero);
+        _animator.SetBool(IsWalk, _mEnemy.velocity != Vector3.zero);
     }
     
     void MoveToNextWayPoint()
     {
-        if (m_enemy.velocity == Vector3.zero)
+        if (_mEnemy.velocity == Vector3.zero)
         {
-            m_enemy.SetDestination(m_tfWayPoint[m_count++].position);
+            _mEnemy.SetDestination(mTfWayPoint[_mCount++].position);
 
-            if (m_count >= m_tfWayPoint.Length)
+            if (_mCount >= mTfWayPoint.Length)
             {
-                m_count = 0;
+                _mCount = 0;
             }
         }
     }

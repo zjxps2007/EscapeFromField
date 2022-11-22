@@ -9,7 +9,14 @@ public class EnemyAI : MonoBehaviour
     
     private int _mCount; //순찰한 갯수
     
+    [SerializeField]
     private Transform[] mTfWayPoint = null; //적이 순찰할 위치
+    [SerializeField] 
+    private float m_angle = 0f;
+    [SerializeField] 
+    private float m_distance = 0f;
+    [SerializeField] 
+    private LayerMask m_layerMask = 7;
     
     private static readonly int IsWalk = Animator.StringToHash("IsWalk");
 

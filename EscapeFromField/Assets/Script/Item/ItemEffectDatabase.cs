@@ -19,6 +19,8 @@ public class ItemEffectDatabase : MonoBehaviour
     private const string MP = "MP";
     private const string SlowHP = "SlowHP";
 
+    
+    //아이템 사용효과
     public void UseItem(Items _item)
     {
         if (_item.itemType == Items.ItemType.Used)

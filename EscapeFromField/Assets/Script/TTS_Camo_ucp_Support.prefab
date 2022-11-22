@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &361654579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 361654580}
+  m_Layer: 7
+  m_Name: muzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &361654580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361654579}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1171, y: -0, z: 0.859}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7912288057918960616}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1924286141383075
 GameObject:
   m_ObjectHideFlags: 0
@@ -10,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9133712457121943895}
   - component: {fileID: 6371824558991945412}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_I_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1449111434628706345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_G_Digital_Urban
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6447409363162661946}
   - component: {fileID: 6104529674241220503}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1769690548268788581}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_A_Multicam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359594056140182930}
   - component: {fileID: 6334129717462588814}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 525976749267872417}
   - component: {fileID: 565078809265002111}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -432,7 +463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1534941660816495061}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CameraArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8969734927025453696}
   - component: {fileID: 5225661090444442878}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_D_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1872487961180464423}
   - component: {fileID: 2821183713257342625}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -649,7 +680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7160516015854563902}
   - component: {fileID: 8512282704755384640}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_F_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -747,7 +778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3530447388107636990}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Plain_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -795,7 +826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7412295992153399304}
   - component: {fileID: 4133244527990589822}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,7 +912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3251364060504457717}
   - component: {fileID: 8631065217128636388}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_D_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -980,7 +1011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3666036668884163050}
   - component: {fileID: 5728626501306172393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_A_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1079,7 +1110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8561050471870567405}
   - component: {fileID: 2295548612190531053}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,7 +1196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2279610027159873583}
   - component: {fileID: 3105959017737070829}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1251,7 +1282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7252277711691508201}
   - component: {fileID: 4643446780667018162}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1337,7 +1368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2909581641281936870}
   - component: {fileID: 1752813884257099215}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_H_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1436,7 +1467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7881753926894886390}
   - component: {fileID: 5669900661484910542}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1522,7 +1553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2052543652994777220}
   - component: {fileID: 8302325169498134628}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1608,7 +1639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6094789887519185533}
   - component: {fileID: 3864287457673082323}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_I_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1706,7 +1737,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6017529464617055871}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1744,7 +1775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2897817862516999465}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1783,7 +1814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4108697209199575286}
   - component: {fileID: 7864620454472624424}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_E_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1882,7 +1913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3601548000552915838}
   - component: {fileID: 4325372779128240373}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1967,7 +1998,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3821967761269823077}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_E_Digital_Desert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2001,7 +2032,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4934858529116585344}
   - component: {fileID: 3627393986403961270}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_G_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2100,7 +2131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1069826017171780579}
   - component: {fileID: 683919453623750428}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2186,7 +2217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7048261222791019169}
   - component: {fileID: 7050234119153713508}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2272,7 +2303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1256351354482254052}
   - component: {fileID: 220015242930305388}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2358,7 +2389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 810020260061133953}
   - component: {fileID: 1989656681292379806}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2444,7 +2475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7329100254220697719}
   - component: {fileID: 1745109070155542506}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2530,7 +2561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9068882823022088866}
   - component: {fileID: 1581700090774160776}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_F_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2630,7 +2661,7 @@ GameObject:
   - component: {fileID: 5433404424143278768}
   - component: {fileID: 2822284148197477906}
   - component: {fileID: 6428346578789548442}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2711,7 +2742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9015124742914512206}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_N_Navy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2745,7 +2776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7464085386608862030}
   - component: {fileID: 96337685785351668}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2831,7 +2862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4798265841597337308}
   - component: {fileID: 438784649537679733}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_basic_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2917,7 +2948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7792833255348170871}
   - component: {fileID: 8220575334122866669}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3003,7 +3034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3182009842289343314}
   - component: {fileID: 6577916428086823382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3089,7 +3120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5354987076897914329}
   - component: {fileID: 5418899424779869867}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3175,7 +3206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1712472462175721784}
   - component: {fileID: 7762517549432928936}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3261,7 +3292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4125945762903272847}
   - component: {fileID: 6231558964690314194}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3347,7 +3378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 812012079871510502}
   - component: {fileID: 8908437970795126171}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3433,7 +3464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8114096406068118894}
   - component: {fileID: 6128659043961277768}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3519,7 +3550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3179830326387799398}
   - component: {fileID: 7227656840883201175}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_M_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3618,7 +3649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 113541822315430048}
   - component: {fileID: 7711328443890691252}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3704,7 +3735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7467108530482940949}
   - component: {fileID: 5108880809356640429}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3790,7 +3821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2456379067592682830}
   - component: {fileID: 7355042445607929560}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_H_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3889,7 +3920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4656027998234080253}
   - component: {fileID: 5709434266290341819}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_G_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3987,7 +4018,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4163686065821046444}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4026,7 +4057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 516633108097312226}
   - component: {fileID: 5079395691856670034}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4112,7 +4143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4557275629821632071}
   - component: {fileID: 155789786279525395}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_I_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4211,7 +4242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1623651669826725987}
   - component: {fileID: 4600841354064150873}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4297,7 +4328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4538122205978301843}
   - component: {fileID: 5968546673798332234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4382,7 +4413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2501201233868223552}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_J
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4421,7 +4452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4633010611078858169}
   - component: {fileID: 7899837432514808479}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4507,7 +4538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4447782944060840334}
   - component: {fileID: 961520680397351073}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4593,7 +4624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6605584461479493138}
   - component: {fileID: 7870894649958723169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4679,7 +4710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613802524469768193}
   - component: {fileID: 7002130878883043909}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4765,7 +4796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8738951537344599171}
   - component: {fileID: 5388367930644923614}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_E_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4864,7 +4895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2821213047451807320}
   - component: {fileID: 8016024736712377241}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_D_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4963,7 +4994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4294576764167614165}
   - component: {fileID: 4362608485112929694}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5049,7 +5080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3856117128116291549}
   - component: {fileID: 8090587268022697189}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5135,7 +5166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1686144494474646930}
   - component: {fileID: 9182561960114518654}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5220,7 +5251,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2557182806209006529}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_N
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5268,7 +5299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6310903282224685305}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5317,7 +5348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6925042429338272415}
   - component: {fileID: 6191760576263561785}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5403,7 +5434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1528057900849397133}
   - component: {fileID: 1386030509714519037}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_A_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5502,7 +5533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 362952629384378953}
   - component: {fileID: 1068027221146783503}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5588,7 +5619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2418754925058801415}
   - component: {fileID: 75251081181960092}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5674,7 +5705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2647496443113501299}
   - component: {fileID: 3437103742913670534}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_J_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5773,7 +5804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5553871253557764662}
   - component: {fileID: 1685340105129330802}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5859,7 +5890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 564548955582918731}
   - component: {fileID: 4800797763518898874}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_G_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5958,7 +5989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3432921828103093805}
   - component: {fileID: 305222305319979503}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_B_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6056,7 +6087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8410962123805409207}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Soldiers_Camouflage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6102,7 +6133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6196725344655141702}
   - component: {fileID: 3466421110721249269}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6188,7 +6219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1310722817003919829}
   - component: {fileID: 8361410052970591169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6274,7 +6305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5477656188622957539}
   - component: {fileID: 5313398545837242583}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6360,7 +6391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 945570423585683219}
   - component: {fileID: 5368373653026416019}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_H_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6459,7 +6490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4701229701712058732}
   - component: {fileID: 4489136044737473399}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6558,7 +6589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7000431934365446469}
   - component: {fileID: 6923950418513212062}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_H_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6657,7 +6688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6932285178512305602}
   - component: {fileID: 2718341457509644245}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6743,7 +6774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7840299989785059364}
   - component: {fileID: 705696810893679350}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_A_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6842,7 +6873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6138300502455703217}
   - component: {fileID: 4734094747575501969}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6928,7 +6959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4964588624996636120}
   - component: {fileID: 8290288974903410482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_G_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7027,7 +7058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 429801135640637048}
   - component: {fileID: 5922399255888057080}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7113,7 +7144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8583830272369119816}
   - component: {fileID: 9134021203474966633}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7199,7 +7230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2470804745354048622}
   - component: {fileID: 3178358272303542161}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7285,7 +7316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5737698596487813586}
   - component: {fileID: 4713374223019087855}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_L_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7384,7 +7415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4695208498481356835}
   - component: {fileID: 9185991513463183371}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7470,7 +7501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8990329215799045148}
   - component: {fileID: 1849925097704417125}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7556,7 +7587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5577731503620631011}
   - component: {fileID: 8128827941259330004}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_camo_J
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7641,7 +7672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6426770023848933841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Soldiers_Plain_Uniform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7682,7 +7713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2499857309451081072}
   - component: {fileID: 1435113827721061439}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_N_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7781,7 +7812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7538819096900553535}
   - component: {fileID: 5836456564618128887}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_K_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7880,7 +7911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4472386247395274999}
   - component: {fileID: 5066945854496208876}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7966,7 +7997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 83784247022504409}
   - component: {fileID: 4749186909083724767}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8052,7 +8083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 562551859917360640}
   - component: {fileID: 8395283291614859362}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8138,7 +8169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7244216074483442693}
   - component: {fileID: 6528442917873154517}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8224,7 +8255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5181791336182345047}
   - component: {fileID: 4052624280449023479}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_D_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8323,7 +8354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3519784604977622560}
   - component: {fileID: 3234658086432868475}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8409,7 +8440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8365559401782963043}
   - component: {fileID: 7857173041260663553}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_I_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8508,7 +8539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5392939862244980229}
   - component: {fileID: 4294350425483435998}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8594,7 +8625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1332708182244098223}
   - component: {fileID: 5418016981598428837}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8680,7 +8711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 218902282431156753}
   - component: {fileID: 5816564043376547162}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8766,7 +8797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2421823349130205724}
   - component: {fileID: 3673891106744096629}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Backpack_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8852,7 +8883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6675686717665966438}
   - component: {fileID: 4040829349350566857}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_I_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8951,7 +8982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1057381559845683901}
   - component: {fileID: 995513432654448973}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_N_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9050,7 +9081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8195432731932268892}
   - component: {fileID: 9089731707774506168}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9136,7 +9167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8983799872673411819}
   - component: {fileID: 7182309162729760151}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9222,7 +9253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4184417816322298284}
   - component: {fileID: 5464079670125835937}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9308,7 +9339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2570028682086172050}
   - component: {fileID: 6745460907836921145}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_F_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9407,7 +9438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6589930819403344350}
   - component: {fileID: 139528361921054676}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_G_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9506,7 +9537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1424391828204750852}
   - component: {fileID: 7666967357149561935}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9592,7 +9623,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3886694637160790433}
   - component: {fileID: 90228723775709382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9678,7 +9709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213629102081168673}
   - component: {fileID: 7559091872133420069}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9764,7 +9795,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8346844544232425880}
   - component: {fileID: 5192207253013427490}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9850,7 +9881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 354026001029637711}
   - component: {fileID: 6715261407527003904}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9936,7 +9967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5865875066962720663}
   - component: {fileID: 5259865395516081138}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10022,7 +10053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8505852220106885983}
   - component: {fileID: 2624814469930478531}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_E_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10121,7 +10152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3870042758689291059}
   - component: {fileID: 3651033704006781013}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10207,7 +10238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8449540652803190538}
   - component: {fileID: 6700541762669940548}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_K_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10306,7 +10337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5916558484696943230}
   - component: {fileID: 3104905763383319382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10392,7 +10423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3468023684044055370}
   - component: {fileID: 7332133322369151701}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_I_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10490,7 +10521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8665631200973098837}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Extra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10524,7 +10555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4656320492728637986}
   - component: {fileID: 7234174282471603008}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10610,7 +10641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 42397537922633409}
   - component: {fileID: 7553289169937083612}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_basic_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10695,7 +10726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5976619936138960893}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SP_I_Police_Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10729,7 +10760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976113776847929879}
   - component: {fileID: 585531584205954875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10815,7 +10846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2072671284036476020}
   - component: {fileID: 3242973879798294016}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_N_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10914,7 +10945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3517101882660228721}
   - component: {fileID: 6983116352316966765}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11000,7 +11031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5889660305321060664}
   - component: {fileID: 5381671079167910523}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_I_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11099,7 +11130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6938280452628682890}
   - component: {fileID: 7972571153850618173}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11185,7 +11216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7360382375524539926}
   - component: {fileID: 2389370845943396274}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11271,7 +11302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5432382539182283368}
   - component: {fileID: 7336113538893925034}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11357,7 +11388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6356321969919285763}
   - component: {fileID: 5461971323762421548}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11443,7 +11474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5431700509702460264}
   - component: {fileID: 2756411523704173836}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11529,7 +11560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3855886770028767576}
   - component: {fileID: 7360424459411005451}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11615,7 +11646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1616332110859064864}
   - component: {fileID: 3927460422422682721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_K_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11714,7 +11745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 545117732365399180}
   - component: {fileID: 5655642359082611217}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11800,7 +11831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1835963413937626025}
   - component: {fileID: 713686219231149832}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11886,7 +11917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 875115478624031845}
   - component: {fileID: 3955238144413651955}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11971,7 +12002,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 791601935189943598}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_Plain_I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12011,7 +12042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7535792448323826562}
   - component: {fileID: 5483823380108423624}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_A_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12110,7 +12141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3345004930701017877}
   - component: {fileID: 8720348832301309006}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12196,7 +12227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6180791588844363396}
   - component: {fileID: 6514608556609716661}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12282,7 +12313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 859614622025915315}
   - component: {fileID: 8166575107344928780}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12368,7 +12399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5937412164528303459}
   - component: {fileID: 7388233662029589908}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12453,7 +12484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7635645542903365709}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Plain_I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12501,7 +12532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2806145697476073606}
   - component: {fileID: 306375856237685309}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12587,7 +12618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3184794005583680919}
   - component: {fileID: 9121505231653930836}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12672,7 +12703,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7214978478041202245}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_Plain_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12712,7 +12743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3641446150169939545}
   - component: {fileID: 2988783864038532436}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12797,7 +12828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6525905080006914174}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12836,7 +12867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7109150556942445405}
   - component: {fileID: 5117168400941868508}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12921,7 +12952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8814363470314436955}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12970,7 +13001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8336842088118570057}
   - component: {fileID: 5942678260838618776}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13055,7 +13086,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3714009548168798994}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Plain_G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13103,7 +13134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5788427943701117949}
   - component: {fileID: 8426399249951820612}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_D_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13202,7 +13233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1655902899091026967}
   - component: {fileID: 4555504294065081578}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13288,7 +13319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4649542959814813446}
   - component: {fileID: 5455030168629132705}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_B_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13387,7 +13418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1522754610001748285}
   - component: {fileID: 4123959878355682428}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13473,7 +13504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094935575172122442}
   - component: {fileID: 2575903695299555326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13559,7 +13590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3615009967729446561}
   - component: {fileID: 9161911610322997989}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_B_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13658,7 +13689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1305123854598368647}
   - component: {fileID: 3439516777405502735}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13744,7 +13775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6932411677207616888}
   - component: {fileID: 5124772991013563939}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13830,7 +13861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3286560991739369875}
   - component: {fileID: 3081047567089476411}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13916,7 +13947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5232604533687201001}
   - component: {fileID: 3960236259904393127}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_L_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14015,7 +14046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2774644970746670375}
   - component: {fileID: 6233844881544634817}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14101,7 +14132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5880151831299352315}
   - component: {fileID: 2668476106940650571}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14187,7 +14218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5888593552983068732}
   - component: {fileID: 7867130138758642737}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14272,7 +14303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5412126897261044752}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14321,7 +14352,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5985696337588183516}
   - component: {fileID: 4311276665201292644}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14406,7 +14437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884326004}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14441,7 +14472,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884326006}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 R UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14473,7 +14504,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884326008}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 R Toe0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14504,7 +14535,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884326010}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 R Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14536,7 +14567,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884326012}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 R Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14568,7 +14599,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884326014}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 R Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14600,7 +14631,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325952}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 R Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14632,7 +14663,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325954}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 R Clavicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14664,7 +14695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325956}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 R Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14696,7 +14727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325958}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 Pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14730,7 +14761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325960}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14762,7 +14793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 L UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14794,7 +14825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325964}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 L Toe0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14825,7 +14856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325966}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 L Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14857,7 +14888,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 L Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14889,7 +14920,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325970}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 L Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14921,7 +14952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325972}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 L Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14953,7 +14984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325974}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 L Clavicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14985,7 +15016,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325976}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 L Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15017,7 +15048,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325978}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001 Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15049,7 +15080,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bip001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15081,7 +15112,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884325982}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Backpack_container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15112,7 +15143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884326390}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: R_hand_container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15206,9 +15237,9 @@ GameObject:
   - component: {fileID: 2327001148893690302}
   - component: {fileID: 8678845566166677339}
   - component: {fileID: -2552908127593862988}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Camo_ucp_Support
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15220,7 +15251,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2327001148884159384}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15284,6 +15315,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07ca7a0170fc1646b40ce924c4975e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hpText: {fileID: 0}
+  mpText: {fileID: 0}
+  hpImage: {fileID: 0}
+  mpImage: {fileID: 0}
 --- !u!1 &2327001148884159386
 GameObject:
   m_ObjectHideFlags: 0
@@ -15293,7 +15328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884326394}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: L_hand_container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15324,7 +15359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2327001148884326396}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HEAD_CONTAINER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15356,7 +15391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2715281828438372811}
   - component: {fileID: 6651123821932859850}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15442,7 +15477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7531308966584455893}
   - component: {fileID: 3161275026714519250}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15528,7 +15563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7741606331085872929}
   - component: {fileID: 8406422134811073193}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15614,7 +15649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4021742489918931462}
   - component: {fileID: 2971482611031817091}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15700,7 +15735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1050051333635890241}
   - component: {fileID: 4137922418886319096}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15786,7 +15821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3131241941344625098}
   - component: {fileID: 4391845941954515205}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15872,7 +15907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8408303108841156255}
   - component: {fileID: 8150910718224642015}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_H_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15971,7 +16006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5363300769811296783}
   - component: {fileID: 6379585915128390426}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16057,7 +16092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8088702582927326556}
   - component: {fileID: 2263065839978046648}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_I_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16156,7 +16191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8215540502057307503}
   - component: {fileID: 8073164740450601300}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16242,7 +16277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8019539977736133575}
   - component: {fileID: 6083321403153730706}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16328,7 +16363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2475244940976809608}
   - component: {fileID: 2357720275855321291}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16414,7 +16449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3804543946213358401}
   - component: {fileID: 5793694109247655779}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_J_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16513,7 +16548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 108690811251705256}
   - component: {fileID: 1290317267130582024}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16598,7 +16633,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3650308999775235294}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_Plain_H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16637,7 +16672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9220875543037593457}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SP_F_Winter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16671,7 +16706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2613652620873026098}
   - component: {fileID: 35043878835365355}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16757,7 +16792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2088269772952003143}
   - component: {fileID: 6314020362012052013}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16843,7 +16878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3081457981331868134}
   - component: {fileID: 384584041955026054}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16929,7 +16964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8580903158597025627}
   - component: {fileID: 6685083012889030223}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_N_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17028,7 +17063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4229037195393150120}
   - component: {fileID: 8668725677403859170}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_B_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17127,7 +17162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3922427240642143641}
   - component: {fileID: 8074876949854150872}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17213,7 +17248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4653640501730704233}
   - component: {fileID: 3564797219821347022}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17299,7 +17334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2957226790548945994}
   - component: {fileID: 431871426218948921}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_F_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17398,7 +17433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5403047722365207750}
   - component: {fileID: 5102454863699005765}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_camo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17484,7 +17519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 100272993264848766}
   - component: {fileID: 557027511724418025}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17570,7 +17605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4373399501799975869}
   - component: {fileID: 6276344788488533521}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17656,7 +17691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1350262279423988476}
   - component: {fileID: 1261267099317789078}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17742,7 +17777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4856570122801065181}
   - component: {fileID: 1292797591393917244}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17828,7 +17863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8696799243828050645}
   - component: {fileID: 8962851311174579903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17914,7 +17949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2738088384197274858}
   - component: {fileID: 7796908110247932775}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18000,7 +18035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6907921465989466147}
   - component: {fileID: 1591787506624728521}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18086,7 +18121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 625542216129698654}
   - component: {fileID: 7270998773037044022}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18172,7 +18207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8239586867070179381}
   - component: {fileID: 7961003273873286054}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_M_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18271,7 +18306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5408162932751787797}
   - component: {fileID: 2614398516445727771}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_L_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18370,7 +18405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5447030440245404598}
   - component: {fileID: 1604369682549860676}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18456,7 +18491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4627009714566484830}
   - component: {fileID: 3699535121627694344}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18542,7 +18577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8664311602565889708}
   - component: {fileID: 6479211244642424163}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_G_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18641,7 +18676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5202034470274125767}
   - component: {fileID: 8383908224754760678}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18727,7 +18762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8112785516345105608}
   - component: {fileID: 4166007690145092453}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18813,7 +18848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1238894759994902035}
   - component: {fileID: 5642321024146571131}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18898,7 +18933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2059742987886684286}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18946,7 +18981,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3834781971617933032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SP_G_Urban
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18980,7 +19015,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4829698727744266934}
   - component: {fileID: 1599079194296682057}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19066,7 +19101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5648052369708975543}
   - component: {fileID: 2161653409380197656}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19152,7 +19187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3476255619165309542}
   - component: {fileID: 4773621952993357393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19238,7 +19273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6157086790716508805}
   - component: {fileID: 7428854252006078035}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19324,7 +19359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9123850675747073270}
   - component: {fileID: 7583371639127325873}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19410,7 +19445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6547504784158858715}
   - component: {fileID: 4760841669871035234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19496,7 +19531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4162816918524918429}
   - component: {fileID: 8164312240237861669}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19582,7 +19617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4466716425116855203}
   - component: {fileID: 6960480247068482613}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19668,7 +19703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2578148552353382638}
   - component: {fileID: 6891786947412350284}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19754,7 +19789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 775517830582275814}
   - component: {fileID: 4867801452254345776}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19840,7 +19875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7487426982535840261}
   - component: {fileID: 7749824721489861370}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19926,7 +19961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1494091778558407466}
   - component: {fileID: 9005019175977760753}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20025,7 +20060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2715519386945880173}
   - component: {fileID: 1471815336003352581}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20111,7 +20146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9100265035772692750}
   - component: {fileID: 7293621116495140833}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_K_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20210,7 +20245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2547358345627450857}
   - component: {fileID: 914768223896086095}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_H_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20309,7 +20344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3769903233558119812}
   - component: {fileID: 3525876518604967586}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20395,7 +20430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8986492596599904522}
   - component: {fileID: 551225585183385359}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_C_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20494,7 +20529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4350621479696528946}
   - component: {fileID: 7476011977512831811}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_F_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20593,7 +20628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5841224530066950598}
   - component: {fileID: 1038107494712131882}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20679,7 +20714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 44154564399709567}
   - component: {fileID: 5803548177048964050}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20765,7 +20800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5655727510378339602}
   - component: {fileID: 4230698262541672124}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20851,7 +20886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3490833803378109577}
   - component: {fileID: 6815485747992244697}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20937,7 +20972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7375333488241177168}
   - component: {fileID: 2951417771659759817}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21022,7 +21057,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8140818572237545612}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21061,7 +21096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3059620082728961942}
   - component: {fileID: 3593376134308178382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_F_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21160,7 +21195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955904951548900922}
   - component: {fileID: 3907658584109563382}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21246,7 +21281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7631629409445508699}
   - component: {fileID: 4356363077803315342}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21331,7 +21366,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6050904991612352082}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_N
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21370,7 +21405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2934620160836617595}
   - component: {fileID: 2428180614845827636}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21456,7 +21491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1155057219645110224}
   - component: {fileID: 6687084907169425721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21542,7 +21577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8832057623017877788}
   - component: {fileID: 312207434329308824}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_D_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21641,7 +21676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2035563755267306492}
   - component: {fileID: 7729738471105052511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21727,7 +21762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2098352064430028999}
   - component: {fileID: 4606243579280347747}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21812,7 +21847,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8964859555526480132}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21851,7 +21886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4198598327762980088}
   - component: {fileID: 1847474777228290282}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21937,7 +21972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1384388252920845124}
   - component: {fileID: 6640367635904316406}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22023,7 +22058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8908831479217636133}
   - component: {fileID: 7960493475521312859}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_C_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22122,7 +22157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6452781614829133782}
   - component: {fileID: 1831547973284765387}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22207,7 +22242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6069488488697096548}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22246,7 +22281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7679660671791067187}
   - component: {fileID: 7826279547801750540}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22332,7 +22367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8458730369703050098}
   - component: {fileID: 3475557390639130894}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22418,7 +22453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 361551468842529900}
   - component: {fileID: 5093834651700566365}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22504,7 +22539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8379869071245242087}
   - component: {fileID: 2092757012028466215}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22590,7 +22625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1308412582464950170}
   - component: {fileID: 9118844042098387569}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22675,7 +22710,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2578112498677874694}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_B_Jungle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22709,7 +22744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3377655274568968754}
   - component: {fileID: 1532699005580791028}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_K_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22807,7 +22842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1809461420997713805}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22856,7 +22891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 73133818122057882}
   - component: {fileID: 2312720451132788218}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_B_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22955,7 +22990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6905168381306102284}
   - component: {fileID: 7956732772698620433}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23041,7 +23076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6302316020998963279}
   - component: {fileID: 332096111518652490}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_B_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23140,7 +23175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8044183762614862586}
   - component: {fileID: 4745895565802748863}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_B_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23239,7 +23274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7805152641550405845}
   - component: {fileID: 3806945885454576928}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_A_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23337,7 +23372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8017453117180422572}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23376,7 +23411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2493891472511928791}
   - component: {fileID: 5760140465334032596}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23462,7 +23497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5501272219367219115}
   - component: {fileID: 3754853361752787613}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_H_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23561,7 +23596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8474859011397906590}
   - component: {fileID: 8300586302726956397}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23647,7 +23682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7564305769189608632}
   - component: {fileID: 4236549518603503405}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_M_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23746,7 +23781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6582546405254298951}
   - component: {fileID: 8451526532875171210}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23832,7 +23867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2980663078048203881}
   - component: {fileID: 568476413203388863}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_C_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23931,7 +23966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2772213321536212171}
   - component: {fileID: 2760263492690283310}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_B_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24030,7 +24065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2813015867047722265}
   - component: {fileID: 4339159662178157791}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24116,7 +24151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4181455170034750921}
   - component: {fileID: 1989513852710056198}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24202,7 +24237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 772014795535981679}
   - component: {fileID: 6971910961959276081}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24288,7 +24323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6208657625877330637}
   - component: {fileID: 653248026713013072}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_B_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24386,7 +24421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8712656692327340307}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_Plain_F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24426,7 +24461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7897539102466950323}
   - component: {fileID: 3261115000583824326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_E_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24525,7 +24560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3248044334369778439}
   - component: {fileID: 1932438956430991427}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_camo_N
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24611,7 +24646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7989977846895105047}
   - component: {fileID: 2229691865348073968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_G_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24710,7 +24745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1519851365604831345}
   - component: {fileID: 366311953503816757}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24796,7 +24831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5143663398678889675}
   - component: {fileID: 8091748302113380334}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24882,7 +24917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6394334940981643948}
   - component: {fileID: 9174057263524615130}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24968,7 +25003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7003279442205935515}
   - component: {fileID: 5109113235648444913}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25054,7 +25089,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7282586750092754630}
   - component: {fileID: 5765249192967533351}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25140,7 +25175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7450035606484856890}
   - component: {fileID: 526006636850491753}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25225,7 +25260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 645202522130193771}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_J_Urban
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25259,7 +25294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1948995831207646781}
   - component: {fileID: 4700423723767905183}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25345,7 +25380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3800447763039133498}
   - component: {fileID: 3792986429439894845}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25431,7 +25466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1948776360798330531}
   - component: {fileID: 2070266135471957288}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_G_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25530,7 +25565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2936227822612132512}
   - component: {fileID: 4352969742988575001}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25616,7 +25651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 915838052057904016}
   - component: {fileID: 8319930902816924596}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_E_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25715,7 +25750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3567760877869614121}
   - component: {fileID: 8349806850045382585}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25800,7 +25835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1068781481694921024}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25849,7 +25884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4742182533121833176}
   - component: {fileID: 5980955223424302342}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_N_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25948,7 +25983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2056278404674604039}
   - component: {fileID: 6312990907847900685}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26034,7 +26069,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4502975207972892804}
   - component: {fileID: 9058965664271149550}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_plain_F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26120,7 +26155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7188230559688321865}
   - component: {fileID: 4425905562284341304}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26206,7 +26241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2184561708893763021}
   - component: {fileID: 6819049209887037488}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26292,7 +26327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7691819073763677271}
   - component: {fileID: 2182387070685990157}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_B_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26391,7 +26426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7246373412608464966}
   - component: {fileID: 2515491700570164462}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_K_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26490,7 +26525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1441105002757174995}
   - component: {fileID: 4208929676689955082}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_J_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26589,7 +26624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1270782294974681082}
   - component: {fileID: 4731382348339095764}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_E_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26687,7 +26722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1170950657901693310}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_Plain_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26727,7 +26762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8512295072558018407}
   - component: {fileID: 7468836682476571889}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_L_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26826,7 +26861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 959402726418014597}
   - component: {fileID: 4840840023787211022}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26912,7 +26947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3044770720018860691}
   - component: {fileID: 6815724164731911414}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26998,7 +27033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4956053470286880554}
   - component: {fileID: 6325610688753410037}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27084,7 +27119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5138480820648128401}
   - component: {fileID: 6370465720617429506}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27170,7 +27205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 127209162023844840}
   - component: {fileID: 3303381958305973691}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_E_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27269,7 +27304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7073797575082976157}
   - component: {fileID: 2023329577126020164}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27355,7 +27390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2519104075911863229}
   - component: {fileID: 5766172132524801241}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27440,7 +27475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4088443997746740199}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27489,7 +27524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1552799219984919754}
   - component: {fileID: 8970389219933217541}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27575,7 +27610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9212848397214705220}
   - component: {fileID: 5025230427932019790}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27661,7 +27696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5769071564626734781}
   - component: {fileID: 3891666926284115568}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27747,7 +27782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6714386049855586845}
   - component: {fileID: 258533472949510497}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_basic_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27833,7 +27868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3469145993636157217}
   - component: {fileID: 3363468517397459957}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27919,7 +27954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 67198656605149141}
   - component: {fileID: 4170378560093969679}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28005,7 +28040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8237107207688762857}
   - component: {fileID: 5274639088852842765}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_D_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28104,7 +28139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2195608458809478074}
   - component: {fileID: 2472210352330358166}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28190,7 +28225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7577406044518282951}
   - component: {fileID: 4088061825950677111}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28276,7 +28311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3755217424980737730}
   - component: {fileID: 2971168337652645749}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28362,7 +28397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6704725644830310516}
   - component: {fileID: 3622885523188148714}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_plain_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28448,7 +28483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9019527248618144336}
   - component: {fileID: 8853828868919071443}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_camo_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28534,7 +28569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8843070190341736866}
   - component: {fileID: 7041544859725328936}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28620,7 +28655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2980660796442719501}
   - component: {fileID: 5404004914170463653}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28705,7 +28740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7087215963655513891}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_Plain_E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28745,7 +28780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8743983620261845442}
   - component: {fileID: 1524137390273288048}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_camo_K
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28831,7 +28866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1668190005044688574}
   - component: {fileID: 474928732972296558}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_G_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28930,7 +28965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1837263060065768472}
   - component: {fileID: 7545674607879761459}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29016,7 +29051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8892190899225118626}
   - component: {fileID: 8633185908337960065}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29102,7 +29137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4151414721799309328}
   - component: {fileID: 2354726883317073753}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_basic_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29187,7 +29222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1318194491465608069}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_C_Woodlands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29221,7 +29256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3477510711592927801}
   - component: {fileID: 1767187347904088408}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29307,7 +29342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7905332147527140457}
   - component: {fileID: 7991257380790603964}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29393,7 +29428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7988472430924192598}
   - component: {fileID: 1810415480257326631}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29479,7 +29514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5301606294629096826}
   - component: {fileID: 674382356511651470}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29565,7 +29600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 327065358280357911}
   - component: {fileID: 783979264283696111}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29651,7 +29686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4621588418147702503}
   - component: {fileID: 367329021942300103}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29737,7 +29772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5601144478416667581}
   - component: {fileID: 454894953383465616}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29823,7 +29858,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5362079744049041115}
   - component: {fileID: 445910347111640806}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_J_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29922,7 +29957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2393372984697646963}
   - component: {fileID: 1578531576335469060}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30008,7 +30043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5689998146749283301}
   - component: {fileID: 961644673392195624}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_plain_H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30094,7 +30129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3682877161414596691}
   - component: {fileID: 8490173145194816288}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30180,7 +30215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4956405050876966641}
   - component: {fileID: 2983358417488855169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30266,7 +30301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 95726731625020233}
   - component: {fileID: 8087800587084844813}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30352,7 +30387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3436570708784047274}
   - component: {fileID: 9068760000353177286}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30438,7 +30473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1993423459243014640}
   - component: {fileID: 7590823528760915812}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30523,7 +30558,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5682372972497396422}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30562,7 +30597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4136721643997549885}
   - component: {fileID: 8258521997744945246}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_C_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30661,7 +30696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1931323200149060973}
   - component: {fileID: 6191682139840825214}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30747,7 +30782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1830783286388867773}
   - component: {fileID: 8559532989494400673}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30833,7 +30868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5335843489693658080}
   - component: {fileID: 1345880868604278104}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30919,7 +30954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9170408605222820765}
   - component: {fileID: 6600706491925423654}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_A_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31018,7 +31053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2970607071483003733}
   - component: {fileID: 7444107415065159291}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_H_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31116,7 +31151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3440480358830910152}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31165,7 +31200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5136488288223915966}
   - component: {fileID: 6928138231462318106}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31251,7 +31286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3231718295923558}
   - component: {fileID: 2435795054499039661}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31337,7 +31372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1660713039476867168}
   - component: {fileID: 6788723291508867678}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31423,7 +31458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3135594954101421001}
   - component: {fileID: 8461934958489497772}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_F_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31522,7 +31557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2375930584542130733}
   - component: {fileID: 7525212857743109015}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31608,7 +31643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5335499526253777087}
   - component: {fileID: 360935484936406264}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_N_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31707,7 +31742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 987850686990681647}
   - component: {fileID: 8389456751590102034}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31793,7 +31828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4988956776365059817}
   - component: {fileID: 6698236181712788948}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31879,7 +31914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4015097816580540468}
   - component: {fileID: 4751820104560945071}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31965,7 +32000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3799211824106185004}
   - component: {fileID: 4714600446215235536}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32051,7 +32086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3141675520367662583}
   - component: {fileID: 4664654545135283045}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32137,7 +32172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 594305031461687346}
   - component: {fileID: 5978641564239213348}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32223,7 +32258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1957922738680233993}
   - component: {fileID: 6929951607704844109}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32308,7 +32343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5681926975773866464}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Basic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32347,7 +32382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6217962616510431470}
   - component: {fileID: 6847863114742628704}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32432,7 +32467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5804657679849425647}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_L_GulfWar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32466,7 +32501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4657776420203739061}
   - component: {fileID: 3835828909011673460}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32551,7 +32586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4855297095532409128}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Plain_E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32599,7 +32634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8290350209401603831}
   - component: {fileID: 7007450400419491898}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32685,7 +32720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2202848199374009757}
   - component: {fileID: 3486165067161148247}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_C_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32783,7 +32818,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2261267037975798045}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32821,7 +32856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 338679375497433039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_Plain_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32861,7 +32896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8287349278812105757}
   - component: {fileID: 8894712696394216345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_A_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32960,7 +32995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2908369136023698407}
   - component: {fileID: 3858677481449802991}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33046,7 +33081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9218322881880868849}
   - component: {fileID: 2396391195989061812}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33132,7 +33167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5688399122026305796}
   - component: {fileID: 8079720235591869297}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33218,7 +33253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 531833014453610897}
   - component: {fileID: 6106931859978148216}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33304,7 +33339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1560970302954622518}
   - component: {fileID: 638262841554607145}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_G_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33403,7 +33438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6438854103713000895}
   - component: {fileID: 5813230406487004197}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33489,7 +33524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4435954801803681652}
   - component: {fileID: 6116096636360737590}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33575,7 +33610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3835384402696781640}
   - component: {fileID: 836597747567944505}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33661,7 +33696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8034021191224052275}
   - component: {fileID: 7429597007016534862}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33747,7 +33782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3937357294668581009}
   - component: {fileID: 3321320219192372163}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33833,7 +33868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3034996008921646082}
   - component: {fileID: 8249269315556569331}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33919,7 +33954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 425113553099799754}
   - component: {fileID: 4568971031939554208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_I_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34018,7 +34053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5202899009752970142}
   - component: {fileID: 7551238742934099001}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_G_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34117,7 +34152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8262187497293982151}
   - component: {fileID: 274718329358380078}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34203,7 +34238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5095158260192305787}
   - component: {fileID: 1601806674694865038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34289,7 +34324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 805354064496286703}
   - component: {fileID: 3262547834345217442}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34374,7 +34409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8554617557901262626}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SP_C_Brown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34408,7 +34443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9193614775294165614}
   - component: {fileID: 639225228909132448}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_D_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34507,7 +34542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3452293720236987164}
   - component: {fileID: 3045637139281433118}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34593,7 +34628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 659141436655319794}
   - component: {fileID: 6724905240054811253}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34679,7 +34714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4088774543435679915}
   - component: {fileID: 3272320080129390450}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34765,7 +34800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2005659728033175697}
   - component: {fileID: 6674966578527323801}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_basic_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34851,7 +34886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6845653534677138575}
   - component: {fileID: 1969084668755844313}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34937,7 +34972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8660657037296545276}
   - component: {fileID: 3412748003816822151}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35023,7 +35058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7143074840469282867}
   - component: {fileID: 6693135304830990099}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_C_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35122,7 +35157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3210753738646600230}
   - component: {fileID: 4662336209433769202}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35208,7 +35243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9131746049265453944}
   - component: {fileID: 3962931198195073195}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35293,7 +35328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5002340122032983747}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SP_B_Jungle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35327,7 +35362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4803130316883560527}
   - component: {fileID: 1626632035594585161}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35412,7 +35447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 988140323393692821}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Plain_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35460,7 +35495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2447755874350024061}
   - component: {fileID: 3478482332871520387}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35546,7 +35581,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9126838627463084179}
   - component: {fileID: 7215040403811209320}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35632,7 +35667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7251179371814755210}
   - component: {fileID: 2444003085379847336}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35718,7 +35753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 588877286185285540}
   - component: {fileID: 4688824686393559239}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35804,7 +35839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2736027331419289783}
   - component: {fileID: 4384078363496022725}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35890,7 +35925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7878080876213836119}
   - component: {fileID: 4537074288681564849}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_F_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35989,7 +36024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3366572586239840281}
   - component: {fileID: 6642603859524638706}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36075,7 +36110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3824224753845829768}
   - component: {fileID: 1570667646965096215}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36161,7 +36196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2209007356801505312}
   - component: {fileID: 8766651552722786526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36247,7 +36282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2779893657274798705}
   - component: {fileID: 6614723752143829163}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36333,7 +36368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 483125074908922754}
   - component: {fileID: 4837128253184712486}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36419,7 +36454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 378873513481531493}
   - component: {fileID: 1217543072400180032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36505,7 +36540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5306341218888786439}
   - component: {fileID: 1818736764494268189}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36591,7 +36626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5732639691699313991}
   - component: {fileID: 6686460021303835869}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36677,7 +36712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3372565457374828990}
   - component: {fileID: 8462597255945710217}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36763,7 +36798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4797502729325569601}
   - component: {fileID: 5424410539460098963}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36848,7 +36883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1080469120841949932}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_K_Desert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36882,7 +36917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 350544491567033526}
   - component: {fileID: 7049594308001423563}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36968,7 +37003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5778252689868153476}
   - component: {fileID: 3242866379594004663}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_A_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37067,7 +37102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3250336793409764938}
   - component: {fileID: 8082329628801156171}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37153,7 +37188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2066141818288080974}
   - component: {fileID: 3387443481253017869}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_A_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37252,7 +37287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2607570498613430982}
   - component: {fileID: 764421644368439002}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37338,7 +37373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8777032393038713978}
   - component: {fileID: 2828140249422345934}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37423,7 +37458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3081733249061141014}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_M_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37457,7 +37492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1226757202713670160}
   - component: {fileID: 7556994229157420308}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_H_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37556,7 +37591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3085635023547469993}
   - component: {fileID: 832145479604120061}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37642,7 +37677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2390279943796342868}
   - component: {fileID: 1450229927132640216}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37728,7 +37763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 674426875717274302}
   - component: {fileID: 6447225407084245556}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_B_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37827,7 +37862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1828104994595678207}
   - component: {fileID: 816211154755559781}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37912,7 +37947,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 192576050973787578}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37961,7 +37996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1509736076456484596}
   - component: {fileID: 3765332870860659398}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38046,7 +38081,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7729671781970651791}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Plain_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38094,7 +38129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1035695188528665540}
   - component: {fileID: 7740774731337932929}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38180,7 +38215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5657138392024283343}
   - component: {fileID: 7805209338127818502}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_H_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38279,7 +38314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 686414005039273796}
   - component: {fileID: 8442387177288954817}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_E_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38378,7 +38413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8416194315355389778}
   - component: {fileID: 2232897088626450620}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38463,7 +38498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1660005975716660510}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SP_A_Military_Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38496,7 +38531,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8362268876445505644}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_D_UCP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38530,7 +38565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5179014151991849912}
   - component: {fileID: 4549382888633297958}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38616,7 +38651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1761435179752340920}
   - component: {fileID: 8382460265435660351}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38702,7 +38737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5166293200921296427}
   - component: {fileID: 2779514404841384503}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38788,7 +38823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1578481978491046028}
   - component: {fileID: 3559500568969432777}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_J_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38887,7 +38922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2320481312866545399}
   - component: {fileID: 6588222608284988962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38973,7 +39008,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7437966873462897977}
   - component: {fileID: 6993132093072747608}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_A_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39072,7 +39107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2965770852277904087}
   - component: {fileID: 2983788860203040305}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_F_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39171,7 +39206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3661850338420734779}
   - component: {fileID: 9066882401770352148}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39257,7 +39292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1589786148242083463}
   - component: {fileID: 8217539237570440572}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39343,7 +39378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5672044469920253576}
   - component: {fileID: 338262604642665651}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39429,7 +39464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7187180971619757162}
   - component: {fileID: 7826427303763563041}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39515,7 +39550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5303192609068603963}
   - component: {fileID: 8558358733302514466}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39601,7 +39636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5375084165657739737}
   - component: {fileID: 3920854669898212732}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39687,7 +39722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8879387882176992560}
   - component: {fileID: 3239720877807707631}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39773,7 +39808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3294612291986860286}
   - component: {fileID: 5980739595231413827}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39859,7 +39894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7545334658490300610}
   - component: {fileID: 5385898570774641270}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_I_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39958,7 +39993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5284656741666405596}
   - component: {fileID: 7070090665812008178}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40057,7 +40092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5229382832410928417}
   - component: {fileID: 7567300978892409591}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40143,7 +40178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4606516078446471255}
   - component: {fileID: 2679884217194279208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_A_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40242,7 +40277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7749361842293330156}
   - component: {fileID: 1305582523595272993}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40328,7 +40363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2470698974608512282}
   - component: {fileID: 2702459391201940380}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40414,7 +40449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7549074589355929171}
   - component: {fileID: 9032855865331930490}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40500,7 +40535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3949030007478043300}
   - component: {fileID: 3183022213669144429}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40586,7 +40621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4752303341738250263}
   - component: {fileID: 3073314401132006936}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40672,7 +40707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1376635086297253480}
   - component: {fileID: 8050664668322033775}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40758,7 +40793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6553322595392281498}
   - component: {fileID: 6096879444036694410}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_I_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40857,7 +40892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6648908089413635289}
   - component: {fileID: 7768873846822183718}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40943,7 +40978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4723299671577374829}
   - component: {fileID: 5033956383483413951}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41029,7 +41064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2861144041506643602}
   - component: {fileID: 6727945805033851282}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41115,7 +41150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6198177125830847283}
   - component: {fileID: 6668015157285049253}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41201,7 +41236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2421449123239001683}
   - component: {fileID: 2221538509462467804}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_plain_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41287,7 +41322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480954197923088860}
   - component: {fileID: 5854205947052399881}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41373,7 +41408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6339517817334109337}
   - component: {fileID: 173596722692648426}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41459,7 +41494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6952737664352483772}
   - component: {fileID: 6150550147413636539}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_Extra_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41545,7 +41580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4666853897076460823}
   - component: {fileID: 1703272772406011937}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_E_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41644,7 +41679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3642823848505572372}
   - component: {fileID: 85231382651860336}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41730,7 +41765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8438730894240431499}
   - component: {fileID: 2197785853244054230}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41816,7 +41851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2816145553222334558}
   - component: {fileID: 5636084992424273227}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_plain_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41902,7 +41937,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1209899475159711192}
   - component: {fileID: 6094441406542222482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_A_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42001,7 +42036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7763603040805566925}
   - component: {fileID: 8516143021344409553}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_C_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42100,7 +42135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3351607118796013874}
   - component: {fileID: 4973052004958396228}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42186,7 +42221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6446106699681664921}
   - component: {fileID: 9102564210725952955}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42272,7 +42307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2957432736800438541}
   - component: {fileID: 5472394026333776341}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_basic_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42358,7 +42393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 784895416666917628}
   - component: {fileID: 8510339938092331062}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42444,7 +42479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2132555058207014795}
   - component: {fileID: 1490957127189417517}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_Extra_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42529,7 +42564,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4665642006453639083}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SP_D_Universal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42563,7 +42598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7557609811005457989}
   - component: {fileID: 3707598305494304187}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_D_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42661,7 +42696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2182353118183000278}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_Plain_G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42701,7 +42736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 477785844038673522}
   - component: {fileID: 7465500069616418230}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42787,7 +42822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8923809699588543252}
   - component: {fileID: 1034814082167654224}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42873,7 +42908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3349855831902020405}
   - component: {fileID: 6214960148313603106}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42959,7 +42994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3019525216162428547}
   - component: {fileID: 6508971466700173377}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43045,7 +43080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3824885815003525503}
   - component: {fileID: 777603450040886087}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43131,7 +43166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7569467449919615089}
   - component: {fileID: 5518401053496585793}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_F_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43230,7 +43265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4799694576417159703}
   - component: {fileID: 8054751887454487494}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43316,7 +43351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6203566190393646135}
   - component: {fileID: 2028429313482094136}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_plain_G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43402,7 +43437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6383181057660513515}
   - component: {fileID: 7013380677860375989}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43488,7 +43523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2430479474367588738}
   - component: {fileID: 2805160153883496866}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_H_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43587,7 +43622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8044074685021120437}
   - component: {fileID: 3966755453776473324}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43673,7 +43708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4353388556983157056}
   - component: {fileID: 9031386473988760493}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_C_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43771,7 +43806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4611918616898939963}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_H_Digital_Winter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43805,7 +43840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3045759771298024017}
   - component: {fileID: 4191808998450447967}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_E_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43904,7 +43939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8501505804599802001}
   - component: {fileID: 4629442721740090972}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43990,7 +44025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3933925443170554686}
   - component: {fileID: 5367191562843801598}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_plain_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44076,7 +44111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7157800268646384682}
   - component: {fileID: 3389680985322829424}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44162,7 +44197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8080659741056871537}
   - component: {fileID: 2787708975828371612}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44248,7 +44283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2620853794448177204}
   - component: {fileID: 8245957862697357071}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44334,7 +44369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5706337266958902908}
   - component: {fileID: 420666645184713345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44420,7 +44455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7841787671551749918}
   - component: {fileID: 7172306582988246037}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_M_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44519,7 +44554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9205651041751796928}
   - component: {fileID: 6080311302271793197}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44605,7 +44640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5979522278344253983}
   - component: {fileID: 4002336732557484890}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_E_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44691,7 +44726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3559302773216238706}
   - component: {fileID: 3357007831373729297}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_L_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44790,7 +44825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3067190024530444188}
   - component: {fileID: 8206336643443780980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_J_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44889,7 +44924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 665243277608745374}
   - component: {fileID: 1568938632547896911}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_C_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44988,7 +45023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3339432067668314173}
   - component: {fileID: 7584894339994929545}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_G_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45087,7 +45122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2529558263157030646}
   - component: {fileID: 5581117236373211497}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45173,7 +45208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 318612183437411073}
   - component: {fileID: 4910420705669776474}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45259,7 +45294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7183005290235492545}
   - component: {fileID: 3351380487392474326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45345,7 +45380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8089904472022551764}
   - component: {fileID: 344576053671481647}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45430,7 +45465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4234093116332830544}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45479,7 +45514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2231521461744739568}
   - component: {fileID: 3589930612972809174}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_F_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45578,7 +45613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2501306275756112727}
   - component: {fileID: 5366291311645876146}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45664,7 +45699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2934486639419883087}
   - component: {fileID: 2519655731182612689}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45750,7 +45785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2278691316884273019}
   - component: {fileID: 3481940366642269122}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45836,7 +45871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6101243986866898199}
   - component: {fileID: 3697651061171644651}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45921,7 +45956,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5672312203153969700}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_F_Digital_Woodlands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45955,7 +45990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1555945454117284578}
   - component: {fileID: 7106814841602663188}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46041,7 +46076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7619003206182319767}
   - component: {fileID: 2307516876714827326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46127,7 +46162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 452864464223600406}
   - component: {fileID: 6809348097796642929}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46213,7 +46248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7209219266667867850}
   - component: {fileID: 5050120455262689132}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_M_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46312,7 +46347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1339903033888845577}
   - component: {fileID: 142948673914377071}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46397,7 +46432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5117314141314292966}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SP_E_Desert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46431,7 +46466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1799766035780345507}
   - component: {fileID: 2603820506495366802}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46517,7 +46552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3545497650379381437}
   - component: {fileID: 5787427824567981184}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_A_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46615,7 +46650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 291340952963043676}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SC_I_Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46648,7 +46683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3222870813843202991}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_SP_H_Police_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46682,7 +46717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3206882306452509212}
   - component: {fileID: 2605702487372606074}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46768,7 +46803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9187551797006029406}
   - component: {fileID: 503666256148343299}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_I_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46854,7 +46889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6078073244939713049}
   - component: {fileID: 680543936406306679}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46940,7 +46975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 383976584340556840}
   - component: {fileID: 8647615494389510097}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47026,7 +47061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6514380762919057174}
   - component: {fileID: 5517285819501621742}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47112,7 +47147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8001976389054913668}
   - component: {fileID: 5381743612969187540}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47198,7 +47233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2279680732073389990}
   - component: {fileID: 2411930279672638435}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47284,7 +47319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6812636334356020704}
   - component: {fileID: 2653110696619574208}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47370,7 +47405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4043697043927165487}
   - component: {fileID: 6350812373397682506}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47456,7 +47491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3013318188973288900}
   - component: {fileID: 1338294366200903820}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_E_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47556,7 +47591,7 @@ GameObject:
   - component: {fileID: 7912288056658897777}
   - component: {fileID: 7912288056658897783}
   - component: {fileID: 7912288056658897776}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_python
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47639,7 +47674,7 @@ GameObject:
   - component: {fileID: 7912288056770535370}
   - component: {fileID: 7912288056770535368}
   - component: {fileID: 7912288056770535369}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_rpg_parts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47723,7 +47758,7 @@ GameObject:
   - component: {fileID: 7912288056819283265}
   - component: {fileID: 7912288056819283271}
   - component: {fileID: 7912288056819283264}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_aksu74
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47806,7 +47841,7 @@ GameObject:
   - component: {fileID: 7912288056866372977}
   - component: {fileID: 7912288056866372983}
   - component: {fileID: 7912288056866372976}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_smaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47889,7 +47924,7 @@ GameObject:
   - component: {fileID: 7912288056899203800}
   - component: {fileID: 7912288056899203806}
   - component: {fileID: 7912288056899203807}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_machete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47972,7 +48007,7 @@ GameObject:
   - component: {fileID: 7912288056952792942}
   - component: {fileID: 7912288056952792940}
   - component: {fileID: 7912288056952792941}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_mp7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48055,7 +48090,7 @@ GameObject:
   - component: {fileID: 7912288056966063232}
   - component: {fileID: 7912288056966063238}
   - component: {fileID: 7912288056966063239}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_m4_carbine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48138,7 +48173,7 @@ GameObject:
   - component: {fileID: 7912288057196788802}
   - component: {fileID: 7912288057196788800}
   - component: {fileID: 7912288057196788801}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_p226
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48221,7 +48256,7 @@ GameObject:
   - component: {fileID: 7912288057215970203}
   - component: {fileID: 7912288057215970201}
   - component: {fileID: 7912288057215970202}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_mac10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48304,7 +48339,7 @@ GameObject:
   - component: {fileID: 7912288057216395979}
   - component: {fileID: 7912288057216395977}
   - component: {fileID: 7912288057216395978}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_m3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48387,7 +48422,7 @@ GameObject:
   - component: {fileID: 7912288057232878426}
   - component: {fileID: 7912288057232878424}
   - component: {fileID: 7912288057232878425}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_svd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48470,7 +48505,7 @@ GameObject:
   - component: {fileID: 7912288057252623565}
   - component: {fileID: 7912288057252623555}
   - component: {fileID: 7912288057252623564}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_m110
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48553,7 +48588,7 @@ GameObject:
   - component: {fileID: 7912288057303277966}
   - component: {fileID: 7912288057303277964}
   - component: {fileID: 7912288057303277965}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_g36k
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48636,7 +48671,7 @@ GameObject:
   - component: {fileID: 7912288057318896340}
   - component: {fileID: 7912288057318896362}
   - component: {fileID: 7912288057318896363}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_m16_gl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48719,7 +48754,7 @@ GameObject:
   - component: {fileID: 7912288057342406763}
   - component: {fileID: 7912288057342406761}
   - component: {fileID: 7912288057342406762}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_sg552
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48802,7 +48837,7 @@ GameObject:
   - component: {fileID: 7912288057355724697}
   - component: {fileID: 7912288057355724703}
   - component: {fileID: 7912288057355724696}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_python_scooped
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48885,7 +48920,7 @@ GameObject:
   - component: {fileID: 7912288057357556578}
   - component: {fileID: 7912288057357556576}
   - component: {fileID: 7912288057357556577}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_colt1911
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48968,7 +49003,7 @@ GameObject:
   - component: {fileID: 7912288057363565068}
   - component: {fileID: 7912288057363565058}
   - component: {fileID: 7912288057363565059}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_javelin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49051,7 +49086,7 @@ GameObject:
   - component: {fileID: 7912288057409242856}
   - component: {fileID: 7912288057409242862}
   - component: {fileID: 7912288057409242863}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_spas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49134,7 +49169,7 @@ GameObject:
   - component: {fileID: 7912288057414666794}
   - component: {fileID: 7912288057414666792}
   - component: {fileID: 7912288057414666793}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_ssg300
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49217,7 +49252,7 @@ GameObject:
   - component: {fileID: 7912288057423219694}
   - component: {fileID: 7912288057423219692}
   - component: {fileID: 7912288057423219693}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49300,7 +49335,7 @@ GameObject:
   - component: {fileID: 7912288057443811907}
   - component: {fileID: 7912288057443811905}
   - component: {fileID: 7912288057443811906}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_m4a1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49383,7 +49418,7 @@ GameObject:
   - component: {fileID: 7912288057579702419}
   - component: {fileID: 7912288057579702417}
   - component: {fileID: 7912288057579702418}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_usp45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49466,7 +49501,7 @@ GameObject:
   - component: {fileID: 7912288057666014629}
   - component: {fileID: 7912288057666014651}
   - component: {fileID: 7912288057666014628}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_beretta92
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49549,7 +49584,7 @@ GameObject:
   - component: {fileID: 7912288057697947390}
   - component: {fileID: 7912288057697947388}
   - component: {fileID: 7912288057697947389}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_ump45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49632,7 +49667,7 @@ GameObject:
   - component: {fileID: 7912288057748563745}
   - component: {fileID: 7912288057748563751}
   - component: {fileID: 7912288057748563744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_policebatton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49715,7 +49750,7 @@ GameObject:
   - component: {fileID: 7912288057756240913}
   - component: {fileID: 7912288057756240919}
   - component: {fileID: 7912288057756240912}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_m4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49798,7 +49833,7 @@ GameObject:
   - component: {fileID: 7912288057763963793}
   - component: {fileID: 7912288057763963799}
   - component: {fileID: 7912288057763963792}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_rpg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49881,7 +49916,7 @@ GameObject:
   - component: {fileID: 7912288057782384149}
   - component: {fileID: 7912288057782384171}
   - component: {fileID: 7912288057782384148}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_L85
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49964,7 +49999,7 @@ GameObject:
   - component: {fileID: 7912288057832758469}
   - component: {fileID: 7912288057832758491}
   - component: {fileID: 7912288057832758468}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_glock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50047,13 +50082,13 @@ GameObject:
   - component: {fileID: 7912288057918960616}
   - component: {fileID: 7912288057918960622}
   - component: {fileID: 7912288057918960623}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_scar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7912288057918960616
 Transform:
   m_ObjectHideFlags: 0
@@ -50065,7 +50100,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 361654580}
   m_Father: {fileID: 2327001148884326390}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -50130,7 +50166,7 @@ GameObject:
   - component: {fileID: 7912288057934045775}
   - component: {fileID: 7912288057934045773}
   - component: {fileID: 7912288057934045774}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_p90
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50213,7 +50249,7 @@ GameObject:
   - component: {fileID: 7912288057969021146}
   - component: {fileID: 7912288057969021144}
   - component: {fileID: 7912288057969021145}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_rpg_projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50296,7 +50332,7 @@ GameObject:
   - component: {fileID: 7912288057992283237}
   - component: {fileID: 7912288057992283259}
   - component: {fileID: 7912288057992283236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_mp5_sil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50379,7 +50415,7 @@ GameObject:
   - component: {fileID: 7912288058008939463}
   - component: {fileID: 7912288058008939461}
   - component: {fileID: 7912288058008939462}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_mp5_k
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50462,7 +50498,7 @@ GameObject:
   - component: {fileID: 7912288058032677905}
   - component: {fileID: 7912288058032677911}
   - component: {fileID: 7912288058032677904}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_type97
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50545,7 +50581,7 @@ GameObject:
   - component: {fileID: 7912288058059728109}
   - component: {fileID: 7912288058059728099}
   - component: {fileID: 7912288058059728108}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_m249
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50628,7 +50664,7 @@ GameObject:
   - component: {fileID: 7912288058078242033}
   - component: {fileID: 7912288058078242039}
   - component: {fileID: 7912288058078242032}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_xm1014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50711,7 +50747,7 @@ GameObject:
   - component: {fileID: 7912288058080653607}
   - component: {fileID: 7912288058080653605}
   - component: {fileID: 7912288058080653606}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_ak47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50794,7 +50830,7 @@ GameObject:
   - component: {fileID: 7912288058113384483}
   - component: {fileID: 7912288058113384481}
   - component: {fileID: 7912288058113384482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_g03c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50877,7 +50913,7 @@ GameObject:
   - component: {fileID: 7912288058124748030}
   - component: {fileID: 7912288058124748028}
   - component: {fileID: 7912288058124748029}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_fn_fal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50960,7 +50996,7 @@ GameObject:
   - component: {fileID: 7912288058180096909}
   - component: {fileID: 7912288058180096899}
   - component: {fileID: 7912288058180096908}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_twobarrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51043,7 +51079,7 @@ GameObject:
   - component: {fileID: 7912288058220178084}
   - component: {fileID: 7912288058220178106}
   - component: {fileID: 7912288058220178107}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_mp5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51126,7 +51162,7 @@ GameObject:
   - component: {fileID: 7912288058235164401}
   - component: {fileID: 7912288058235164407}
   - component: {fileID: 7912288058235164400}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_m4_custom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51209,7 +51245,7 @@ GameObject:
   - component: {fileID: 7912288058268274134}
   - component: {fileID: 7912288058268274132}
   - component: {fileID: 7912288058268274133}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_DesertEagle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51292,7 +51328,7 @@ GameObject:
   - component: {fileID: 7912288058279340583}
   - component: {fileID: 7912288058279340581}
   - component: {fileID: 7912288058279340582}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_ak47_drum_mag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51375,7 +51411,7 @@ GameObject:
   - component: {fileID: 7912288058299118438}
   - component: {fileID: 7912288058299118436}
   - component: {fileID: 7912288058299118437}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_galil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51458,7 +51494,7 @@ GameObject:
   - component: {fileID: 7912288058306289149}
   - component: {fileID: 7912288058306289139}
   - component: {fileID: 7912288058306289148}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_aug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51541,7 +51577,7 @@ GameObject:
   - component: {fileID: 7912288058320914759}
   - component: {fileID: 7912288058320914757}
   - component: {fileID: 7912288058320914758}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_crowbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51624,7 +51660,7 @@ GameObject:
   - component: {fileID: 7912288058376157877}
   - component: {fileID: 7912288058376158539}
   - component: {fileID: 7912288058376157876}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_pkm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51707,13 +51743,13 @@ GameObject:
   - component: {fileID: 7912288058398378177}
   - component: {fileID: 7912288058398378183}
   - component: {fileID: 7912288058398378176}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_awp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7912288058398378177
 Transform:
   m_ObjectHideFlags: 0
@@ -51790,7 +51826,7 @@ GameObject:
   - component: {fileID: 7912288058409840653}
   - component: {fileID: 7912288058409840643}
   - component: {fileID: 7912288058409840652}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_rambo_knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51873,7 +51909,7 @@ GameObject:
   - component: {fileID: 7912288058493481215}
   - component: {fileID: 7912288058493481213}
   - component: {fileID: 7912288058493481214}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_g3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51956,7 +51992,7 @@ GameObject:
   - component: {fileID: 7912288058526382639}
   - component: {fileID: 7912288058526382637}
   - component: {fileID: 7912288058526382638}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_psg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52039,7 +52075,7 @@ GameObject:
   - component: {fileID: 7912288058539603728}
   - component: {fileID: 7912288058539603734}
   - component: {fileID: 7912288058539603735}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_L85_scoped
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52122,7 +52158,7 @@ GameObject:
   - component: {fileID: 7912288058568176842}
   - component: {fileID: 7912288058568176840}
   - component: {fileID: 7912288058568176841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_shotgun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52205,7 +52241,7 @@ GameObject:
   - component: {fileID: 7912288058593187481}
   - component: {fileID: 7912288058593187487}
   - component: {fileID: 7912288058593187480}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_ak47_double_drum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52288,7 +52324,7 @@ GameObject:
   - component: {fileID: 7912288058603201156}
   - component: {fileID: 7912288058603201178}
   - component: {fileID: 7912288058603201179}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_batton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52371,7 +52407,7 @@ GameObject:
   - component: {fileID: 7912288058666790735}
   - component: {fileID: 7912288058666790733}
   - component: {fileID: 7912288058666790734}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_barret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52454,7 +52490,7 @@ GameObject:
   - component: {fileID: 7912288058757376193}
   - component: {fileID: 7912288058757376199}
   - component: {fileID: 7912288058757376192}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_famas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52537,7 +52573,7 @@ GameObject:
   - component: {fileID: 7912288058771600835}
   - component: {fileID: 7912288058771600833}
   - component: {fileID: 7912288058771600834}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: w_m21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52619,7 +52655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6796707606240423462}
   - component: {fileID: 4769353952599194807}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_I_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52718,7 +52754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7302946226878044215}
   - component: {fileID: 4836997911808130000}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52804,7 +52840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3307841998893852632}
   - component: {fileID: 7200455844138344688}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52890,7 +52926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 525921383574503361}
   - component: {fileID: 1840954763536325365}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52976,7 +53012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7507677651299204975}
   - component: {fileID: 4406544817353304778}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53062,7 +53098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5192473649652451261}
   - component: {fileID: 4704274786170463153}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53148,7 +53184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5281709376110267476}
   - component: {fileID: 9215823502625002210}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53234,7 +53270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3620645319500723369}
   - component: {fileID: 4740136520238436485}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_H_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53333,7 +53369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1834062662263626524}
   - component: {fileID: 7227702000626009097}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_B_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53432,7 +53468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6446803933395237029}
   - component: {fileID: 1632654988843053355}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53518,7 +53554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7297190000484035151}
   - component: {fileID: 5076473290492704191}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_D_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53617,7 +53653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5987583238820559849}
   - component: {fileID: 2160539050728914113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_E_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53716,7 +53752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1387053303388363933}
   - component: {fileID: 4711890989792998375}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53802,7 +53838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6936410644378951195}
   - component: {fileID: 6248711823822441457}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_F_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53888,7 +53924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3405023371519188477}
   - component: {fileID: 3077071375474151610}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53974,7 +54010,7 @@ GameObject:
   m_Component:
   - component: {fileID: 999988795953728085}
   - component: {fileID: 5891773113959412447}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_C_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54073,7 +54109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1329325773063835205}
   - component: {fileID: 4230626974498254507}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54159,7 +54195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4168460569240510091}
   - component: {fileID: 5531879354852289028}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54244,7 +54280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6428689875124948423}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54293,7 +54329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8015207848279821020}
   - component: {fileID: 7853630140050702180}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54378,7 +54414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3726427418784881011}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Plain_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54426,7 +54462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3220240197998161280}
   - component: {fileID: 4123262780528712433}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54512,7 +54548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1328965738775690284}
   - component: {fileID: 7237984820283497688}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54598,7 +54634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7262203172455773501}
   - component: {fileID: 5420296539636744966}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_F_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54684,7 +54720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6986073645182053852}
   - component: {fileID: 4006320952639250706}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54770,7 +54806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4848078033354772356}
   - component: {fileID: 4892087693013100318}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_F_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54869,7 +54905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3214869137428021855}
   - component: {fileID: 3841854307831297357}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_L_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54968,7 +55004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 546354740499240435}
   - component: {fileID: 7602549467863182905}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55053,7 +55089,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1195252335404711502}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_K
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55102,7 +55138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4992119760617723209}
   - component: {fileID: 4285350054341535611}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_plain_E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55188,7 +55224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2906407710073163298}
   - component: {fileID: 7435032264325657484}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_H_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55273,7 +55309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1304091050547251322}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Plain_F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55320,7 +55356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1818657126547381945}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_Plain_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55360,7 +55396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3485085049667858917}
   - component: {fileID: 7690209898451626431}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_G_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55446,7 +55482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3096632454462390401}
   - component: {fileID: 3906460935488779872}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_L_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55532,7 +55568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5963504312568496420}
   - component: {fileID: 3980467938633033905}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55618,7 +55654,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1716720706427959432}
   - component: {fileID: 1111156511331136227}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55704,7 +55740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3591843612500593086}
   - component: {fileID: 1692729496227354968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_G_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55790,7 +55826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8249097125737899449}
   - component: {fileID: 8760798623783576958}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_M_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55889,7 +55925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5346227045877857434}
   - component: {fileID: 5515939004053635752}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55975,7 +56011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3320166670344311335}
   - component: {fileID: 8808670935990804232}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_C_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56060,7 +56096,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 600485514180606512}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_K
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56099,7 +56135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340261805295680119}
   - component: {fileID: 4636032517292680526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_A_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56185,7 +56221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6877638850633112210}
   - component: {fileID: 88292705056457739}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56271,7 +56307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2386981766183013053}
   - component: {fileID: 2193852465582060551}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56357,7 +56393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 743063773144302525}
   - component: {fileID: 6521804747173393320}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_D_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56455,7 +56491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1391982809163943436}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Bodies_camo_I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56493,7 +56529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1837935780158305183}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_Plain_H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56541,7 +56577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4304850135696493345}
   - component: {fileID: 4750701610758814049}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56627,7 +56663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7703526181342651541}
   - component: {fileID: 3646580537862792879}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56713,7 +56749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6962979259109883517}
   - component: {fileID: 5873728755168211899}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_basic_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56799,7 +56835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3576384857887266836}
   - component: {fileID: 3842667356893236504}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56898,7 +56934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4933178978219939617}
   - component: {fileID: 3080715556527230826}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56984,7 +57020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 391281817876272291}
   - component: {fileID: 6330396561527243152}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_K_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57070,7 +57106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5932967464343937344}
   - component: {fileID: 5030324755698839592}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_M_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57156,7 +57192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4985159050968432642}
   - component: {fileID: 1680976267865056033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57242,7 +57278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5328688309837995281}
   - component: {fileID: 3164108927261736535}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_I_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57341,7 +57377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8621827314229077025}
   - component: {fileID: 517611164508789331}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Backpack_plain_I
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57427,7 +57463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7888186991333188767}
   - component: {fileID: 1565965433116283533}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_C_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57526,7 +57562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8856595254204876781}
   - component: {fileID: 2230465367501495732}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57612,7 +57648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7203638095107926663}
   - component: {fileID: 8762855256272353874}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_I_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57698,7 +57734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3470621577131321338}
   - component: {fileID: 2946724461355075363}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_F_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57796,7 +57832,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4564232039049833462}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Heads_camo_J
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57845,7 +57881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6712309028673448256}
   - component: {fileID: 8516861588637578953}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_H_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57944,7 +57980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3464953228389245102}
   - component: {fileID: 2876350261156827712}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_J_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58030,7 +58066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3998424265037230842}
   - component: {fileID: 8589846449552618650}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_D_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58116,7 +58152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374551848041431821}
   - component: {fileID: 5056973780953500146}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_B_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58202,7 +58238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6893461689132613426}
   - component: {fileID: 4536704653688970273}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_A_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58288,7 +58324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4374978161968519439}
   - component: {fileID: 4285883396744269128}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_plain_G_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58387,7 +58423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9026866344762948136}
   - component: {fileID: 6223675514138613866}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_N_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58473,7 +58509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1301662201858376927}
   - component: {fileID: 1836366551207551757}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_B_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58572,7 +58608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8136927716492484190}
   - component: {fileID: 3712035561990776097}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_H_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58658,7 +58694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3032812668173071753}
   - component: {fileID: 9017346679088606169}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Body_camo_E_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58757,7 +58793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3093004391083427685}
   - component: {fileID: 4547728766579595900}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_D_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58843,7 +58879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1210081740860529804}
   - component: {fileID: 7028370942069743373}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_E_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58929,7 +58965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 207042759317270536}
   - component: {fileID: 6386110515350472751}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_plain_B_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59015,7 +59051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4005357718004153759}
   - component: {fileID: 7667453891059640563}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TTS_Head_camo_C_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}

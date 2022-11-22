@@ -14,7 +14,7 @@ public class PlayerCtrl : MonoBehaviour
     private Image hpImage;
     [SerializeField] 
     private Image mpImage;
-    
+
     private float _speed; // 플레이어 속도
     private readonly float _jump = 4.5f; // 점프 높이
     private bool _isJump = false; // 점프 상태

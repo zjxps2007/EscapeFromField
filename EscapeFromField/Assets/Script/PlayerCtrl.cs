@@ -32,7 +32,7 @@ public class PlayerCtrl : MonoBehaviour
     private float hpPoint = 50;
     private float maxHpPoint = 100;
     //플레이어 마나 관리
-    private float _mpPoint = 100;
+    private float _mpPoint = 50;
     private float _maxMpPoint = 100;
 
     private Animator _anim; // 플레이어 에니메이션
@@ -160,7 +160,7 @@ public class PlayerCtrl : MonoBehaviour
         Kill.text = score.ToString();
     }
     
-    //아이템에 명시된 만큼 회복
+    //체력 회복
     public void IncreaseHP(int _heal)
     {
         hpPoint += _heal;
@@ -170,20 +170,32 @@ public class PlayerCtrl : MonoBehaviour
         }
     }
 
-    //지연회복 구현
+    //지연회복 구현 ??
     public void IncreaseSlowHP(int _heal)
     {
         
     }
 
-    //마나 회복 구현
-    public void IncreaseMP(int _heal)
+    //마나 회복
+    public void IncreaseMP(int Heal)
     {
-        _mpPoint += _heal;
+        _mpPoint += Heal;
         if (_mpPoint > _maxMpPoint)
         {
             _mpPoint = _maxMpPoint;
         }
+    }
+    
+    // 최대 체력 증가
+    public void IncreaseMaxHP(float Heal)
+    {
+        maxHpPoint += (int) (maxHpPoint * Heal / 100);
+    }
+    
+    // 최대 마나 증가
+    public void IncreaseMaxMP(float Mana)
+    {
+        _maxMpPoint += (int) (_maxMpPoint * Mana / 100);
     }
 }
 

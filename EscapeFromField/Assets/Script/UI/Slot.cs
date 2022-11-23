@@ -15,19 +15,15 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     private Text _textCount;
 
     private Vector3 _originPos;
-    private SlotToolTip theSlot;
 
     private ItemEffectDatabase _itemEffectDatabase;
 
     [SerializeField]
     private GameObject[] weapons;
 
-    private WeaponManager _weaponManager; 
-
     private void Awake()
     {
         _itemEffectDatabase = FindObjectOfType<ItemEffectDatabase>();
-        _weaponManager = FindObjectOfType<WeaponManager>();
     }
 
     private void Start()

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private int damage = 10;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +28,6 @@ public class Bullet : MonoBehaviour
         }
         else if (collision.gameObject.tag == "Enemy")
         {
-            Debug.Log(collision.gameObject.tag);
             Destroy(gameObject);
         }
     }

@@ -40,11 +40,6 @@ public class OnInventory : MonoBehaviour
                 CloseInventory();
             }
         }
-
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            CloseInventory();
-        }
     }
 
     void OpenInventory()

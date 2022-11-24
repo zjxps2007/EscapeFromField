@@ -17,8 +17,11 @@ public class ItemEffectDatabase : MonoBehaviour
 
     private const string HP = "HP";
     private const string MP = "MP";
-    private const string SlowHP = "SlowHP";
+    private const string MAXHP = "MAXHP";
+    private const string MAXMP = "MAXMP";
 
+    
+    //아이템 사용효과
     public void UseItem(Items _item)
     {
         if (_item.itemType == Items.ItemType.Used)
@@ -37,8 +40,11 @@ public class ItemEffectDatabase : MonoBehaviour
                             case MP:
                                 _playerCtrl.IncreaseMP(itemEffects[i].num[j]);
                                 break;
-                            case SlowHP:
-                                _playerCtrl.IncreaseSlowHP(itemEffects[i].num[j]);
+                            case MAXHP:
+                                _playerCtrl.IncreaseMaxHP(itemEffects[i].num[j]);
+                                break;
+                            case MAXMP:
+                                _playerCtrl.IncreaseMaxMP(itemEffects[i].num[j]);
                                 break;
                             default:
                                 Debug.Log("잘못된 효과 적용");

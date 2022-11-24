@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class DragSlot : MonoBehaviour
 {
-    static public DragSlot instance;
+    public static DragSlot instance;
 
     public Slot dragSlot;
 

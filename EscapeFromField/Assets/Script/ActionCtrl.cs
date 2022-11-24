@@ -74,7 +74,7 @@ public class ActionCtrl : MonoBehaviour
     {
         _pickUp = true;
         actionText.gameObject.SetActive(true);
-        actionText.text = _hit.transform.GetComponent<ItemPickUp>().item.itemName + " 획득 " + "<color=#FF00FF>(F)</color>";
+        actionText.text = "<color=#FFFFFF>" + _hit.transform.GetComponent<ItemPickUp>().item.itemName + " 획득 </color>" + "<color=#FF00FF>(F)</color>";
     }
 
     void InfoDisappear()

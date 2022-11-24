@@ -1,21 +1,36 @@
 using System;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class EnemyAI : MonoBehaviour
 {
-    private NavMeshAgent m_enemy = null;
 
-    private Animator _animator;
+    [SerializeField] private GameObject Prefab;
+    [SerializeField] private Transform[] mTfWayPoint = null; //적이 순찰할 위치
+    // [SerializeField] private GameObject hpBer;
+    // [SerializeField] private Vector3 hpBarOffset = new Vector3(0, 2.2f, 0);
 
-    [SerializeField] 
-    private Transform[] m_tfWayPoint = null;
+    private Canvas uiCanvas;
+    private Image hpBarImage;
+    
+    private NavMeshAgent _mEnemy;
 
-    private int m_count = 0;
+    private Animator _animator; //적 애니메이션
+
+    private int _mCount; //순찰한 갯수
+
+    private int EnemyHp = 100;
+
+    private bool isdead = false;
+
+    private bool isDamage = false;
+
+    private static readonly int IsWalk = Animator.StringToHash("IsWalk");
 
     private void Awake()
     {
-        m_enemy = GetComponent<NavMeshAgent>();
+        _mEnemy = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
     }
 
@@ -23,24 +38,59 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         InvokeRepeating("MoveToNextWayPoint", 0f, 2f);
+        // SetHpBar();
     }
 
     // Update is called once per frame
     void Update()
     {
-        _animator.SetBool("IsWalk", m_enemy.velocity != Vector3.zero);
+        if (EnemyHp <= 0 && !isdead)
+        {
+            _mEnemy.Stop();
+            isdead = true;
+            _animator.SetTrigger("Is");
+            GetComponent<CapsuleCollider>().enabled = false;
+            Instantiate(Prefab, transform.position, transform.rotation);
+            PlayerCtrl.score += 1;
+            //hpBarImage.GetComponentsInParent<Image>()[1].color = Color.clear;
+        }
+        _animator.SetBool(IsWalk, _mEnemy.velocity != Vector3.zero);
     }
     
     void MoveToNextWayPoint()
     {
-        if (m_enemy.velocity == Vector3.zero)
+        if (!isdead)
         {
-            m_enemy.SetDestination(m_tfWayPoint[m_count++].position);
-
-            if (m_count >= m_tfWayPoint.Length)
+            if (_mEnemy.velocity == Vector3.zero)
             {
-                m_count = 0;
+                _mEnemy.SetDestination(mTfWayPoint[_mCount++].position);
+
+                if (_mCount >= mTfWayPoint.Length)
+                {
+                    _mCount = 0;
+                }
             }
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            EnemyHp -= 10;
+            Debug.Log(EnemyHp);
+        }
+    }
+    
+
+    // void SetHpBar()
+    // {
+    //     uiCanvas = GameObject.Find("EnemyUI").GetComponent<Canvas>();
+    //     GameObject hpBar = Instantiate<GameObject>(hpBer, uiCanvas.transform);
+    //     hpBarImage = hpBar.GetComponentsInChildren<Image>()[1];
+    //
+    //     var _hpbar = hpBar.GetComponent<EnemyHpBar>();
+    //     _hpbar.target = transform;
+    //     _hpbar.offset = hpBarOffset;
+    // }
 }

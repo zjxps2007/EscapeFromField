@@ -15,9 +15,11 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     private Text _textCount;
 
     private Vector3 _originPos;
-    private SlotToolTip theSlot;
 
     private ItemEffectDatabase _itemEffectDatabase;
+
+    [SerializeField]
+    private GameObject[] weapons;
 
     private void Awake()
     {
@@ -84,6 +86,7 @@ public class Slot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
             {
                 if (item.itemType == Items.ItemType.Equipment)
                 {
+                    Debug.Log("장착");
                     //창착
                     //무기를 구현 안해서 일단은 아이템 사용만
                 }

@@ -77,7 +77,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            EnemyHp -= 10;
+            EnemyHp -= 25;
             Debug.Log(EnemyHp);
         }
     }

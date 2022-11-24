@@ -1,4 +1,4 @@
-using System;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +16,7 @@ public class Escape : MonoBehaviour
         if (Timer >= 15)
         {
             _text.gameObject.SetActive(false);
-            //씬 바꾸기
+            SceneManager.LoadScene("End");
         }
     }
 

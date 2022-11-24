@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4435342870178193759}
   - component: {fileID: 1903183840715249045}
   - component: {fileID: 165684387037264792}
-  - component: {fileID: -8779782687132344491}
   - component: {fileID: 2553356006982991715}
   m_Layer: 0
   m_Name: SM_Cartridges_9_ONE
@@ -97,21 +96,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8433668384900956100, guid: 818109fdd292c124388bdf672613e4b4, type: 3}
---- !u!114 &-8779782687132344491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 101766323439612992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 088fbc2b63fa23a49a530dfcf7450ba4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &2553356006982991715
 Rigidbody:
   m_ObjectHideFlags: 0

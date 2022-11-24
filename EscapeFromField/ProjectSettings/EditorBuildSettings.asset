@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/OArielG/2DSimpleUIPack/Examples/Scenes/MainMenu.unity
-    guid: 590f605fed1463043828134c464ad21f
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9ab83fff8de0fc5489cdc5edf92bfff3
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 590f605fed1463043828134c464ad21f
   m_configObjects: {}

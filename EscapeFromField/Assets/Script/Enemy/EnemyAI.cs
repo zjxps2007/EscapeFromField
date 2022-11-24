@@ -1,11 +1,18 @@
 using System;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class EnemyAI : MonoBehaviour
 {
 
     [SerializeField] private GameObject Prefab;
+    [SerializeField] private Transform[] mTfWayPoint = null; //적이 순찰할 위치
+    // [SerializeField] private GameObject hpBer;
+    // [SerializeField] private Vector3 hpBarOffset = new Vector3(0, 2.2f, 0);
+
+    private Canvas uiCanvas;
+    private Image hpBarImage;
     
     private NavMeshAgent _mEnemy;
 
@@ -16,11 +23,8 @@ public class EnemyAI : MonoBehaviour
     private int EnemyHp = 100;
 
     private bool isdead = false;
-    
-    
-    
-    [SerializeField]
-    private Transform[] mTfWayPoint = null; //적이 순찰할 위치
+
+    private bool isDamage = false;
 
     private static readonly int IsWalk = Animator.StringToHash("IsWalk");
 
@@ -34,6 +38,7 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         InvokeRepeating("MoveToNextWayPoint", 0f, 2f);
+        // SetHpBar();
     }
 
     // Update is called once per frame
@@ -47,6 +52,7 @@ public class EnemyAI : MonoBehaviour
             GetComponent<CapsuleCollider>().enabled = false;
             Instantiate(Prefab, transform.position, transform.rotation);
             PlayerCtrl.score += 1;
+            //hpBarImage.GetComponentsInParent<Image>()[1].color = Color.clear;
         }
         _animator.SetBool(IsWalk, _mEnemy.velocity != Vector3.zero);
     }
@@ -75,4 +81,16 @@ public class EnemyAI : MonoBehaviour
             Debug.Log(EnemyHp);
         }
     }
+    
+
+    // void SetHpBar()
+    // {
+    //     uiCanvas = GameObject.Find("EnemyUI").GetComponent<Canvas>();
+    //     GameObject hpBar = Instantiate<GameObject>(hpBer, uiCanvas.transform);
+    //     hpBarImage = hpBar.GetComponentsInChildren<Image>()[1];
+    //
+    //     var _hpbar = hpBar.GetComponent<EnemyHpBar>();
+    //     _hpbar.target = transform;
+    //     _hpbar.offset = hpBarOffset;
+    // }
 }

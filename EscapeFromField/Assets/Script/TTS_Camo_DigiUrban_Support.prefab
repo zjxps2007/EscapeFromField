@@ -36384,6 +36384,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  hpBer: {fileID: 2249484179628003235, guid: c75248c64d9be5342b2395d07c2fd0d4, type: 3}
+  hpBarOffset: {x: 0, y: 2.2, z: 0}
 --- !u!1 &6241771925919949185
 GameObject:
   m_ObjectHideFlags: 0

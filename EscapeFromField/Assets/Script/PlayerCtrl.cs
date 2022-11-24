@@ -1,9 +1,12 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerCtrl : MonoBehaviour
 {
-    public static int score = 0;
+    public static int score = 0; // 적 처치 수
+
+    public static int cnt = 0; // 사용한 총알
     
     //플레이어 체력 및 마나 텍스트
     [SerializeField] 
@@ -19,11 +22,18 @@ public class PlayerCtrl : MonoBehaviour
 
     [SerializeField]
     private Text Kill;
-
+    
+    [SerializeField] private GameObject firePos;
+    [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private GameObject casePos;
+    [SerializeField] private GameObject bulletCasePrefab;
+    
+    private Vector3 aimVec;
     private float _speed; // 플레이어 속도
     private readonly float _jump = 4.5f; // 점프 높이
     private bool _isJump = false; // 점프 상태
     private float _yVelocity; //점프속도?
+    private bool IsReload;
     
     //체력 또는 마나 관리 타이머
     private float _mpTimer = 2f;
@@ -40,6 +50,8 @@ public class PlayerCtrl : MonoBehaviour
     private GameObject _weaponObject; // 무기 교체
 
     private CharacterController _characterController; //캐릭터 컨트롤러
+
+    private float fireTimer = 2f;
     
     //에니메이션
     private static readonly int IsRun = Animator.StringToHash("IsRun");
@@ -60,9 +72,14 @@ public class PlayerCtrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
+        if (!IsReload)
+        {
+            Move();
+        }
         SetAnimator();
         UpdateGraphics();
+        Fire();
+        Reload();
     }
 
     private void SetAnimator() // 플레이어 에니메이션
@@ -169,13 +186,7 @@ public class PlayerCtrl : MonoBehaviour
             hpPoint = maxHpPoint;
         }
     }
-
-    //지연회복 구현 ??
-    public void IncreaseSlowHP(int _heal)
-    {
-        
-    }
-
+    
     //마나 회복
     public void IncreaseMP(int Heal)
     {
@@ -196,6 +207,53 @@ public class PlayerCtrl : MonoBehaviour
     public void IncreaseMaxMP(float Mana)
     {
         _maxMpPoint += (int) (_maxMpPoint * Mana / 100);
+    }
+
+    void Fire()
+    {
+        fireTimer += Time.deltaTime;
+        
+        aimVec = (Camera.main.transform.position - firePos.transform.position) + (Camera.main.transform.forward * 50f);
+        firePos.transform.rotation = Quaternion.LookRotation(aimVec);
+
+        if (!OnInventory.inventoryActivated)
+        {
+            if (fireTimer >= 0.6f)
+            {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    // 총알 발사
+                    Instantiate(bulletPrefab, firePos.transform.position, firePos.transform.rotation);
+                    _anim.SetTrigger("doShot");
+                    fireTimer = 0;
+                    Debug.Log(cnt += 1);
+                    
+                    //탄피 배출
+                    Instantiate(bulletCasePrefab, casePos.transform.position, casePos.transform.rotation);
+                }
+            }
+        }
+    }
+
+    void Reload()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            if (!_isJump)
+            {
+                _anim.SetTrigger("doReload");
+                IsReload = true;
+            
+                Invoke("ReloadOut", 3.2f);
+            }
+        }
+        
+    }
+
+    void ReloadOut()
+    {
+        //무기 재장전 관련
+        IsReload = false;
     }
 }
 

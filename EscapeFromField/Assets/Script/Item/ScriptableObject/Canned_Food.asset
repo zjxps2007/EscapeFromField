@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: "\uB3C4\uC2DC\uB77D"
   itemDesc: 
-  itemImage: {fileID: 21300000, guid: 64f5428e485e0204db94d129eab4847f, type: 3}
+  itemImage: {fileID: 21300000, guid: a67b58d6cddcd4345b1e001340de5a76, type: 3}
   itemPrefab: {fileID: 4908012016863624227, guid: 9406672675d366049a5cf427d4fe7332, type: 3}
   weaponType: 
   itemType: 1

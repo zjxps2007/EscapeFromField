@@ -1,3 +1,4 @@
+using System;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,6 +8,14 @@ public class Escape : MonoBehaviour
     [SerializeField] private Text _text;
     
     private float Timer = 0;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F10))
+        {
+            SceneManager.LoadScene("End");
+        }
+    }
 
     private void OnTriggerStay(Collider other)
     {

@@ -46,7 +46,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (EnemyHp <= 0 && !isdead)
         {
-            _mEnemy.Stop();
+            _mEnemy.isStopped = true;
             isdead = true;
             _animator.SetTrigger("Is");
             GetComponent<CapsuleCollider>().enabled = false;

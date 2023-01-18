@@ -19,7 +19,7 @@
 <img src="https://img.shields.io/badge/2021.3.8f1-000000?style=flat-square&logo=Unity&logoColor=#FFFFFF"/></a>
 
 ## Rider 버전
-<img src="https://img.shields.io/badge/2022.2.3-000000?style=flat-square&logo=Rider&logoColor=#FFFFFF"/></a>
+<img src="https://img.shields.io/badge/2022.2.4-000000?style=flat-square&logo=Rider&logoColor=#FFFFFF"/></a>
 
 ## 2022 소프트웨어 전시회 포스터
 ![Escape](https://user-images.githubusercontent.com/52689857/202227434-b1b1f9e1-7d26-4ab8-8adc-8ba288ff6311.JPG)
